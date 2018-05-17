@@ -381,7 +381,7 @@
 		    </section>
 		    <!-- End testimonial Area -->
 
-			<!-- Start price Area -->
+			<!-- Start price Area 
 			<section class="price-area section-gap">
 				<div class="container">
 					<div class="row d-flex justify-content-center">
@@ -468,9 +468,9 @@
 					</div>
 				</div>
 			</section>
-			<!-- End price Area -->
+			 End price Area -->
 
-			<!-- Start recent-blog Area -->
+			<!-- Start recent-blog Area
 			<section class="recent-blog-area section-gap">
 				<div class="container">
 					<div class="row justify-content-center">
@@ -556,9 +556,9 @@
 					</div>
 				</div>
 			</section>
-			<!-- end recent-blog Area -->
+			end recent-blog Area -->
 
-		    <!-- Start brands Area -->
+		    <!-- Start brands Area -
 		    <section class="brands-area">
 		        <div class="container">
 		            <div class="brand-wrap">
@@ -582,7 +582,7 @@
 		            </div>
 		        </div>
 		    </section>
-		    <!-- End brands Area -->
+		    End brands Area -->
 
             <!-- start footer Area -->
             <footer class="footer-area section-gap">
