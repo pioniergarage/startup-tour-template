@@ -1,10 +1,11 @@
 	<!DOCTYPE html>
+	<?php include 'config.php' ?>
 	<html lang="zxx" class="no-js">
 	<head>
 		<!-- Mobile Specific Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- Favicon-->
-		<link rel="shortcut icon" href="img/fav.png">
+		<link rel="shortcut icon" href="img/LogoMitRing.ico">
 		<!-- Author Meta -->
 		<meta name="author" content="colorlib">
 		<!-- Meta Description -->
@@ -14,7 +15,7 @@
 		<!-- meta character set -->
 		<meta charset="UTF-8">
 		<!-- Site Title -->
-		<title>Personal</title>
+		<title>Startup Tour</title>
 
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
 			<!--
@@ -35,151 +36,122 @@
 		    <div class="container main-menu">
 		    	<div class="row align-items-center justify-content-between d-flex">
 			      <div id="logo">
-			        <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
+			        <a href="index.html"><img width="200px" src="img/LogoMitName.png" alt="" title="" /></a>
 			      </div>
 			      <nav id="nav-menu-container">
 			        <ul class="nav-menu">
-			          <li><a href="index.html">Home</a></li>
-			          <li><a href="about.html">About</a></li>
-			          <li><a href="services.html">Services</a></li>
-			          <li><a href="portfolio.html">Portfolio</a></li>
-			          <li><a href="price.html">Pricing</a></li>
-			          <li class="menu-has-children"><a href="">Blog</a>
-			            <ul>
-			              <li><a href="blog-home.html">Blog Home</a></li>
-			              <li><a href="blog-single.html">Blog Single</a></li>
-			            </ul>
-			          </li>
-			          <li class="menu-has-children"><a href="">Pages</a>
-			            <ul>
-		            	  <li><a href="elements.html">Elements</a></li>
-				          <li class="menu-has-children"><a href="">Level 2 </a>
-				            <ul>
-				              <li><a href="#">Item One</a></li>
-				              <li><a href="#">Item Two</a></li>
-				            </ul>
-				          </li>
-			            </ul>
-			          </li>
-			          <li><a href="contact.html">Contact</a></li>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="services.html">About the Tour</a></li>
+					<li><a href="price.html">Sponsors</a></li>
+					<li><a href="about.html">Past Tours</a></li>
+					 <li><a href="portfolio.html">Pioniergarage Homepage</a></li>
+					<li><a href="contact.html">Contact</a></li>
 			        </ul>
 			      </nav><!-- #nav-menu-container -->
 		    	</div>
 		    </div>
 		  </header><!-- #header -->
 
-			<!-- start banner Area -->
-			<section class="banner-area">
-				<div class="container">
-					<div class="row fullscreen align-items-center justify-content-between">
-						<div class="col-lg-6 col-md-6 banner-left">
-							<h6>Startuptour</h6>
-							<h1></h1>
-							<p>
-								You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures.
-							</p>
-							<a href="#" class="primary-btn text-uppercase">discover now</a>
-						</div>
-						<div class="col-lg-6 col-md-6 banner-right d-flex align-self-end">
-							<img class="img-fluid" src="img/hero-img.png" alt="">
-						</div>
+		  <!-- start banner Area -->
+		  <section class="banner-area relative blog-home-banner" id="home">
+		  	<div class="overlay overlay-bg"></div>
+		  	<div class="container">
+		  		<div class="row d-flex align-items-center justify-content-center">
+		  			<div class="about-content blog-header-content col-lg-12">
+						<h6 class="text-white">Startuptour</h6>
+						<h1 class="text-white"><?php echo($Location)?></h1>
+						<p class="text-white">
+							<b><?php echo($AboutTourText)?></b>
+						</p>
+		  				<a href="blog-single.html" class="primary-btn">View More</a>
+		  			</div>
+		  		</div>
+		  	</div>
+		  </section>
+		  <!-- End banner Area -->
+
+
+
+		<!-- Start home-about Area -->
+		<section class="home-about-area pt-120">
+			<div class="container">
+				<div class="row align-items-center justify-content-between">
+					<div class="col-lg-6 col-md-6 home-about-left">
+						<img class="img-fluid" src="img/LogoMitNameUndSlogan.png" alt="">
+					</div>
+					<div class="col-lg-5 col-md-6 home-about-right">
+						<h6>Organized by</h6>
+						<h1 class="text-uppercase">the PionierGarage</h1>
+						<p>
+							<?php echo($AboutThePGText); ?>
+						</p>
+						<a href="#" class="primary-btn text-uppercase">View Full Details</a>
 					</div>
 				</div>
-			</section>
-			<!-- End banner Area -->
+			</div>
+		</section><br><br><br><br>
+		<!-- End home-about Area -->
 
-			<!-- Start home-about Area -->
-			<section class="home-about-area pt-120">
-				<div class="container">
-					<div class="row align-items-center justify-content-between">
-						<div class="col-lg-6 col-md-6 home-about-left">
-							<img class="img-fluid" src="img/about-img.png" alt="">
-						</div>
-						<div class="col-lg-5 col-md-6 home-about-right">
-							<h6>About Me</h6>
-							<h1 class="text-uppercase">Personal Details</h1>
-							<p>
-								Here, I focus on a range of items and features that we use in life without giving them a second thought. such as Coca Cola. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
-							</p>
-							<a href="#" class="primary-btn text-uppercase">View Full Details</a>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- End home-about Area -->
 
-			<!-- Start services Area -->
+			<!-- Start timeline Area -->
+			<section class="timeline pb-120">
+			<div class="text-center">
+			<div class="menu-content pb-70">
+			<div class="title text-center">
+			<h1 class="mb-10">Visited startups</h1>
+			<p>During Our Tour</p>
+			</div>
+			</div>
+			</div>
+			  <ul>
+				<?php
+				foreach($VisitedStartups AS $Startup) {
+				   echo "<li>
+		     			      <div class='content'>
+					      	<img class='img-fluid mx-auto d-block mb-30' src='img/StartupLogos/$Startup.png' alt=''>
+		       				<h4>
+		       					<time>$Startup</time>
+		       				</h4>
+		       				<p>
+							<b>Montag</b>
+						</p>
+	   	     			      </div>
+		     			    </li>";
+				}
+				?>
+			  </ul>
+			</section>
+			<!-- End timeline Area -->
+
+		<!-- Start services Area -->
 			<section class="services-area section-gap">
 				<div class="container">
 		            <div class="row d-flex justify-content-center">
 		                <div class="menu-content  col-lg-7">
 		                    <div class="title text-center">
-		                        <h1 class="mb-10">My Offered Services</h1>
-		                        <p>At about this time of year, some months after New Year’s resolutions have been made and kept, or made and neglected.</p>
+		                        <h1 class="mb-10">Our Team</h1>
+		                        <p>BlaBla Text Test Test</p>
 		                    </div>
 		                </div>
 		            </div>
 					<div class="row">
-						<div class="col-lg-4 col-md-6">
-							<div class="single-services">
-								<span class="lnr lnr-pie-chart"></span>
-								<a href="#"><h4>Web Design</h4></a>
-								<p>
-									“It is not because things are difficult that we do not dare; it is because we do not dare that they are difficult.”
-								</p>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="single-services">
-								<span class="lnr lnr-laptop-phone"></span>
-								<a href="#"><h4>Web Development</h4></a>
-								<p>
-									If you are an entrepreneur, you know that your success cannot depend on the opinions of others. Like the wind, opinions.
-								</p>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="single-services">
-								<span class="lnr lnr-camera"></span>
-								<a href="#"><h4>Photography</h4></a>
-								<p>
-									Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills.
-								</p>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="single-services">
-								<span class="lnr lnr-picture"></span>
-								<a href="#"><h4>Clipping Path</h4></a>
-								<p>
-									Hypnosis quit smoking methods maintain caused quite a stir in the medical world over the last two decades. There is a lot of argument.
-								</p>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="single-services">
-								<span class="lnr lnr-tablet"></span>
-								<a href="#"><h4>Apps Interface</h4></a>
-								<p>
-									Do you sometimes have the feeling that you’re running into the same obstacles over and over again? Many of my conflicts.
-								</p>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="single-services">
-								<span class="lnr lnr-rocket"></span>
-								<a href="#"><h4>Graphic Design</h4></a>
-								<p>
-									You’ve heard the expression, “Just believe it and it will come.” Well, technically, that is true, however, ‘believing’ is not just thinking that.
-								</p>
-							</div>
-						</div>
+						<?php
+						foreach($TeamMember AS $Member) {
+						   echo "<div class='col-lg-4 col-md-6'>
+   							<div class='single-services'>
+   								<img width='120px' src='img/Team/".$Member['ImgName']."' style='border-radius: 15px'>
+   								<a href='#'><h4>".$Member['Name']." </h4></a>
+   								<p>".$Member['Text']."</p>
+   							</div>
+   						</div>";
+						}
+						?>
 					</div>
 				</div>
 			</section>
 			<!-- End services Area -->
 
-			<!-- Start fact Area -->
+			<!-- Start fact Area
 			<section class="facts-area section-gap" id="facts-area">
 				<div class="container">
 					<div class="row">
@@ -202,9 +174,9 @@
 					</div>
 				</div>
 			</section>
-			<!-- end fact Area -->
+			end fact Area -->
 
-			<!-- Start portfolio-area Area -->
+			<!-- Start portfolio-area Area
             <section class="portfolio-area section-gap" id="portfolio">
                 <div class="container">
 		            <div class="row d-flex justify-content-center">
@@ -291,7 +263,8 @@
 									    <div class="text align-self-center d-flex"><img src="img/preview.png" alt=""></div>
 									  </div>
 									</a>
-                            	</div>
+                            	</div>y
+
                                 <div class="p-inner">
                                     <h4>Embosed Logo Design</h4>
                                     <div class="cat">Portal</div>
@@ -336,9 +309,10 @@
 
                 </div>
             </section>
-            <!-- End portfolio-area Area -->
+ End portfolio-area Area -->
 
-			<!-- Start testimonial Area -->
+
+			<!-- Start testimonial Area
 		    <section class="testimonial-area section-gap">
 		        <div class="container">
 		            <div class="row d-flex justify-content-center">
@@ -379,9 +353,9 @@
 		            </div>
 		        </div>
 		    </section>
-		    <!-- End testimonial Area -->
+		    End testimonial Area -->
 
-			<!-- Start price Area 
+			<!-- Start price Area
 			<section class="price-area section-gap">
 				<div class="container">
 					<div class="row d-flex justify-content-center">
@@ -590,15 +564,24 @@
                     <div class="row">
                         <div class="col-lg-5 col-md-6 col-sm-6">
                             <div class="single-footer-widget">
+				    <!--
                                 <h4>About Me</h4>
                                 <p>
                                     We have tested a number of registry fix and clean utilities and present our top 3 list on our site for your convenience.
                                 </p>
+			-->
                                 <p class="footer-text"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+
+				<p class="footer-text">
+					<a href="https://pioniergarage.de/impressum/">Impressum</a>
+				</p>
+
+
                             </div>
                         </div>
+			<!--
                         <div class="col-lg-5 col-md-6 col-sm-6">
                             <div class="single-footer-widget">
                                 <h4>Newsletter</h4>
@@ -617,6 +600,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									</form>
 								</div>
                             </div>
+
                         </div>
                         <div class="col-lg-2 col-md-6 col-sm-6 social-widget">
                             <div class="single-footer-widget">
@@ -629,7 +613,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                                     <a href="#"><i class="fa fa-behance"></i></a>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </footer>
