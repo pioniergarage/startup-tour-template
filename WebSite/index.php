@@ -106,6 +106,7 @@
 		</div>
 		  <ul>
 			<?php
+			$i=0;
 			foreach($VisitedStartups AS $Startup) {
 			   echo "<li>
 	     			      <div class='content'>
@@ -114,10 +115,11 @@
 	       					<time>$Startup</time>
 	       				</h4>
 	       				<p>
-						<b>Montag</b>
+						<b>".$AdditionalText[$i]."</b>
 					</p>
    	     			      </div>
 	     			    </li>";
+				$i++;
 			}
 			?>
 		  </ul>
@@ -148,7 +150,7 @@
                 <div class="menu-content  col-lg-7">
                     <div class="title text-center">
                         <h1 class="mb-10">Our Team</h1>
-                        <p>BlaBla Text Test Test</p>
+                        <p>$TeamText</p>
                     </div>
                 </div>
             </div>
@@ -185,7 +187,7 @@
 				foreach($Sponsors AS $Sponsor) {
 				   echo "<div class='col-lg-4 col-md-6'>
 						<div class='single-services'>
-							<a href='".$Sponsor['Link']."' target='blank>
+							<a href='".$Sponsor['Link']."' target='_blank'>
 								<img width='240px' src='img/Sponsors/".$Sponsor['ImgName']."'>
 							</a>
 						</div>
