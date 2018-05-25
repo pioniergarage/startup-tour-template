@@ -36,15 +36,15 @@
 	    <div class="container main-menu">
 	    	<div class="row align-items-center justify-content-between d-flex">
 		      <div id="logo">
-		        <a href="index.html"><img width="200px" src="img/LogoMitName.png" alt="" title="" /></a>
+		        <a href="index.php"><img width="200px" src="img/LogoMitName.png" alt="" title="" /></a>
 		      </div>
 		      <nav id="nav-menu-container">
 		        <ul class="nav-menu">
-				<li><a href="#home">Home</a></li>
-				<li><a href="services.html">About the Tour</a></li>
-				<li><a href="price.html">Sponsors</a></li>
-				<li><a href="about.html">Past Tours</a></li>
-				 <li><a href="portfolio.html">Pioniergarage Homepage</a></li>
+				<li><a href="#About">About the Tour</a></li>
+				<li><a href="#Startups">Visited Startups</a></li>
+				<li><a href="#Team">Team</a></li>
+				<li><a href="#Sponsors">Sponsors</a></li>
+				 <li><a href="https://pioniergarage.de/">Pioniergarage Homepage</a></li>
 				<?php
 					if ($ContactEmail != "" ) {
 						echo "<li><a href='mailto:$ContactEmail'>Contact</a></li>";
@@ -57,7 +57,7 @@
 	  </header><!-- #header -->
 
 	  <!-- start banner Area -->
-	  <section class="banner-area relative blog-home-banner" id="home">
+	  <section class="banner-area relative blog-home-banner" id="About">
 	  	<div class="overlay overlay-bg"></div>
 	  	<div class="container">
 	  		<div class="row d-flex align-items-center justify-content-center">
@@ -95,7 +95,7 @@
 	<!-- End home-about Area -->
 
 	<!-- Start timeline Area -->
-	<section class="timeline pb-120">
+	<section class="timeline pb-120" id="Startups">
 		<div class="text-center">
 			<div class="menu-content pb-70">
 				<div class="title text-center">
@@ -124,8 +124,25 @@
 	</section>
 	<!-- End timeline Area -->
 
+
+	<!-- Start Youtube Area -->
+	<?php
+	if ($YoutubeLink != "") {
+		// Edit Link for video embedding
+		$YoutubeLink = str_replace("watch?v=", "embed/", $YoutubeLink);
+		echo "<section class='services-area section-gap'>
+			<div class='container' style='text-align: center;'>
+				<h3 class='text-heading'>Aftermovie</h3>
+				<div class='video-container'><iframe width='100%' height='100%' src='$YoutubeLink' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div>
+			</div>
+		</section>";
+	}
+	?>
+	<!-- End Youtube Area -->
+
+
 	<!-- Team Area -->
-	<section class="services-area section-gap">
+	<section class="services-area section-gap" id="Team">
 		<div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="menu-content  col-lg-7">
@@ -150,25 +167,38 @@
 			</div>
 		</div>
 	</section>
-	<!-- End services Area -->
+	<!-- End Team Area -->
 
-
-	<!-- Start Youtube Area -->
-	<?php
-	if ($YoutubeLink != "") {
-		// Edit Link for video embedding
-		$YoutubeLink = str_replace("watch?v=", "embed/", $YoutubeLink);
-		echo "<section class='services-area section-gap'>
-			<div class='container' style='text-align: center;'>
-				<h3 class='text-heading'>Aftermovie</h3>
-				<iframe width='840' height='472' src='$YoutubeLink' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>
+	<!-- Sponsors -->
+	<section class="services-area section-gap" id="Sponsors">
+		<div class="container">
+	    <div class="row d-flex justify-content-center">
+		<div class="menu-content  col-lg-7">
+		    <div class="title text-center">
+			<h1 class="mb-10">Sponsors</h1>
+			<!-- <p>BlaBla Text Test Test</p> -->
+		    </div>
+		</div>
+	    </div>
+			<div class="row">
+				<?php
+				foreach($Sponsors AS $Sponsor) {
+				   echo "<div class='col-lg-4 col-md-6'>
+						<div class='single-services'>
+							<a href='".$Sponsor['Link']."' target='blank>
+								<img width='240px' src='img/Sponsors/".$Sponsor['ImgName']."'>
+							</a>
+						</div>
+					</div>";
+				}
+				?>
 			</div>
-		</section>";
-	}
-	?>
-	<!-- End Sample Area -->
+		</div>
+	</section>
+	<!-- End Sponsors Area -->
 
-	    <!-- start footer Area -->
+
+    	<!-- start footer Area -->
 	    <footer class="footer-area section-gap">
 	        <div class="container">
 	            <div class="row">
