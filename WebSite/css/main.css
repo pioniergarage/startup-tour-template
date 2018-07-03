@@ -3351,6 +3351,7 @@ dl.accordion.time-line:before {
 /* =================================== */
 /*============ Start Blog Home Styles  =============*/
 .blog-home-banner {
+        /*imageURL gets overwritten with php*/
   background: url(../img/Background.jpg) bottom;
   background-size: cover;
   padding: 130px 0px;

@@ -1,5 +1,32 @@
 	<!DOCTYPE html>
-	<?php include 'config.php' ?>
+	<?php
+
+	$dir    = './tours';
+	$tours = scandir($dir, 1);
+	$tours = array_diff($tours, array('..', '.'));
+	print_r($tours);
+
+	if(isset($_GET["conf"])){
+		$PageToView = $_GET["conf"];
+		if(in_array($PageToView , $tours)) {
+			// echo ("./tours/$PageToView/config.php");
+			include("./tours/$PageToView/config.php");
+		}else {
+			http_response_code(404);
+		}
+	}else {
+		//Change here for the Standard Page
+		$PageToView = "India 2017";
+		include("./tours/$PageToView/config.php");
+	}
+
+	// if (include("./tours/india/config.php")) {
+	// 	echo "tut";
+	// }
+
+	?>
+
+
 	<html lang="zxx" class="no-js">
 	<head>
 		<!-- Mobile Specific Meta -->
@@ -40,11 +67,27 @@
 		      </div>
 		      <nav id="nav-menu-container">
 		        <ul class="nav-menu">
-				<li><a href="#About">About the Tour</a></li>
-				<li><a href="#Startups">Visited Startups</a></li>
-				<li><a href="#Team">Team</a></li>
-				<li><a href="#Sponsors">Sponsors</a></li>
-				 <li><a href="https://pioniergarage.de/">Pioniergarage Homepage</a></li>
+				<!-- <li><a href="#About">About the Tour</a></li> -->
+				<!-- <li><a href="#Startups">Visited Startups</a></li> -->
+				<!-- <li><a href="#Team">Team</a></li> -->
+				<!-- <li><a href="#Sponsors">Sponsors</a></li> -->
+
+				<!-- Generate Menu from Folders-->
+				<?php
+					foreach ($tours as $Tour) {
+						$TourUrl = urlencode($Tour);
+						echo "<li><a href='/index.php?conf=$TourUrl'>$Tour</a></li>";
+					}
+				?>
+
+				<!--
+				<li><a href="/index.php?conf=shanghai">Shanghai 2017</a></li>
+				<li><a href="/index.php?conf=peking">Peking 2017</a></li>
+				<li><a href="/index.php?conf=silicon">Silicon Valley 2016</a></li>
+				<li><a href="/index.php?conf=newYork">NewYork 2014</a></li> -->
+
+
+				 <li><a href="https://pioniergarage.de">Pioniergarage Homepage</a></li>
 				<?php
 					if ($ContactEmail != "" ) {
 						echo "<li><a href='mailto:$ContactEmail'>Contact</a></li>";
@@ -57,7 +100,7 @@
 	  </header><!-- #header -->
 
 	  <!-- start banner Area -->
-	  <section class="banner-area relative blog-home-banner" id="About">
+	  <section class="banner-area relative blog-home-banner" id="About" <?php $PageToViewPath = rawurlencode($PageToView); echo("style='background: url(./tours/$PageToViewPath/Background.jpg) bottom;'"); ?>>
 	  	<div class="overlay overlay-bg"></div>
 	  	<div class="container">
 	  		<div class="row d-flex align-items-center justify-content-center">

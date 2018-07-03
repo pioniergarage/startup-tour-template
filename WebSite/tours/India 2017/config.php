@@ -1,11 +1,11 @@
 <?
 //Visited Location/Area -> Title
-$Location = "India";
+$Location = "India<br>2017";
 
 //Change the Background trough replace /img/Background
 
 //E-Mail for Contact Button, if not set - Contact-Button disapiers
-$ContactEmail = "dominik.kogel@pioniergarage.de";
+// $ContactEmail = "dominik.kogel@pioniergarage.de";
 
 //Text which sumerizes the Tour in about 200-300 Words suggested
 $AboutTourText = "The Pioneers are heading to India! After inspiring tours to Shanghai and Peking, the Silicon Valley, Boston and New York, London, Tel Aviv, Berlin and Munich the PionierGarage is visiting different cities in India. We are full of energy to find out more about the entrepreneurial scene in Bangalore and Pune and to get in touch with a variety of interesting and inspiring people. During the 10-day tour, we are visiting a number of startups, venture capitalists, entrepreneurial organizations and educational institutions..";
@@ -46,4 +46,6 @@ $Sponsors[] = array('ImgName' => "sovendus.png",
 //Youtube Link - if empty -> nothing is shown
 $YoutubeLink = "https://www.youtube.com/watch?v=t-WDfZML1FY";
 
+
+//echo "debug";
 ?>

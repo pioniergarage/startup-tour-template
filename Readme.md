@@ -9,7 +9,11 @@ This template is for Startup Tours. Every Startup Tour should get it's own subdo
 
 # ToDos:
 * Footer Finalisieren mit Links
-* Bildergalerie einfach in Ordner Kopieren zum Durchclicken http://indien-dev.pioniergarage.de/portfolio.html
+* HideStartupList if no infos given
+* Footer - Datenschutzerklärung
+* Bildergale rie einfach in Ordner Kopieren zum Durchclicken http://indien-dev.pioniergarage.de/portfolio.html
+* Prio -> Indien, Shanghai, Bosten
+
 
 # Done
 * Dateiname - Vorname_Nachname.jpg 300*300
