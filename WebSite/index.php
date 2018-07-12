@@ -153,12 +153,12 @@
 			foreach($VisitedStartups AS $Startup) {
 			   echo "<li>
 	     			      <div class='content'>
-				      	<img class='img-fluid mx-auto d-block mb-30' src='img/StartupLogos/$Startup.png' alt=''>
-	       				<h4>
+						  <img class='img-fluid mx-auto d-block mb-30' src='./tours/$PageToView/img/startups/$Startup.png' alt='' style='border-radius: 10px;'>
+						  <h4 style='color:white'>
 	       					<time>$Startup</time>
 	       				</h4>
 	       				<p>
-						<b>".$AdditionalText[$i]."</b>
+						   <b style='color:white'>".$AdditionalText[$i]."</b>
 					</p>
    	     			      </div>
 	     			    </li>";
@@ -202,7 +202,7 @@
 				foreach($TeamMember AS $Member) {
 				   echo "<div class='col-lg-4 col-md-6'>
 						<div class='single-services'>
-							<img width='120px' src='img/Team/".$Member['ImgName']."' style='border-radius: 15px'>
+							<img width='220px' src='./tours/$PageToView/img/team/".$Member['ImgName']."' style='border-radius: 15px'>
 							<a href='#'><h4>".$Member['Name']." </h4></a>
 							<p>".$Member['Text']."</p>
 						</div>
@@ -231,7 +231,7 @@
 				   echo "<div class='col-lg-4 col-md-6'>
 						<div class='single-services'>
 							<a href='".$Sponsor['Link']."' target='_blank'>
-								<img width='240px' src='img/Sponsors/".$Sponsor['ImgName']."'>
+								<img width='240px' src='./tours/$PageToView/img/sponsors/".$Sponsor['ImgName']."'>
 							</a>
 						</div>
 					</div>";
@@ -250,11 +250,13 @@
 	                <div class="col-lg-5 col-md-6 col-sm-6">
 	                    <div class="single-footer-widget">
 	                        <p class="footer-text"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-									Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+									Copyright &copy;<script>document.write(new Date().getFullYear());</script> PionierGarage e.V. - All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 				</p>
 				<p class="footer-text">
-					<a href="https://pioniergarage.de/impressum/">Impressum</a>
+					<a href="https://pioniergarage.de/impressum/" target="_blank">Impressum</a>
+					<span style="padding: 0px 5px;">|</span>
+					<a href="https://pioniergarage.de/datenschutz/" target="_blank">Datenschutz</a>
 				</p>
 	                    </div>
 	                </div>
