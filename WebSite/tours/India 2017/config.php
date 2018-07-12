@@ -1,4 +1,4 @@
-<?
+<?php
 //Visited Location/Area -> Title
 $Location = "India<br>2017";
 
