@@ -202,7 +202,7 @@
 			$i=0;
 			foreach($VisitedStartups AS $Startup) {
 			   echo "<li>
-	     			      <div class='content' style='opacity: 1; border: 4px solid #B31918;'>
+	     			      <div class='content' style='opacity: 1; border: 4px solid #B31918; border-radius:10px;'>
 				      	<img class='img-fluid mx-auto d-block mb-30' src='./tours/$PageToView/img/startups/$Startup.png' alt='' style='border-radius: 10px;'>
 	       				<h4 style='color:white'>
 	       					<time>$Startup</time>
