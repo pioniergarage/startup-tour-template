@@ -300,11 +300,13 @@
 	                <div class="col-lg-5 col-md-6 col-sm-6">
 	                    <div class="single-footer-widget">
 	                        <p class="footer-text"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-									Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+									Copyright &copy;<script>document.write(new Date().getFullYear());</script> PionierGarage e.V. - All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 				</p>
 				<p class="footer-text">
-					<a href="https://pioniergarage.de/impressum/">Impressum</a>
+					<a href="https://pioniergarage.de/impressum/" target="_blank">Impressum</a>
+					<span style="padding: 0px 5px;">|</span>
+					<a href="https://pioniergarage.de/datenschutz/" target="_blank">Datenschutz</a>
 				</p>
 	                    </div>
 	                </div>

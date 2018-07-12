@@ -1,4 +1,4 @@
-<?
+<?php
 //Visited Location/Area -> Title
 $Location = "India 2017";
 $DistanceToKarlsruhe = "2000";

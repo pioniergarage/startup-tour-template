@@ -1,4 +1,4 @@
-<?
+<?php
 //Visited Location/Area -> Title
 $Location = "New York & Boston<br>3rd - 13th December 2014";
 
