@@ -1,10 +1,20 @@
 	<!DOCTYPE html>
 	<?php
 
+	//Definition of ordering algorithem - see uksort
+	function cmp($a, $b) {
+	    if (intval(substr($a, -4)) == intval(substr($b, -4))) {
+	        return 0;
+	    }
+	    return (intval(substr($a, -4)) >  intval(substr($b, -4))) ? -1 : 1;
+	}
+
 	$dir    = './tours';
 	$tours = scandir($dir, 1);
 	$tours = array_diff($tours, array('..', '.'));
-	print_r($tours);
+	// $tours = natsort($tours);
+	uksort($tours, 'cmp');
+	//print_r($tours);
 
 	if(isset($_GET["conf"])){
 		$PageToView = $_GET["conf"];
@@ -107,10 +117,10 @@
 	  			<div class="about-content blog-header-content col-lg-12">
 					<h4 class="text-white">Startuptour</h4>
 					<h1 class="text-white"><?php echo($Location)?></h1><br>
-					<h6 class="text-white">
-						<b><?php echo($AboutTourText)?></b>
-					</h6>
-	  				<!-- <a href="blog-single.html" class="primary-btn">View More</a> -->
+					<!-- <h2 class="text-white">
+						<b><?php //echo($AboutTourText)?></b>
+					</h2> -->
+					<!-- <a href="blog-single.html" class="primary-btn">View More</a> -->
 	  			</div>
 	  		</div>
 	  	</div>
@@ -118,10 +128,50 @@
 	<!-- End banner Area -->
 
 	<!-- Start home-about Area -->
-	<section class="home-about-area pt-120">
+	<section class="home-about-area section-gap t-120">
 		<div class="container">
 			<div class="row align-items-center justify-content-between">
-				<div class="col-lg-6 col-md-6 home-about-left">
+				<div class="col-lg-12 col-md-12">
+					<h1 class="text-uppercase">Startuptour</h1>
+					<p>
+						<?php echo($AboutTourText); ?>
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End home-about Area -->
+
+	<!-- Start fact Area -->
+	<section class="facts-area section-gap" id="facts-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6 single-fact">
+					<h1 class="counter"><?php echo(count($TeamMember)); ?></h1>
+					<p>Motivated PGlers</p>
+				</div>
+				<div class="col-lg-3 col-md-6 single-fact">
+					<h1 class="counter"><?php echo(count($VisitedStartups)); ?></h1>
+					<p>Startups visited</p>
+				</div>
+				<div class="col-lg-3 col-md-6 single-fact">
+					<h1 class="counter">14</h1>
+					<p>Days Abroad</p>
+				</div>
+				<div class="col-lg-3 col-md-6 single-fact">
+					<h1 class="counter"><?php echo($DistanceToKarlsruhe); ?></h1>
+					<p>Kilometers traveld</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end fact Area -->
+
+	<!-- Start home-about Area -->
+	<section class="home-about-area section-gap t-120">
+		<div class="container">
+			<div class="row align-items-center justify-content-between">
+				<div class="col-lg-<br>6 col-md-6 home-about-left">
 					<img class="img-fluid" src="img/LogoMitNameUndSlogan.png" alt="">
 				</div>
 				<div class="col-lg-5 col-md-6 home-about-right">
@@ -130,11 +180,11 @@
 					<p>
 						<?php echo($AboutThePGText); ?>
 					</p>
-					<a href="#" class="primary-btn text-uppercase">View Full Details</a>
+					<!-- <a href="#" class="primary-btn text-uppercase">View Full Details</a> -->
 				</div>
 			</div>
 		</div>
-	</section><br><br><br><br>
+	</section>
 	<!-- End home-about Area -->
 
 	<!-- Start timeline Area -->
@@ -152,13 +202,13 @@
 			$i=0;
 			foreach($VisitedStartups AS $Startup) {
 			   echo "<li>
-	     			      <div class='content'>
-				      	<img class='img-fluid mx-auto d-block mb-30' src='img/StartupLogos/$Startup.png' alt=''>
-	       				<h4>
+	     			      <div class='content' style='opacity: 1; border: 4px solid #B31918;'>
+				      	<img class='img-fluid mx-auto d-block mb-30' src='./tours/$PageToView/img/startups/$Startup.png' alt='' style='border-radius: 10px;'>
+	       				<h4 style='color:white'>
 	       					<time>$Startup</time>
 	       				</h4>
 	       				<p>
-						<b>".$AdditionalText[$i]."</b>
+						<b style='color:white'>".$AdditionalText[$i]."</b>
 					</p>
    	     			      </div>
 	     			    </li>";
@@ -193,7 +243,7 @@
                 <div class="menu-content  col-lg-7">
                     <div class="title text-center">
                         <h1 class="mb-10">Our Team</h1>
-                        <p>$TeamText</p>
+                        <p><<?php echo "$TeamText"; ?></p>
                     </div>
                 </div>
             </div>
@@ -202,7 +252,7 @@
 				foreach($TeamMember AS $Member) {
 				   echo "<div class='col-lg-4 col-md-6'>
 						<div class='single-services'>
-							<img width='120px' src='img/Team/".$Member['ImgName']."' style='border-radius: 15px'>
+							<img width='220px' src='./tours/$PageToView/img/team/".$Member['ImgName']."' style='border-radius: 15px'>
 							<a href='#'><h4>".$Member['Name']." </h4></a>
 							<p>".$Member['Text']."</p>
 						</div>
@@ -231,7 +281,7 @@
 				   echo "<div class='col-lg-4 col-md-6'>
 						<div class='single-services'>
 							<a href='".$Sponsor['Link']."' target='_blank'>
-								<img width='240px' src='img/Sponsors/".$Sponsor['ImgName']."'>
+								<img width='240px' src='./tours/$PageToView/img/sponsors/".$Sponsor['ImgName']."'>
 							</a>
 						</div>
 					</div>";
@@ -311,7 +361,7 @@
 	<script src="js/jquery.counterup.min.js"></script>
 	<script src="js/simple-skillbar.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/mail-script.js"></script>
+	<!-- <script src="js/mail-script.js"></script> -->
 	<script src="js/main.js"></script>
 	</body>
 </html>

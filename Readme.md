@@ -1,5 +1,5 @@
 # Template für Startuptouren
-This template is for Startup Tours. Every Startup Tour should get it's own subdomain (like [http://shanghai.pioniergarage.de/]()). This Template needs a php enabelt Webspace to work. It is based on i Template from Colorlib, which stands under CC LICENSE. It was developed by [colorlib](https://colorlib.com/). You can find it's Documentation in the Folder "/ColorlibT Template/Personal - Doc". In the Folder  "/Colorlib Template/OldParts" you find rests of the template, before I changed it.
+This template is for Startup Tours. Every Startup Tour should get it's own subdomain (like [http://shanghai.pioniergarage.de/]()). This Template needs a php enabelt Webspace to work. It is based on i Template from Colorlib, which stands under CC LICENSE. It was developed by [colorlib](https://colorlib.com/wp/template/personal/). You can find it's Documentation in the Folder "/ColorlibT Template/Personal - Doc". In the Folder  "/Colorlib Template/OldParts" you find rests of the template, before I changed it.
 
 # How to use this Template for a new Startup Tour?
 1. Clone this Repo to your PC

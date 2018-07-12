@@ -1,6 +1,6 @@
 <?
 //Visited Location/Area -> Title
-$Location = "India 2017";
+$Location = "India<br>2017";
 $DistanceToKarlsruhe = "2000";
 
 //Change the Background trough replace /img/Background
@@ -9,7 +9,7 @@ $DistanceToKarlsruhe = "2000";
 // $ContactEmail = "dominik.kogel@pioniergarage.de";
 
 //Text which sumerizes the Tour in about 200-300 Words suggested
-$AboutTourText = "The Pioneers are heading to India! After inspiring tours to Shanghai and Peking, the Silicon Valley, Boston and New York, London, Tel Aviv, Berlin and Munich the PionierGarage is visiting different cities in India. We are full of energy to find out more about the entrepreneurial scene in Bangalore and Pune and to get in touch with a variety of interesting and inspiring people. During the 10-day tour, we are visiting a number of startups, venture capitalists, entrepreneurial organizations and educational institutions.";
+$AboutTourText = "The Pioneers are heading to India! After inspiring tours to Shanghai and Peking, the Silicon Valley, Boston and New York, London, Tel Aviv, Berlin and Munich the PionierGarage is visiting different cities in India. We are full of energy to find out more about the entrepreneurial scene in Bangalore and Pune and to get in touch with a variety of interesting and inspiring people. During the 10-day tour, we are visiting a number of startups, venture capitalists, entrepreneurial organizations and educational institutions..";
 
 //Text next to the PG Logo
 $AboutThePGText = "15 students from the PionierGarage, the university group for entrepreneurship at the Karlsruhe Institute of Technology (KIT) in Germany, are going to visit one of the world's most significant tech and startup regions: India.
@@ -18,8 +18,8 @@ To find out more about our entrepreneurship club at Germany's leading technical 
 //List of Visited Startups, Names Used to find the logo"s in /img/StartupLogos/StartupName.pioniergarage
 //Store Startup Logos int the Form "StartupName.png" like in the example here
 // Images should have the Size 300x200 Pixel
-$VisitedStartups = array("Google","Uber","SpaceX","SpaceX");
-$AdditionalText = array("Monday 20.11.22", "Car Firm, 21.11.22", "22.11.22", "22.11.22");
+$VisitedStartups = array("Google","Uber","SpaceX");
+$AdditionalText = array("Monday 20.11.22", "Car Firm, 21.11.22", "22.11.22");
 
 
 
