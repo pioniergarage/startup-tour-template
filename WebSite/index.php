@@ -143,7 +143,7 @@
 	<!-- End home-about Area -->
 
 	<!-- Start fact Area -->
-	<section class="facts-area section-gap" id="facts-area">
+	<section class="facts-area section-gap" style="padding: 50px;" id="facts-area">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3 col-md-6 single-fact">
