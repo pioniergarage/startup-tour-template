@@ -8,14 +8,13 @@ This template is for Startup Tours. Every Startup Tour should get it's own subdo
 4. Upload "/Website" via FTP to the desired Webspace
 
 # ToDos:
-* Footer Finalisieren mit Links
-* HideStartupList if no infos given
-* Footer - Datenschutzerklärung
-* Bildergale rie einfach in Ordner Kopieren zum Durchclicken http://indien-dev.pioniergarage.de/portfolio.html
-* Prio -> Indien, Shanghai, Bosten
+* Bildergalerie Feature
 
 
 # Done
+* Footer Finalisieren mit Links
+* HideStartupList if no infos given
+* Footer - Datenschutzerklärung
 * Dateiname - Vorname_Nachname.jpg 300*300
 * Timeline mit Icon/Bild, Name, Brange, Datum
 * Aus JSON file personen Infos, Name,Text  -> PHP
