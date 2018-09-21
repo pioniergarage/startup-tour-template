@@ -1,7 +1,10 @@
 <?php
 //Visited Location/Area -> Title
 $Location = "India 2017";
-$DistanceToKarlsruhe = "2000";
+$DistanceToKarlsruhe = "6785";
+$NumberOfStartups = "20";
+$MotivatedPGlers = "15";
+$DaysAbroad = "10";
 
 //Change the Background trough replace /img/Background
 
@@ -18,8 +21,8 @@ To find out more about our entrepreneurship club at Germany's leading technical 
 //List of Visited Startups, Names Used to find the logo"s in /img/StartupLogos/StartupName.pioniergarage
 //Store Startup Logos int the Form "StartupName.png" like in the example here
 // Images should have the Size 300x200 Pixel
-$VisitedStartups = array("Google","Uber","SpaceX","SpaceX");
-$AdditionalText = array("Monday 20.11.22", "Car Firm, 21.11.22", "22.11.22", "22.11.22");
+//$VisitedStartups = array("Google","Uber","SpaceX","SpaceX");
+//$AdditionalText = array("Monday 20.11.22", "Car Firm, 21.11.22", "22.11.22", "22.11.22");
 
 
 
@@ -28,24 +31,15 @@ $TeamText = "We are Students ...";
 
 //Team - Images in /img/team/ImgName.png (120x120px images, as png), Text about 20-40 Words
 //CopyElements for more People
-$TeamMember[] = array('Name' => "Tobi",
+/*$TeamMember[] = array('Name' => "Tobi",
                                                 'ImgName' => "c4.jpg",
                                                 'Text'   => "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam");
-$TeamMember[] = array('Name' => "Markus",
-                                                'ImgName' => "c5.jpg",
-                                                'Text'   => "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam");
-$TeamMember[] = array('Name' => "Muster",
-                                                'ImgName' => "c6.jpg",
-                                                'Text'   => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed nisl non tellus rutrum tincidunt. Etiam varius, elit eget volutpat.");
-
+*/
 //Sponsors - Images in /img/Sponsors/ImgName.png, 300x200px images
-$Sponsors[] = array('ImgName' => "daimler.png",
-                                        'Link'   => "https://www.daimler.com/de/");
-$Sponsors[] = array('ImgName' => "sovendus.png",
-                                        'Link'   => "https://www.sovendus.de/de/");
-
+$Sponsors[] = array('ImgName' => "Logo_Karlsruhe.png",
+                                        'Link'   => "https://www.karlsruhe.de/");
 //Youtube Link - if empty -> nothing is shown
-$YoutubeLink = "https://www.youtube.com/watch?v=t-WDfZML1FY";
+//$YoutubeLink = "https://www.youtube.com/watch?v=t-WDfZML1FY";
 
 
 //echo "debug";

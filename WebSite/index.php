@@ -1,7 +1,7 @@
 	<!DOCTYPE html>
 	<?php
 
-	//Definition of ordering algorithem - see uksort
+	//Definition of ordering algorithem - see uksort doku
 	function cmp($a, $b) {
 	    if (intval(substr($a, -4)) == intval(substr($b, -4))) {
 	        return 0;
@@ -13,7 +13,7 @@
 	$tours = scandir($dir, 1);
 	$tours = array_diff($tours, array('..', '.'));
 	// $tours = natsort($tours);
-	uksort($tours, 'cmp');
+	usort($tours, "cmp");
 	//print_r($tours);
 
 	if(isset($_GET["conf"])){
@@ -26,7 +26,7 @@
 		}
 	}else {
 		//Change here for the Standard Page
-		$PageToView = "India 2017";
+		$PageToView = "China 2018";
 		include("./tours/$PageToView/config.php");
 	}
 
@@ -147,15 +147,27 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3 col-md-6 single-fact">
-					<h1 class="counter"><?php echo(count($TeamMember)); ?></h1>
+					<h1 class="counter"><?php
+					if (isset($MotivatedPGlers)) {
+						echo $MotivatedPGlers;
+					}else {
+						echo(count($TeamMember));
+					}
+					?></h1>
 					<p>Motivated PGlers</p>
 				</div>
 				<div class="col-lg-3 col-md-6 single-fact">
-					<h1 class="counter"><?php echo(count($VisitedStartups)); ?></h1>
+					<h1 class="counter"><?php
+					if (isset($NumberOfStartups)) {
+						echo $NumberOfStartups;
+					}else {
+						echo(count($VisitedStartups));
+					}
+			   ?></h1>
 					<p>Startups visited</p>
 				</div>
 				<div class="col-lg-3 col-md-6 single-fact">
-					<h1 class="counter">14</h1>
+					<h1 class="counter"><?php echo($DaysAbroad); ?></h1>
 					<p>Days Abroad</p>
 				</div>
 				<div class="col-lg-3 col-md-6 single-fact">
@@ -188,35 +200,35 @@
 	<!-- End home-about Area -->
 
 	<!-- Start timeline Area -->
-	<section class="timeline pb-120" id="Startups">
-		<div class="text-center">
-			<div class="menu-content pb-70">
-				<div class="title text-center">
-					<h1 class="mb-10">Visited startups</h1>
-					<p>During Our Tour</p>
+	<?php if ($VisitedStartups != "") {
+		echo "<section class='timeline pb-120' id='Startups'>
+			<div class='text-center'>
+				<div class='menu-content pb-70'>
+					<div class='title text-center'>
+						<h1 class='mb-10'>Visited startups</h1>
+						<p>During Our Tour</p>
+					</div>
 				</div>
 			</div>
-		</div>
-		  <ul>
-			<?php
-			$i=0;
-			foreach($VisitedStartups AS $Startup) {
-			   echo "<li>
-	     			      <div class='content' style='opacity: 1; border: 4px solid #B31918; border-radius:10px;'>
-				      	<img class='img-fluid mx-auto d-block mb-30' src='./tours/$PageToView/img/startups/$Startup.png' alt='' style='border-radius: 10px;'>
-	       				<h4 style='color:white'>
-	       					<time>$Startup</time>
-	       				</h4>
-	       				<p>
-						<b style='color:white'>".$AdditionalText[$i]."</b>
-					</p>
-   	     			      </div>
-	     			    </li>";
-				$i++;
-			}
-			?>
-		  </ul>
-	</section>
+			  <ul>";
+		$i=0;
+		foreach($VisitedStartups AS $Startup) {
+			 echo "<li>
+								<div class='content' style='opacity: 1; border: 4px solid #B31918; border-radius:10px;'>
+							<img class='img-fluid mx-auto d-block mb-30' src='./tours/$PageToView/img/startups/$Startup.png' alt='' style='border-radius: 10px;'>
+							<h4 style='color:white'>
+								<time>$Startup</time>
+							</h4>
+							<p>
+					<b style='color:white'>".$AdditionalText[$i]."</b>
+				</p>
+									</div>
+							</li>";
+			$i++;
+		}
+		echo "</ul></section>";
+	}
+	?>
 	<!-- End timeline Area -->
 
 
@@ -237,31 +249,36 @@
 
 
 	<!-- Team Area -->
-	<section class="services-area section-gap" id="Team">
-		<div class="container">
-            <div class="row d-flex justify-content-center">
-                <div class="menu-content  col-lg-7">
-                    <div class="title text-center">
-                        <h1 class="mb-10">Our Team</h1>
-                        <p><<?php echo "$TeamText"; ?></p>
-                    </div>
-                </div>
-            </div>
-			<div class="row">
-				<?php
-				foreach($TeamMember AS $Member) {
-				   echo "<div class='col-lg-4 col-md-6'>
-						<div class='single-services'>
-							<img width='220px' src='./tours/$PageToView/img/team/".$Member['ImgName']."' style='border-radius: 15px'>
-							<a href='#'><h4>".$Member['Name']." </h4></a>
-							<p>".$Member['Text']."</p>
-						</div>
-					</div>";
+	<?php
+	if ($TeamMember != "") {
+		echo "<section class='services-area section-gap' id='Team'>
+			<div class='container'>
+	            <div class='row d-flex justify-content-center'>
+	                <div class='menu-content  col-lg-7'>
+	                    <div class='title text-center'>
+	                        <h1 class='mb-10'>Our Team</h1>
+	                        <p><<?php echo '$TeamText'; ?></p>
+	                    </div>
+	                </div>
+	            </div>
+				<div class='row'>";
+			foreach($TeamMember AS $Member) {
+				echo "<div class='col-lg-4 col-md-6'>
+							<div class='single-services'>";
+				if($Member['ImgName'] != ""){
+					echo "<img width='220px' src='./tours/$PageToView/img/team/".$Member['ImgName']."' style='border-radius: 15px'>";
 				}
-				?>
-			</div>
-		</div>
-	</section>
+				echo "<h4>".$Member['Name']." </h4>";
+				if ($Member['Studies'] != "") {
+					echo "<h5 style='margin-bottom:5px; font-size: 14px; color:#6f6f6f;'>".$Member['Studies']."</h5>";
+				}
+				echo "<p>".$Member['Text']."</p>
+							</div>
+							</div>";
+			}
+			echo "</div></div></section>";
+	}
+	?>
 	<!-- End Team Area -->
 
 	<!-- Sponsors -->
@@ -270,7 +287,7 @@
 	    <div class="row d-flex justify-content-center">
 		<div class="menu-content  col-lg-7">
 		    <div class="title text-center">
-			<h1 class="mb-10">Sponsors</h1>
+			<h1 class="mb-10">Partners</h1>
 			<!-- <p>BlaBla Text Test Test</p> -->
 		    </div>
 		</div>
@@ -300,44 +317,25 @@
 	                <div class="col-lg-5 col-md-6 col-sm-6">
 	                    <div class="single-footer-widget">
 	                        <p class="footer-text"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-									Copyright &copy;<script>document.write(new Date().getFullYear());</script> PionierGarage e.V. - All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-				</p>
-				<p class="footer-text">
-					<a href="https://pioniergarage.de/impressum/" target="_blank">Impressum</a>
-					<span style="padding: 0px 5px;">|</span>
-					<a href="https://pioniergarage.de/datenschutz/" target="_blank">Datenschutz</a>
-				</p>
+														Copyright &copy;<script>document.write(new Date().getFullYear());</script> PionierGarage e.V. - All rights reserved <br> This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+														<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+													</p>
+													<p class="footer-text">
+														<a href="https://pioniergarage.de/impressum/" target="_blank">Impressum</a>
+														<span style="padding: 0px 5px;">|</span>
+														<a href="https://pioniergarage.de/datenschutz/" target="_blank">Datenschutz</a>
+													</p>
 	                    </div>
 	                </div>
-	                <div class="col-lg-5 col-md-6 col-sm-6">
-	                    <div class="single-footer-widget">
-	                        <h4>Newsletter</h4>
-	                        <p>Stay updated with our latest trends</p>
-				<div class="" id="mc_embed_signup">
-					 <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get">
-					  <div class="input-group">
-					    <input type="text" class="form-control" name="EMAIL" placeholder="Enter Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email Address '" required="" type="email">
-					    <div class="input-group-btn">
-					      <button class="btn btn-default" type="submit">
-					        <span class="lnr lnr-arrow-right"></span>
-					      </button>
-					    </div>
-					    	<div class="info"></div>
-					  </div>
-					</form>
-				</div>
-	                    </div>
-	                </div>
+									<div class="col-lg-5 col-md-6 col-sm-6">
+									</div>
 	                <div class="col-lg-2 col-md-6 col-sm-6 social-widget">
 	                    <div class="single-footer-widget">
-	                        <h4>Follow Me</h4>
-	                        <p>Let us be social</p>
+	                        <h4>Follow us</h4>
 	                        <div class="footer-social d-flex align-items-center">
-	                            <a href="#"><i class="fa fa-facebook"></i></a>
-	                            <a href="#"><i class="fa fa-twitter"></i></a>
-	                            <a href="#"><i class="fa fa-dribbble"></i></a>
-	                            <a href="#"><i class="fa fa-behance"></i></a>
+	                            <a href="https://www.facebook.com/pioniergarage" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a>
+	                            <a href="https://twitter.com/pioniergarage" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a>
+	                            <a href="https://github.com/pioniergarage" target="_blank" title="Github"><i class="fa fa-github"></i></a>
 	                        </div>
 	                    </div>
 	                </div>
