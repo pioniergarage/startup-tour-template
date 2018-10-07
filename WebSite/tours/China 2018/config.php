@@ -1,53 +1,107 @@
 <?php
-//Visited Location/Area -> Title
-$Location = "China 2018";
-$DistanceToKarlsruhe = "2000";
-$DaysAbroad = "10";
 
+//Visited Location/Area -> Title
+$Location = "China<br>2018";
+$DistanceToKarlsruhe = 9000;
+$DaysAbroad = 15;
 //Change the Background trough replace /img/Background
 
 //E-Mail for Contact Button, if not set - Contact-Button disapiers
 // $ContactEmail = "dominik.kogel@pioniergarage.de";
 
 //Text which sumerizes the Tour in about 200-300 Words suggested
-$AboutTourText = "The Pioneers are heading to India! After inspiring tours to Shanghai and Peking, the Silicon Valley, Boston and New York, London, Tel Aviv, Berlin and Munich the PionierGarage is visiting different cities in India. We are full of energy to find out more about the entrepreneurial scene in Bangalore and Pune and to get in touch with a variety of interesting and inspiring people. During the 10-day tour, we are visiting a number of startups, venture capitalists, entrepreneurial organizations and educational institutions.";
+$AboutTourText = "The Pioneers are heading to China! After inspiring tours to the Silicon Valley, Boston and New York, London, Tel Aviv, Berlin and Munich, the PionierGarage is visiting China for the second time. We are full of energy to find out more about the entrepreneurial scene in one of the most-thriving economies in the world and to get in touch with a variety of interesting and inspiring people. During the two-week tour, we are visiting a number of startups, venture capitalists, entrepreneurial organizations and educational institutions.";
 
 //Text next to the PG Logo
-$AboutThePGText = "15 students from the PionierGarage, the university group for entrepreneurship at the Karlsruhe Institute of Technology (KIT) in Germany, are going to visit one of the world's most significant tech and startup regions: India.
-To find out more about our entrepreneurship club at Germany's leading technical university, head over to our homepage or contact us on info @ pioniergarage.de to become part of the tour as a supporter, partner, sponsor or Startup/VC to be visited. We're looking forward to meeting inspiring people!.";
+$AboutThePGText = "11 members of PionierGarage, Germany's largest university club focused on entrepreneurship, located at the Karlsruhe Institute of Technology (KIT) in Germany, are going to visit one of the world's most significant tech and startup regions: China.
+To find out more about our entrepreneurship club at Germany's leading technical university, head over to our homepage or contact us on info @ pioniergarage.de to become part of the tour as a supporter, partner, sponsor or Startup/VC to be visited. We're looking forward to meeting inspiring people!";
 
 //List of Visited Startups, Names Used to find the logo"s in /img/StartupLogos/StartupName.pioniergarage
 //Store Startup Logos int the Form "StartupName.png" like in the example here
 // Images should have the Size 300x200 Pixel
-$VisitedStartups = array("Google","Uber","SpaceX","SpaceX");
-$AdditionalText = array("Monday 20.11.22", "Car Firm, 21.11.22", "22.11.22", "22.11.22");
-
-
+$VisitedStartups = array();
+$AdditionalText = array();
 
 //Our TeamText - sumerize 30 Words
-$TeamText = "We are Students ...";
+$TeamText = "We are a team of young founders and entrepreneurial students.";
 
 //Team - Images in /img/team/ImgName.png (120x120px images, as png), Text about 20-40 Words
 //CopyElements for more People
-$TeamMember[] = array('Name' => "Tobi",
-                                                'ImgName' => "c4.jpg",
-                                                'Text'   => "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam");
-$TeamMember[] = array('Name' => "Markus",
-                                                'ImgName' => "c5.jpg",
-                                                'Text'   => "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam");
-$TeamMember[] = array('Name' => "Muster",
-                                                'ImgName' => "c6.jpg",
-                                                'Text'   => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed nisl non tellus rutrum tincidunt. Etiam varius, elit eget volutpat.");
+$TeamMember[] = array(
+    'Name' => "Karl Lorey",
+    'ImgName' => "karl-lorey.jpg",
+    'Text'   => "Founder of Germany's first student-run VC",
+    'Linkedin' => 'https://www.linkedin.com/in/karllorey/'
+);
+
+$TeamMember[] = array(
+    'Name' => "Dominik Doerner",
+    'ImgName' => "dominik-doerner.jpg",
+    'Text'   => "Former Chairmain at PionierGarage",
+    'Linkedin' => 'https://www.linkedin.com/in/dominik-doerner/'
+);
+
+$TeamMember[] = array(
+    'Name' => "Frederic Tausch",
+    'ImgName' => "frederic-tausch.jpg",
+    'Text'   => "CTO & Co-Founder of apic.ai",
+    'Linkedin' => 'http://linkedin.com/in/frederic-tausch'
+);
+
+$TeamMember[] = array(
+    'Name' => "Matthias Heger",
+    'ImgName' => "matthias-heger.jpg",
+    'Text'   => "Hardware Engineer at apic.ai",
+    'Linkedin' => 'http://www.linkedin.com/in/matthias-heger'
+);
+
+$TeamMember[] = array(
+    'Name' => "Patrick Golz",
+    'ImgName' => "patrick-golz.jpg",
+    'Text'   => "Physics student burning for entrepreneurship",
+    'Linkedin' => 'https://www.linkedin.com/in/patrick-golz-54a671157/',
+);
+$TeamMember[] = array(
+    'Name' => "Jakob Fischer",
+    'ImgName' => "jakob-fischer.jpg",
+    'Text'   => "Former Board Member of PionierGarage",
+    'Linkedin' => 'https://www.linkedin.com/in/jakobfischer/',
+);
+$TeamMember[] = array(
+    'Name' => "Florian Dreschner",
+    'ImgName' => "florian-dreschner.jpg",
+    'Text'   => "Software Engineer and Product Enthusiast",
+    'Linkedin' => 'https://www.linkedin.com/in/fdreschner/',
+);
+$TeamMember[] = array(
+    'Name' => "Andreas Fischer",
+    'ImgName' => "andreas-fischer.jpg",
+    'Text'   => "Founding Partner of Germany’s first student-run VC",
+    'Linkedin' => 'https://www.linkedin.com/in/afischerfmv/',
+);
+$TeamMember[] = array(
+    'Name' => "Andreas Cordes",
+    'ImgName' => "andreas-cordes.jpg",
+    'Text'   => "Former Organizer of the accelerator program GROW",
+    'Linkedin' => 'https://www.linkedin.com/in/andreas-cordes-626642134',
+);
+$TeamMember[] = array(
+    'Name' => "Andrea Bartos",
+    'ImgName' => "andre-bartos.jpg",
+    'Text'   => "Industrial engineer and former Board Member of PionierGarage",
+    'Linkedin' => 'https://www.linkedin.com/in/andrea-bartos-0bbb26122/',
+);
+$TeamMember[] = array(
+    'Name' => "Maximilian Wessendorf",
+    'ImgName' => "maximilian-wessendorf.jpg",
+    'Text'   => "Former Board Member of PionierGarage",
+    'Linkedin' => null,
+);
 
 //Sponsors - Images in /img/Sponsors/ImgName.png, 300x200px images
-$Sponsors[] = array('ImgName' => "daimler.png",
-                                        'Link'   => "https://www.daimler.com/de/");
-$Sponsors[] = array('ImgName' => "sovendus.png",
-                                        'Link'   => "https://www.sovendus.de/de/");
+$Sponsors = array();
 
 //Youtube Link - if empty -> nothing is shown
 $YoutubeLink = "https://www.youtube.com/watch?v=t-WDfZML1FY";
 
-
 //echo "debug";
-?>
