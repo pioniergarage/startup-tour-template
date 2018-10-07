@@ -39,7 +39,7 @@ $TeamText = "We are Students ...";
 $Sponsors[] = array('ImgName' => "Logo_Karlsruhe.png",
                                         'Link'   => "https://www.karlsruhe.de/");
 //Youtube Link - if empty -> nothing is shown
-//$YoutubeLink = "https://www.youtube.com/watch?v=t-WDfZML1FY";
+$YoutubeLink = "https://www.youtube.com/watch?v=pO-ywgArkys";
 
 
 //echo "debug";
