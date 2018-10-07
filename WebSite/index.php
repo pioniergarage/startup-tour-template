@@ -200,7 +200,7 @@
 	<!-- End home-about Area -->
 
 	<!-- Start timeline Area -->
-	<?php if ($VisitedStartups != "") {
+	<?php if ($VisitedStartups != "" && $VisitedStartups != []) {
 		echo "<section class='timeline pb-120' id='Startups'>
 			<div class='text-center'>
 				<div class='menu-content pb-70'>
