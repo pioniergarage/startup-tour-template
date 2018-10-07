@@ -87,7 +87,7 @@ $TeamMember[] = array(
 );
 $TeamMember[] = array(
     'Name' => "Andrea Bartos",
-    'ImgName' => "andre-bartos.jpg",
+    'ImgName' => "andrea-bartos.jpg",
     'Text'   => "Industrial engineer and former Board Member of PionierGarage",
     'Linkedin' => 'https://www.linkedin.com/in/andrea-bartos-0bbb26122/',
 );
