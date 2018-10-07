@@ -102,6 +102,6 @@ $TeamMember[] = array(
 $Sponsors = array();
 
 //Youtube Link - if empty -> nothing is shown
-$YoutubeLink = "https://www.youtube.com/watch?v=t-WDfZML1FY";
+$YoutubeLink = "";
 
 //echo "debug";
