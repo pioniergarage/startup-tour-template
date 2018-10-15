@@ -172,7 +172,7 @@
 				</div>
 				<div class="col-lg-3 col-md-6 single-fact">
 					<h1 class="counter"><?php echo($DistanceToKarlsruhe); ?></h1>
-					<p>Kilometers traveld</p>
+					<p>Kilometers traveled</p>
 				</div>
 			</div>
 		</div>
