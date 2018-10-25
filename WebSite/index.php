@@ -282,18 +282,19 @@
 	<!-- End Team Area -->
 
 	<!-- Sponsors -->
-	<section class="services-area section-gap" id="Sponsors">
-		<div class="container">
-	    <div class="row d-flex justify-content-center">
-		<div class="menu-content  col-lg-7">
-		    <div class="title text-center">
-			<h1 class="mb-10">Partners</h1>
+	<?php
+	if ($Sponsors != "") {
+		echo "<section class='services-area section-gap' id='Sponsors'>
+		<div class='container'>
+	    <div class='row d-flex justify-content-center'>
+		<div class='menu-content  col-lg-7'>
+		    <div class='title text-center'>
+			<h1 class='mb-10'>Partners</h1>
 			<!-- <p>BlaBla Text Test Test</p> -->
 		    </div>
 		</div>
 	    </div>
-			<div class="row">
-				<?php
+			<div class='row'>";
 				foreach($Sponsors AS $Sponsor) {
 				   echo "<div class='col-lg-4 col-md-6'>
 						<div class='single-services'>
@@ -303,10 +304,11 @@
 						</div>
 					</div>";
 				}
-				?>
-			</div>
+
+	echo "</div>
 		</div>
-	</section>
+	</section>";
+	?>
 	<!-- End Sponsors Area -->
 
 

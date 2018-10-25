@@ -14,7 +14,7 @@ $AboutTourText = "The Pioneers are heading to China! After inspiring tours to th
 
 //Text next to the PG Logo
 $AboutThePGText = "11 members of PionierGarage, Germany's largest university club focused on entrepreneurship, located at the Karlsruhe Institute of Technology (KIT) in Germany, are going to visit one of the world's most significant tech and startup regions: China.
-To find out more about our entrepreneurship club at Germany's leading technical university, head over to our homepage or contact us on info @ pioniergarage.de to become part of the tour as a supporter, partner, sponsor or Startup/VC to be visited. We're looking forward to meeting inspiring people!";
+To find out more about our entrepreneurship club at Germany's leading technical university, head over to our homepage or contact us on <a href="mailto:info@pioniergarage.de">info@pioniergarage.de</a>  to become part of the tour as a supporter, partner, sponsor or Startup/VC to be visited. We're looking forward to meeting inspiring people!";
 
 //List of Visited Startups, Names Used to find the logo"s in /img/StartupLogos/StartupName.pioniergarage
 //Store Startup Logos int the Form "StartupName.png" like in the example here
@@ -30,7 +30,7 @@ $TeamText = "We are a team of young founders and entrepreneurial students.";
 $TeamMember[] = array(
     'Name' => "Karl Lorey",
     'ImgName' => "karl-lorey.jpg",
-    'Text'   => "Founder of Germany's first student-run VC",
+    'Text'   => "Founder of <a herf='https://firstmomentum.vc/'>Germany's first student-run VC</a>",
     'Linkedin' => 'https://www.linkedin.com/in/karllorey/'
 );
 
@@ -44,14 +44,14 @@ $TeamMember[] = array(
 $TeamMember[] = array(
     'Name' => "Frederic Tausch",
     'ImgName' => "frederic-tausch.jpg",
-    'Text'   => "CTO & Co-Founder of apic.ai",
+    'Text'   => "CTO & Co-Founder of <a href='https://apic.ai/'>apic.ai</a>",
     'Linkedin' => 'http://linkedin.com/in/frederic-tausch'
 );
 
 $TeamMember[] = array(
     'Name' => "Matthias Heger",
     'ImgName' => "matthias-heger.jpg",
-    'Text'   => "Hardware Engineer at apic.ai",
+    'Text'   => "Hardware Engineer at <a href='https://apic.ai/'>apic.ai</a>",
     'Linkedin' => 'http://www.linkedin.com/in/matthias-heger'
 );
 
