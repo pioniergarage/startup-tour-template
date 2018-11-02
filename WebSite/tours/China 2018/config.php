@@ -19,6 +19,7 @@ To find out more about our entrepreneurship club at Germany's leading technical 
 //List of Visited Startups, Names Used to find the logo"s in /img/StartupLogos/StartupName.pioniergarage
 //Store Startup Logos int the Form "StartupName.png" like in the example here
 // Images should have the Size 300x200 Pixel
+$NumberOfStartups = 27;
 $VisitedStartups = array();
 $AdditionalText = array();
 
@@ -27,13 +28,6 @@ $TeamText = "We are a team of young founders and entrepreneurial students.";
 
 //Team - Images in /img/team/ImgName.png (120x120px images, as png), Text about 20-40 Words
 //CopyElements for more People
-$TeamMember[] = array(
-    'Name' => "Karl Lorey",
-    'ImgName' => "karl-lorey.jpg",
-    'Text'   => "Founder of <a herf='https://firstmomentum.vc/'>Germany's first student-run VC</a>",
-    'Linkedin' => 'https://www.linkedin.com/in/karllorey/'
-);
-
 $TeamMember[] = array(
     'Name' => "Dominik Doerner",
     'ImgName' => "dominik-doerner.jpg",
