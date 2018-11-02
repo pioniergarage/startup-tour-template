@@ -304,7 +304,7 @@
 						</div>
 					</div>";
 				}
-
+			}
 	echo "</div>
 		</div>
 	</section>";

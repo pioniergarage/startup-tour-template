@@ -14,7 +14,7 @@ $AboutTourText = "The Pioneers are heading to China! After inspiring tours to th
 
 //Text next to the PG Logo
 $AboutThePGText = "11 members of PionierGarage, Germany's largest university club focused on entrepreneurship, located at the Karlsruhe Institute of Technology (KIT) in Germany, are going to visit one of the world's most significant tech and startup regions: China.
-To find out more about our entrepreneurship club at Germany's leading technical university, head over to our homepage or contact us on <a href="mailto:info@pioniergarage.de">info@pioniergarage.de</a>  to become part of the tour as a supporter, partner, sponsor or Startup/VC to be visited. We're looking forward to meeting inspiring people!";
+To find out more about our entrepreneurship club at Germany's leading technical university, head over to our homepage or contact us on <a href='mailto:info@pioniergarage.de'>info@pioniergarage.de</a>  to become part of the tour as a supporter, partner, sponsor or Startup/VC to be visited. We're looking forward to meeting inspiring people!";
 
 //List of Visited Startups, Names Used to find the logo"s in /img/StartupLogos/StartupName.pioniergarage
 //Store Startup Logos int the Form "StartupName.png" like in the example here
