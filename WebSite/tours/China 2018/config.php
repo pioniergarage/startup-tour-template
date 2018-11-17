@@ -93,7 +93,8 @@ $TeamMember[] = array(
 );
 
 //Sponsors - Images in /img/Sponsors/ImgName.png, 300x200px images
-$Sponsors = array();
+$Sponsors[] = array('ImgName' => "Logo_Karlsruhe.png",
+                                        'Link'   => "https://www.karlsruhe.de/");
 
 //Youtube Link - if empty -> nothing is shown
 $YoutubeLink = "";
