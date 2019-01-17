@@ -157,22 +157,31 @@
 					<p>Motivated PGlers</p>
 				</div>
 				<div class="col-lg-3 col-md-6 single-fact">
-					<h1 class="counter"><?php
-					if (isset($NumberOfStartups)) {
-						echo $NumberOfStartups;
-					}else {
-						echo(count($VisitedStartups));
-					}
-			   ?></h1>
-					<p>Startups visited</p>
+					<?php if(isset($StartupsToVisit)): ?>
+						<h1 class="counter"><?php echo($StartupsToVisit); ?></h1>
+						<p>Startups to visit</p>
+
+					<?php elseif(isset($NumberOfStartups)): ?>
+						<h1 class="counter"><?php echo($NumberOfStartups); ?></h1>
+						<p>Startups visited</p>
+
+					<?php elseif(count($VisitedStartups)): ?>
+						<h1 class="counter"><?php echo($VisitedStartups); ?></h1>
+						<p>Startups visited</p>
+					<?php endif; ?>
 				</div>
 				<div class="col-lg-3 col-md-6 single-fact">
 					<h1 class="counter"><?php echo($DaysAbroad); ?></h1>
 					<p>Days Abroad</p>
 				</div>
 				<div class="col-lg-3 col-md-6 single-fact">
-					<h1 class="counter"><?php echo($DistanceToKarlsruhe); ?></h1>
-					<p>Kilometers traveled</p>
+					<?php if (isset($KilometersToTravel)): ?>
+						<h1 class="counter"><?php echo($KilometersToTravel); ?></h1>
+						<p>Kilometers to travel</p>
+					<?php elseif(isset($DistanceToKarlsruhe)): ?>
+						<h1 class="counter"><?php echo($DistanceToKarlsruhe); ?></h1>
+						<p>Kilometers traveled</p>					
+					<?php endif; ?> 
 				</div>
 			</div>
 		</div>

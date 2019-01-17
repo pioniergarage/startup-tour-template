@@ -3,7 +3,7 @@
 //Visited Location/Area -> Title
 $Location = "Africa<br>2019";
 $MotivatedPGlers = 12;
-$DistanceToKarlsruhe = 19000;
+$KilometersToTravel = 19000;
 $DaysAbroad = 16;
 //Change the Background trough replace /img/Background
 
@@ -20,6 +20,7 @@ To find out more about our entrepreneurship club at Germany's leading technical 
 //List of Visited Startups, Names Used to find the logo"s in /img/StartupLogos/StartupName.pioniergarage
 //Store Startup Logos int the Form "StartupName.png" like in the example here
 // Images should have the Size 300x200 Pixel
+$StartupsToVisit = 25;
 // $NumberOfStartups = 27;
 $VisitedStartups = array();
 $AdditionalText = array();
