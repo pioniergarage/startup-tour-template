@@ -3,9 +3,10 @@ This template is for Startup Tours. Every Startup Tour should get it's own subdo
 
 # How to use this Template for a new Startup Tour?
 1. Clone this Repo to your PC
-2. Edit the "Website/config.php" File, with Text, Links & Infos (should be self explaining)
-3. Add Images of the Tour (->"Website/img") - see "Website/config.php"
-4. Upload "/Website" via FTP to the desired Webspace
+2. Edit the `Website/tours/.../config.php` File, with Text, Links & Infos (should be self explaining)
+3. Add Images of the Tour (->`Website/tours/.../img`) - see `Website/tours/.../config.php`
+4. Edit `$PageToView` in `Website/index.php` to change the default page
+5. Upload `/Website` via FTP to the desired Webspace
 
 # ToDos:
 * Bildergalerie Feature
