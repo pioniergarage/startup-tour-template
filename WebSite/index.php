@@ -178,8 +178,8 @@
 					<?php if (isset($KilometersToTravel)): ?>
 						<h1 class="counter"><?php echo($KilometersToTravel); ?></h1>
 						<p>Kilometers to travel</p>
-					<?php elseif(isset($DistanceToKarlsruhe)): ?>
-						<h1 class="counter"><?php echo($DistanceToKarlsruhe); ?></h1>
+					<?php elseif(isset($KilometersTraveled)): ?>
+						<h1 class="counter"><?php echo($KilometersTraveled); ?></h1>
 						<p>Kilometers traveled</p>					
 					<?php endif; ?> 
 				</div>

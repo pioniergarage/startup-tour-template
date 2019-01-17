@@ -2,7 +2,7 @@
 
 //Visited Location/Area -> Title
 $Location = "China<br>2018";
-$DistanceToKarlsruhe = 9000;
+$KilometersTraveled = 9000;
 $DaysAbroad = 15;
 //Change the Background trough replace /img/Background
 

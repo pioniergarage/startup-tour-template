@@ -1,7 +1,7 @@
 <?php
 //Visited Location/Area -> Title
 $Location = "India 2017";
-$DistanceToKarlsruhe = "6785";
+$KilometersTraveled = "6785";
 $NumberOfStartups = "20";
 $MotivatedPGlers = "15";
 $DaysAbroad = "10";

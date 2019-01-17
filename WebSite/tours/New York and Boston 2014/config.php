@@ -1,7 +1,7 @@
 <?php
 //Visited Location/Area -> Title
 $Location = "New York & Boston 2014";
-$DistanceToKarlsruhe = "5926";
+$KilometersTraveled = "5926";
 $NumberOfStartups = "17";
 $MotivatedPGlers = "13";
 $DaysAbroad = "10";
