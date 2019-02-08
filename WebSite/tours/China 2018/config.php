@@ -97,6 +97,6 @@ $Sponsors[] = array('ImgName' => "Logo_Karlsruhe.png",
                                         'Link'   => "https://www.karlsruhe.de/");
 
 //Youtube Link - if empty -> nothing is shown
-$YoutubeLink = "";
+$YoutubeLink = "https://www.youtube.com/watch?v=w2tvH01aBCc";
 
 //echo "debug";
