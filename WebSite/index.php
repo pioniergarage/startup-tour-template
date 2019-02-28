@@ -266,7 +266,7 @@
 	                <div class='menu-content  col-lg-7'>
 	                    <div class='title text-center'>
 	                        <h1 class='mb-10'>Our Team</h1>
-	                        <p><<?php echo '$TeamText'; ?></p>
+	                        <p><?php echo '$TeamText'; ?></p>
 	                    </div>
 	                </div>
 	            </div>
