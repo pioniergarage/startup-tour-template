@@ -2,7 +2,6 @@
 
 //Visited Location/Area -> Title
 $Location = "Africa<br>2019";
-$MotivatedPGlers = 12;
 $KilometersToTravel = 19000;
 $DaysAbroad = 16;
 //Change the Background trough replace /img/Background
@@ -78,6 +77,20 @@ $TeamMember[] = array(
     'Studies' => "Former board member of PionierGarage and industrial engineering student at KIT",
     'Text'   => "After getting to know many German start-ups I am very interested in talking about the challenges of a completely different ecosystem on another continent. Furthermore, I am looking forward to the intercultural exchange and the meeting of many interesting founders and personalities.",
     'Linkedin' => 'https://www.linkedin.com/in/dominic-seitz'
+);
+$TeamMember[] = array(
+    'Name' => "Christian Wiegand",
+    'ImgName' => "chris_wiegand.jpg",
+    'Studies' => "Head of Relations, industrial engineering student at KIT",
+    'Text'   => "East Africa is one of the fastest growing startup ecosystems. Young entrepreneurs in Africa have the possibility to create new solutions for the problems still existing worldwide. Therefore, I am enthusiastic to meet many interesting founders and to get insights into the local startup scene.",
+    'Linkedin' => 'https://www.linkedin.com/in/christian-wiegand/'
+);
+$TeamMember[] = array(
+    'Name' => "Katharina Riesterer",
+    'ImgName' => "katharina_riesterer.jpg",
+    'Studies' => "Former board member of the PionierGarage and computer science student",
+    'Text'   => "After managing a coworking space and incubator for a semester I'm interested how things are run in other parts of the world. Furthermore I expect a bunch of interesting, innovative and diverse startups.",
+    'Linkedin' => 'https://www.linkedin.com/in/katharina-riesterer-755841165/'
 );
 
 //Sponsors - Images in /img/Sponsors/ImgName.png, 300x200px images
