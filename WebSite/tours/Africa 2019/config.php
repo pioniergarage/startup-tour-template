@@ -30,14 +30,55 @@ $TeamText = "We are a team of young founders and entrepreneurial students.";
 
 //Team - Images in /img/team/ImgName.png (120x120px images, as png), Text about 20-40 Words
 //CopyElements for more People
-// $TeamMember[] = array(
-//     'Name' => "Dominik Doerner",
-//     'ImgName' => "dominik-doerner.jpg",
-//     'Text'   => "Former Chairmain at PionierGarage",
-//     'Linkedin' => 'https://www.linkedin.com/in/dominik-doerner/'
-// );
-
-
+$TeamMember[] = array(
+    'Name' => "Gil Talebian",
+    'ImgName' => "gil_talebian.jpg",
+    'Studies' => "Former Board Member of PionierGarage",
+    'Text'   => "In a globalized world, solutions need to be found on an international level. With this tour, we hope to achieve a better understanding of the way startups are working in different parts of the world.",
+    'Linkedin' => 'https://www.linkedin.com/in/giltalebian/'
+);
+$TeamMember[] = array(
+    'Name' => "Marvin Wach",
+    'ImgName' => "marvin_wach.jpg",
+    'Studies' => "Head of External Relations, studying Civil Engineering in the fifth Bachelor Semester",
+    'Text'   => "Africa is a continent with a very young average population-age. The potential in the startup-scene is huge. Therefore we want to take the chance to meet up with one of the greatest entrepreneur in Africa.",
+    'Linkedin' => 'https://www.linkedin.com/in/marvin-wach-0b1736174/'
+);
+$TeamMember[] = array(
+    'Name' => "Tobias Ohlsson",
+    'ImgName' => "tobias_ohlsson.jpg",
+    'Studies' => "Former Board Member of PionierGarage",
+    'Text'   => "A lot of countries in Africa belong to the fastest growing economies in the world, increasing the importance of the continent year by year. There is still a lot of challenges to be overcome, but with a young population there is a huge potential for innovation and future orientated development. I want to meet a lot of interesting people with great ideas and the ambition to have an impact in their country and later on, the world.",
+    'Linkedin' => 'https://www.linkedin.com/in/tobias-ohlsson-793841165/'
+);
+$TeamMember[] = array(
+    'Name' => "Jannik Nefferdorf",
+    'ImgName' => "jannik_nefferdorf.jpg",
+    'Studies' => "Former board member of PionierGarage and industrial engineering student at KIT",
+    'Text'   => "As an entrepreneurship enthusiast, I love talking to founders. I want to learn how to sucessfully build startups. I'm really looking forward to our East Africa startup tour because we will hopefully learn a lot about the challenges and opportunities of developing new business ideas in Africa.",
+    'Linkedin' => 'https://www.linkedin.com/in/neffi97/'
+);
+$TeamMember[] = array(
+    'Name' => "Andreas Cordes",
+    'ImgName' => "andy_cordes.jpg",
+    'Studies' => "Industrial Engineer familiar with the organisation of the Startup Contest GROW",
+    'Text'   => "I am looking forward to explore the local startup ecosystem and learn from successful entrepreneurs.",
+    'Linkedin' => 'https://www.linkedin.com/in/andreas-cordes-626642134'
+);
+$TeamMember[] = array(
+    'Name' => "Antonia Lorenz",
+    'ImgName' => "antonia_lorenz.jpg",
+    'Studies' => "Chairwoman at PionierGarage",
+    'Text'   => "I believe that there is huge potential for young, african Entrepreneurs to create Innovation since there are still many daily problems to be solved in developing countries. I am excited to get to know a few of them.",
+    'Linkedin' => 'https://www.linkedin.com/in/antonia-lorenz-916273171/'
+);
+$TeamMember[] = array(
+    'Name' => "Dominic Seitz",
+    'ImgName' => "dominic_seitz.jpg",
+    'Studies' => "Former board member of PionierGarage and industrial engineering student at KIT",
+    'Text'   => "After getting to know many German start-ups I am very interested in talking about the challenges of a completely different ecosystem on another continent. Furthermore, I am looking forward to the intercultural exchange and the meeting of many interesting founders and personalities.",
+    'Linkedin' => 'https://www.linkedin.com/in/dominic-seitz'
+);
 
 //Sponsors - Images in /img/Sponsors/ImgName.png, 300x200px images
 // $Sponsors[] = array('ImgName' => "Logo_Karlsruhe.png",
