@@ -38,7 +38,7 @@ $TeamMember[] = array(
 $TeamMember[] = array(
     'Name' => "Frederic Tausch",
     'ImgName' => "frederic-tausch.jpg",
-    'Text'   => "CTO & Co-Founder of <a href='https://apic.ai/'>apic.ai</a>",
+    'Text'   => "CTO & Co-Founder of <a href='https://apic.ai/' target='_blank'>apic.ai</a>",
     'Linkedin' => 'http://linkedin.com/in/frederic-tausch'
 );
 
@@ -70,7 +70,7 @@ $TeamMember[] = array(
 $TeamMember[] = array(
     'Name' => "Andreas Fischer",
     'ImgName' => "andreas-fischer.jpg",
-    'Text'   => "Founding Partner of Germany’s first student-run VC",
+    'Text'   => "Founding Partner of Germany’s first student-run VC <a href='https://firstmomentum.vc/' target='_blank'>First Momentum</a>",
     'Linkedin' => 'https://www.linkedin.com/in/afischerfmv/',
 );
 $TeamMember[] = array(
