@@ -275,7 +275,13 @@
 				echo "<div class='col-lg-4 col-md-6'>
 							<div class='single-services'>";
 				if($Member['ImgName'] != ""){
-					echo "<img width='220px' src='./tours/$PageToView/img/team/".$Member['ImgName']."' style='border-radius: 15px'>";
+					if($Member['Linkedin'] != ""){
+						echo "<a href='".$Member['Linkedin']."' target='_blank'>
+							  	<img width='220px' src='./tours/$PageToView/img/team/".$Member['ImgName']."' style='border-radius: 15px'>
+						 	  </a>";
+					} else {
+						echo "<img width='220px' src='./tours/$PageToView/img/team/".$Member['ImgName']."' style='border-radius: 15px'>";
+					}					
 				}
 				echo "<h4>".$Member['Name']." </h4>";
 				if ($Member['Studies'] != "") {
