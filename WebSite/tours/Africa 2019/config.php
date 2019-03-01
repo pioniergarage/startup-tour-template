@@ -28,7 +28,7 @@ $AboutTourText = 'The Pioneers are heading to Africa! After inspiring tours to t
                     </ul>';
 
 //Text next to the PG Logo
-$AboutThePGText = "12 members of PionierGarage, Germany's largest university club focused on entrepreneurship, located at the Karlsruhe Institute of Technology (KIT) in Germany, are going to visit three of the world's most innovative regions in Africa: Nairobi, Kampala and Kigali.
+$AboutThePGText = "10 members of PionierGarage, Germany's largest university club focused on entrepreneurship, located at the Karlsruhe Institute of Technology (KIT) in Germany, are going to visit three of the world's most innovative regions in Africa: Nairobi, Kampala and Kigali.
 To find out more about our entrepreneurship club at Germany's leading technical university, head over to our homepage or contact us on <a href='mailto:info@pioniergarage.de'>info@pioniergarage.de</a>  to become part of the tour as a supporter, partner, sponsor or Startup/VC to be visited. We're looking forward to meeting inspiring people!";
 
 //List of Visited Startups, Names Used to find the logo"s in /img/StartupLogos/StartupName.pioniergarage

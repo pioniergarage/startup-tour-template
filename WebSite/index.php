@@ -154,7 +154,7 @@
 						echo(count($TeamMember));
 					}
 					?></h1>
-					<p>Motivated PGlers</p>
+					<p>Motivated Pioniers</p>
 				</div>
 				<div class="col-lg-3 col-md-6 single-fact">
 					<?php if(isset($StartupsToVisit)): ?>
