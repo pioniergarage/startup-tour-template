@@ -14,15 +14,15 @@ ul.pg-timeline:before {
 }
 ul.pg-timeline > li {
     margin: 20px 0;
-    padding-left: 20px;
+    padding-left: 60px;
 }
 ul.pg-timeline > li:before {
     content: ' ';
-    background: white;
+    background: $white;
     display: inline-block;
     position: absolute;
     border-radius: 50%;
-    border: 3px solid #22c0e8;
+    border: 3px solid $primary-color;
     left: 20px;
     width: 20px;
     height: 20px;
