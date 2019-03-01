@@ -92,6 +92,13 @@ $TeamMember[] = array(
     'Text'   => "After managing a coworking space and incubator for a semester I'm interested how things are run in other parts of the world. Furthermore I expect a bunch of interesting, innovative and diverse startups.",
     'Linkedin' => 'https://www.linkedin.com/in/katharina-riesterer-755841165/'
 );
+$TeamMember[] = array(
+    'Name' => "Vito Dierksen",
+    'ImgName' => "vito_dierksen.jpg",
+    'Studies' => "Member of the Board IT | Computer Science",
+    'Text'   => "I am very excited to  see an evolving StartUp ecosystem and how they get along with the difficulties from emerging markets in particular. I hope we can learn a lot from each other.",
+    'Linkedin' => 'https://www.linkedin.com/in/vitodierksen'
+);
 
 //Sponsors - Images in /img/Sponsors/ImgName.png, 300x200px images
 // $Sponsors[] = array('ImgName' => "Logo_Karlsruhe.png",
