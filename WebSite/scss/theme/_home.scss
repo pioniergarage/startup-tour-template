@@ -235,7 +235,8 @@
 /*--------- Start Facts Area -------------*/
 
 .facts-area{
-    @extend .p1-gradient-bg;
+    // @extend .p1-gradient-bg;
+    background-color: $primary-color;
 }
 
 .single-fact{
