@@ -10,7 +10,9 @@ $DaysAbroad = 16;
 // $ContactEmail = "dominik.kogel@pioniergarage.de";
 
 //Text which sumerizes the Tour in about 200-300 Words suggested
-$AboutTourText = 'The Pioneers are heading to Africa! After inspiring tours to the Silicon Valley, Boston and New York, London, Tel Aviv, Berlin and Munich, India and China, the PionierGarage is visiting East-Africa for the first time. We are full of energy to get in touch with a variety of interesting and inspiring people. During the two-week tour, we are visiting a number of startups, venture capitalists, entrepreneurial organizations and educational institutions.
+$AboutTourText = 'Africa has one of the most thriving startup ecosystems in the world. That’s certainly not a surprise since the countries are developing, the avarage age is low and there are many daily probems to be solved. An inital situation that is, on one hand, very problematic. On the other hand, we believe, it is a ground for innovation and improvement if necessary resouces are given to young african entrepreneurs.<br>
+Reason enough for us to head to three of the most rising countries in East Africa: Kenya, Uganda and Rwanda. 10 motivated Pioneers from the PionierGarage are visiting startups, incubators and other centers for entrepreneurship for more than two weeks. Our mission is not only to get to know the culture, but to also share experiences, ideas and visions with local Entrepreneurs.<br>
+We are taking off in the beginning of April and are exited already. If you have connections to any of the startup ecosystems, please share them with us.
                     <h4>Timeline</h4>
                     <ul class="pg-timeline">
                         <li>

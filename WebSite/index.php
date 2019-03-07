@@ -115,7 +115,7 @@
 	  	<div class="container">
 	  		<div class="row d-flex align-items-center justify-content-center">
 	  			<div class="about-content blog-header-content col-lg-12">
-					<h4 class="text-white">Startuptour</h4>
+					<h4 class="text-white">Startup Tour</h4>
 					<h1 class="text-white"><?php echo($Location)?></h1><br>
 					<!-- <h2 class="text-white">
 						<b><?php //echo($AboutTourText)?></b>
@@ -132,7 +132,7 @@
 		<div class="container">
 			<div class="row align-items-center justify-content-between">
 				<div class="col-lg-12 col-md-12">
-					<h1 class="text-uppercase">Startuptour</h1>
+					<h1 class="text-uppercase">Startup Tour</h1>
 					<p>
 						<?php echo($AboutTourText); ?>
 					</p>
@@ -154,7 +154,7 @@
 						echo(count($TeamMember));
 					}
 					?></h1>
-					<p>Motivated Pioniers</p>
+					<p>Motivated pioneers</p>
 				</div>
 				<div class="col-lg-3 col-md-6 single-fact">
 					<?php if(isset($StartupsToVisit)): ?>
@@ -172,7 +172,7 @@
 				</div>
 				<div class="col-lg-3 col-md-6 single-fact">
 					<h1 class="counter"><?php echo($DaysAbroad); ?></h1>
-					<p>Days Abroad</p>
+					<p>Days abroad</p>
 				</div>
 				<div class="col-lg-3 col-md-6 single-fact">
 					<?php if (isset($KilometersToTravel)): ?>
