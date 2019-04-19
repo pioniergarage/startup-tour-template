@@ -166,7 +166,7 @@
 						<p>Startups visited</p>
 
 					<?php elseif(count($VisitedStartups)): ?>
-						<h1 class="counter"><?php echo($VisitedStartups); ?></h1>
+						<h1 class="counter"><?php echo count($VisitedStartups); ?></h1>
 						<p>Startups visited</p>
 					<?php endif; ?>
 				</div>
@@ -220,20 +220,23 @@
 				</div>
 			</div>
 			  <ul>";
-		$i=0;
+
 		foreach($VisitedStartups AS $Startup) {
-			 echo "<li>
-								<div class='content' style='opacity: 1; border: 4px solid #B31918; border-radius:10px;'>
-							<img class='img-fluid mx-auto d-block mb-30' src='./tours/$PageToView/img/startups/$Startup.png' alt='' style='border-radius: 10px;'>
-							<h4 style='color:white'>
-								<time>$Startup</time>
-							</h4>
-							<p>
-					<b style='color:white'>".$AdditionalText[$i]."</b>
-				</p>
-									</div>
-							</li>";
-			$i++;
+			if ($Startup['name'] != "") {
+				echo "<li>
+						<a href='".$Startup['url']."' target='_blank'>
+							<div class='content' style='opacity: 1; border: 4px solid #B31918; border-radius:10px;'>
+								<img class='img-fluid mx-auto d-block mb-30' src='./tours/$PageToView/img/startups/".$Startup['img']."' alt='".$Startup['name']." Logo' style='border-radius: 10px;'>
+								<h4>".$Startup['name']."</h4>";
+								
+				if ($Startup['description'] != "") {
+					echo "<p>
+							<b>".$Startup['description']."</b>
+						  </p>";
+				}
+						
+				echo "</div></a></li>";
+			} 
 		}
 		echo "</ul></section>";
 	}
