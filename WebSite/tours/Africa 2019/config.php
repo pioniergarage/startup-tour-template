@@ -117,9 +117,11 @@ $TeamMember[] = array(
     'Linkedin' => 'https://www.linkedin.com/in/vitodierksen'
 );
 
-//Sponsors - Images in /img/Sponsors/ImgName.png, 300x200px images
-// $Sponsors[] = array('ImgName' => "Logo_Karlsruhe.png",
-//                                         'Link'   => "https://www.karlsruhe.de/");
+//Sponsors - Images in /img/Sponsors/ImgName.png, 300x200px images                                       'Link'   => "https://www.karlsruhe.de/");
+$Sponsors[] = array('ImgName' => "Logo_Karlsruhe.png",
+                                        'Link'   => "https://www.karlsruhe.de/");
+$Sponsors[] = array('ImgName' => "Logo_KIT.svg",
+                                        'Link'   => "https://www.kit.edu/");
 
 //Youtube Link - if empty -> nothing is shown
 $YoutubeLink = "";
