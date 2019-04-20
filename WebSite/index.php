@@ -226,7 +226,7 @@
 				echo "<li>
 						<a href='".$Startup['url']."' target='_blank'>
 							<div class='content' style='opacity: 1; border: 4px solid #B31918; border-radius:10px;'>
-								<img class='img-fluid mx-auto d-block mb-30' src='./tours/$PageToView/img/startups/".$Startup['img']."' alt='".$Startup['name']." Logo' style='border-radius: 10px;'>
+								<img class='img-fluid mx-auto d-block mb-30' src='./tours/$PageToView/img/startups/".$Startup['img']."' alt='".$Startup['name']." Logo' style='border-radius: 10px; max-height: 150px;'>
 								<h4>".$Startup['name']."</h4>";
 								
 				if ($Startup['description'] != "") {

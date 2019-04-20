@@ -167,7 +167,7 @@ $VisitedStartups[] = array(
 $VisitedStartups[] = array(
     'name' => 'Westerwelle Startup Haus',
     'description' => '',
-    'img' => 'vibekigali.png',
+    'img' => 'wsh.png',
     'url' => 'http://www.westerwelle.haus/'
 );
 $VisitedStartups[] = array(
