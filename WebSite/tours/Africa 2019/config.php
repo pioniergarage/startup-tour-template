@@ -3,7 +3,7 @@
 //Visited Location/Area -> Title
 $Location = "Africa<br>2019";
 $KilometersToTravel = 19000;
-$DaysAbroad = 16;
+$DaysAbroad = 17;
 //Change the Background trough replace /img/Background
 
 //E-Mail for Contact Button, if not set - Contact-Button disapiers
@@ -36,10 +36,158 @@ To find out more about our entrepreneurship club at Germany's leading technical 
 //List of Visited Startups, Names Used to find the logo"s in /img/StartupLogos/StartupName.pioniergarage
 //Store Startup Logos int the Form "StartupName.png" like in the example here
 // Images should have the Size 300x200 Pixel
-$StartupsToVisit = 25;
+// $StartupsToVisit = 25;
 // $NumberOfStartups = 27;
-$VisitedStartups = array();
-$AdditionalText = array();
+$VisitedStartups[] = array(
+    'name' => 'dotsavvy',
+    'description' => '',
+    'img' => 'dotsavvy.png',
+    'url' => 'https://www.dotsavvyafrica.com/'
+);
+$VisitedStartups[] = array(
+    'name' => 'Lynk',
+    'description' => '',
+    'img' => 'lynk.png',
+    'url' => 'https://lynk.co.ke/'
+);
+$VisitedStartups[] = array(
+    'name' => 'BRCK',
+    'description' => '',
+    'img' => 'brck.png',
+    'url' => 'https://www.brck.com/'
+);
+$VisitedStartups[] = array(
+    'name' => 'EatOut',
+    'description' => '',
+    'img' => 'eatout.png',
+    'url' => 'https://eatout.co.ke/'
+);
+$VisitedStartups[] = array(
+    'name' => 'AlternativeCircle',
+    'description' => '',
+    'img' => 'alternativecircle.png',
+    'url' => 'https://www.alternativecircle.com/'
+);
+$VisitedStartups[] = array(
+    'name' => 'Usalama',
+    'description' => '',
+    'img' => 'usalama.png',
+    'url' => 'https://www.usalamatechnology.com/'
+);
+$VisitedStartups[] = array(
+    'name' => 'Sendy',
+    'description' => '',
+    'img' => 'sendy.png',
+    'url' => 'https://www.sendyit.com/'
+);
+$VisitedStartups[] = array(
+    'name' => 'PayGo Energy',
+    'description' => '',
+    'img' => 'paygo.svg',
+    'url' => 'https://www.paygoenergy.co/'
+);
+$VisitedStartups[] = array(
+    'name' => 'mscan',
+    'description' => '',
+    'img' => 'mscan.png',
+    'url' => 'http://mscanug.com/'
+);
+$VisitedStartups[] = array(
+    'name' => 'Digital Health Access',
+    'description' => '',
+    'img' => 'dha.jpg',
+    'url' => 'https://digitalhealthaccess.com/'
+);
+$VisitedStartups[] = array(
+    'name' => 'The Innovation Village',
+    'description' => '',
+    'img' => 'innovation-village.png',
+    'url' => 'http://www.innovationvillage.co.ug/'
+);
+$VisitedStartups[] = array(
+    'name' => 'Swipe2Pay',
+    'description' => '',
+    'img' => 'swipe2pay.png',
+    'url' => 'https://www.swipe2payug.com/'
+);
+$VisitedStartups[] = array(
+    'name' => 'Yunga',
+    'description' => '',
+    'img' => 'yunga.png',
+    'url' => 'https://yunga-ug.com/'
+);
+$VisitedStartups[] = array(
+    'name' => 'Digest Africa',
+    'description' => '',
+    'img' => 'digestafrica.png',
+    'url' => 'https://digestafrica.com/'
+);
+$VisitedStartups[] = array(
+    'name' => 'Makerere University',
+    'description' => '',
+    'img' => 'makerere.png',
+    'url' => 'https://www.mak.ac.ug/'
+);
+$VisitedStartups[] = array(
+    'name' => 'SafeBoda',
+    'description' => '',
+    'img' => 'safeboda.png',
+    'url' => 'https://safeboda.com'
+);
+$VisitedStartups[] = array(
+    'name' => 'Akorion',
+    'description' => '',
+    'img' => 'akorion.png',
+    'url' => 'https://akorion.com/'
+);
+$VisitedStartups[] = array(
+    'name' => 'Design Hub',
+    'description' => '',
+    'img' => 'design-hub.png',
+    'url' => 'https://designhubkampala.com/'
+);
+$VisitedStartups[] = array(
+    'name' => 'Healthy Entrepreneurs',
+    'description' => '',
+    'img' => 'healthy-entrepreneurs.png',
+    'url' => 'https://www.healthyentrepreneurs.nl/'
+);
+$VisitedStartups[] = array(
+    'name' => 'Teheca',
+    'description' => '',
+    'img' => 'teheca.png',
+    'url' => 'https://teheca.com/'
+);
+$VisitedStartups[] = array(
+    'name' => 'Vibe Kigali',
+    'description' => '',
+    'img' => 'vibekigali.png',
+    'url' => 'https://vibekigali.com/'
+);
+$VisitedStartups[] = array(
+    'name' => 'Westerwelle Startup Haus',
+    'description' => '',
+    'img' => 'vibekigali.png',
+    'url' => 'http://www.westerwelle.haus/'
+);
+$VisitedStartups[] = array(
+    'name' => 'FabLab Rwanda',
+    'description' => '',
+    'img' => 'fablab.png',
+    'url' => 'https://www.fablabs.io/labs/FabLabRwanda'
+);
+$VisitedStartups[] = array(
+    'name' => 'Ejobu',
+    'description' => '',
+    'img' => 'ejobu.jpg',
+    'url' => 'http://www.ejobu.rw/'
+);
+$VisitedStartups[] = array(
+    'name' => 'MeshPower',
+    'description' => '',
+    'img' => 'meshpower.png',
+    'url' => 'http://www.meshpower.co.rw/'
+);
 
 //Our TeamText - sumerize 30 Words
 $TeamText = "We are a team of young founders and entrepreneurial students.";
