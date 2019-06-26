@@ -26,7 +26,7 @@
 		}
 	}else {
 		//Change here for the Standard Page
-		$PageToView = "Africa 2019";
+		$PageToView = "Shanghai 2019";
 		include("./tours/$PageToView/config.php");
 	}
 
