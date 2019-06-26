@@ -2,12 +2,12 @@
 
 //Visited Location/Area -> Title
 $Location = "Shanghai<br>2019";
-//$KilometersTraveled = ;
-//$DaysAbroad = ;
+$KilometersTraveled = 18348 ;
+$DaysAbroad = 18;
 //Change the Background trough replace /img/Background
 
 //E-Mail for Contact Button, if not set - Contact-Button disapiers
-// $ContactEmail = "kevin.kraus@pioniergarage.de";
+// $ContactEmail = "info@pioniergarage.de";
 
 //Text which sumerizes the Tour in about 200-300 Words suggested
 $AboutTourText = 'China. As the Country with the bigest population on earth, it has to tackel a lot of social, 
@@ -50,77 +50,78 @@ $TeamText = "We are a team of young founders and entrepreneurial students.";
 //CopyElements for more People
 $TeamMember[] = array(
     'Name' => "Elisabeth Goebel",
-    'ImgName' => "elisa_goebel.jpg",
-    'Studies' => "Member of Human Ressources and industrial engineering student at KIT",
-    'Text'   => "",
-    'Linkedin' => ''
+    'ImgName' => "Elisa_Goebel.jpg",
+    'Studies' => "Member of Human Ressources and Industrial Engineering student at KIT",
+    'Text'   => "„It‘s not about ideas. It‘s about making ideas happen.“ Europe often tends to doubt, while China is already acting. I hope to be able to take a leaf out of this mindset back to Germany.",
+    'Linkedin' => 'https://www.linkedin.com/in/elisabeth-goebel-757825162/'
 );
 $TeamMember[] = array(
     'Name' => "Marvin Wach",
-    'ImgName' => "marvin_wach.jpg",
+    'ImgName' => "Marvin_Wach.jpg",
     'Studies' => "Head of External Relations, studying Civil Engineering in the fifth Bachelor Semester",
-    'Text'   => "China is a continent with a very young average population-age. The potential in the startup-scene is huge. Therefore we want to take the chance to meet up with one of the greatest entrepreneur in Africa.",
+    'Text'   => "The fascinating entrepreneure ecosystem in China will be our next startup-tour. It is known for its dynamic and speed worldwide. Therefore it is a great chance to learn more about the advantages to start a buisness in China.",
     'Linkedin' => 'https://www.linkedin.com/in/marvin-wach-0b1736174/'
 );
 $TeamMember[] = array(
     'Name' => "Tobias Budig ",
-    'ImgName' => "tobias_budig.jpg",
-    'Studies' => "",
-    'Text'   => "",
-    'Linkedin' => ''
+    'ImgName' => "Tobias_Budig.jpg",
+    'Studies' => "Head of Finances, Industrial Engineering student at KIT",
+    'Text'   => "Why is the chinese startup ecosystem so dynamic? What is unique about founding in China?  This and even more I'd like to answer on our tour!",
+    'Linkedin' => 'http://linkedin.com/in/tobias-budig'
 );
 $TeamMember[] = array(
     'Name' => "Jannik Nefferdorf",
-    'ImgName' => "jannik_nefferdorf.jpg",
+    'ImgName' => "Jannik_Nefferdorf.jpg",
     'Studies' => "Former board member of PionierGarage and Industrial Engineering student at KIT Karlsruhe",
     'Text'   => "As an entrepreneurship enthusiast, I love talking to founders. I'm really looking forward to our China startup tour to learn about the challenges and opportunities of developing new business ideas in China.",
     'Linkedin' => 'https://www.linkedin.com/in/neffi97/'
 );
 $TeamMember[] = array(
     'Name' => "Kevin Kraus",
-    'ImgName' => "kevin_kraus.jpeg",
-    'Studies' => "CMO @PionierGarage, Industrial Engineering student at KIT Karlsruhe",
+    'ImgName' => "Kevin_Kraus.jpg",
+    'Studies' => "Head of Marketing, Industrial Engineering student at KIT Karlsruhe",
     'Text'   => "China, as a thriving culture and economy, is a very fascinating country. I'm very excited to learn more about the old culture and the entrepreneurial spirit of China!",
-    'Linkedin' => 'https://www.linkedin.com/feed/'
+    'Linkedin' => 'https://www.linkedin.com/in/kraus-kevin'
+);
+$TeamMember[] = array(
+    'Name' => "Jörg Remer",
+    'ImgName' => "Joerg_Remer.jpg",
+    'Studies' => "External Relations Member, Industrial Engineering student at KIT",
+    'Text'   => "",
+    'Linkedin' => 'https://www.linkedin.com/in/jörg-remer-9a752b15b/'
 );
  $TeamMember[] = array(
     'Name' => "Jasmin Riedel",
-    'ImgName' => "",
-    'Studies' => "",
-    'Linkedin' => ''
+    'ImgName' => "Jasmin_Riedel.jpg",
+    'Studies' => "Head of Human Ressources, studying Electornical Engineering ",
+    'Text'   => "",
+    'Linkedin' => 'https://www.linkedin.com/in/jasmin-riedel-697073181/'
 );    
 $TeamMember[] = array(
     'Name' => "Jan Bode",
-    'ImgName' => "",
-    'Studies' => "",
-    'Text'   => "",
+    'ImgName' => "Jan_Bode.jpg",
+    'Studies' => "External Relations, Industrial Engineering student at KIT",
+    'Text'   => "China! Huge, dynamic, fascinating, different! Who wouldn’t want to go?",
     'Linkedin' => ''
 );
 $TeamMember[] = array(
     'Name' => "Han Völker",
-    'ImgName' => "",
-    'Studies' => "",
-    'Text'   => "",
-    'Linkedin' => ''
-);
-$TeamMember[] = array(
-    'Name' => "Tobias Budig",
-    'ImgName' => "",
-    'Studies' => "",
-    'Text'   => "",
+    'ImgName' => "Han_Voelker.jpg",
+    'Studies' => "External Relations, Industrial Engineering student at KIT",
+    'Text'   => "I'm very much looking forward to learn more about the Chinese business mentality, their rich culture and everyday lifes. I am glad that I could join our group from University for this unique opportunity.",
     'Linkedin' => ''
 );
 $TeamMember[] = array(
     'Name' => "Jan Effenberger",
-    'ImgName' => "",
-    'Studies' => "",
-    'Text'   => "",
+    'ImgName' => "Jan_Effenberger.jpg",
+    'Studies' => "External Relations, Industrial Engineering student at KIT",
+    'Text'   => "Beeing one of the biggest and fastest growing economies worldwide, I am really excited to see how young chinese entrepeneurs take advantage of this huge market. With more than 7.500 govermental funded startup incubators I hope to see many interesting young companies.",
     'Linkedin' => ''
 );
 $TeamMember[] = array(
     'Name' => "Marcus Maddock",
     'ImgName' => "",
-    'Studies' => "",
+    'Studies' => "Marketing Member, Industrial Engineering student at KIT",
     'Text'   => "",
     'Linkedin' => ''
 );
