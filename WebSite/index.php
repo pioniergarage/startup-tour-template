@@ -114,13 +114,45 @@
 	  	<div class="overlay overlay-bg"></div>
 	  	<div class="container">
 	  		<div class="row d-flex align-items-center justify-content-center">
-	  			<div class="about-content blog-header-content col-lg-12">
+	  			<div class="about-content blog-header-content col-lg-12 <?php echo isset($DepartureDate) ? ' pg-about-content' : '' ?>">
 					<h4 class="text-white">Startup Tour</h4>
 					<h1 class="text-white"><?php echo($Location)?></h1><br>
 					<!-- <h2 class="text-white">
 						<b><?php //echo($AboutTourText)?></b>
 					</h2> -->
 					<!-- <a href="blog-single.html" class="primary-btn">View More</a> -->
+
+					<?php if (isset($DepartureDate)) {
+						// counter
+						echo "
+						<div id='clockdiv'>
+							<div class='clock-digit'>
+								<span class='days'></span>
+								<div class='smalltext'>Days</div>
+							</div>
+							<div class='clock-digit'>
+								<span class='hours'></span>
+								<div class='smalltext'>Hours</div>
+							</div>
+							<div class='clock-digit'>
+								<span class='minutes'></span>
+								<div class='smalltext'>Minutes</div>
+							</div>
+							<div class='clock-digit'>
+								<span class='seconds'></span>
+								<div class='smalltext'>Seconds</div>
+							</div>
+						</div>						
+						";
+
+						echo "	
+						<script src='js/pg-countdown.min.js'></script>					
+						<script>
+							var deadline = new Date('" . $DepartureDate. "');
+							initializeClock('clockdiv', deadline);
+						</script> 												
+						";
+					} ?>					
 	  			</div>
 	  		</div>
 	  	</div>

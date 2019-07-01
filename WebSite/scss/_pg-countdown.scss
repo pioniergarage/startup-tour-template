@@ -1,0 +1,54 @@
+.pg-about-content {
+  margin-top: 0px;
+  padding-top: 50px;
+}
+
+#clockdiv > div {
+  padding: 20px;
+  border-radius: 5px;
+  background: $primary-color;
+  display: inline-block;
+  color: $white;
+}
+
+#clockdiv div > span {
+  padding: 20px 15px;
+  border-radius: 5px;
+  background: $white;
+  display: inline-block;
+  color: $primary-color;
+  width: 100%;
+  font-size: 30px;
+}
+
+.smalltext {
+  padding-top: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+
+#clockdiv {
+  display: flex;
+  justify-content: space-between;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+
+  .clock-digit {
+    width: 24%;
+    min-width: 105px;
+  }
+}
+
+// Small devices
+@media (max-width: 576px) {
+  #clockdiv {
+    max-width: 60%;
+
+    .clock-digit {
+      width: 48%;
+      margin-bottom: 10px;
+    }
+  }
+}

@@ -4,6 +4,10 @@
 $Location = "Shanghai<br>2019";
 $KilometersTraveled = 18348 ;
 $DaysAbroad = 18;
+
+// departure date for countdown
+$DepartureDate='2019-09-10';
+
 //Change the Background trough replace /img/Background
 
 //E-Mail for Contact Button, if not set - Contact-Button disapiers

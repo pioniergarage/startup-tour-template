@@ -7,7 +7,8 @@
             "label": "Sass Compile",
             "type": "shell",
             "command": "node-sass WebSite/scss/main.scss WebSite/css/main.css --output-style compressed",
-            "group": "build"
+            "group": "build",
+            "problemMatcher": []
         }
     ]
 }
