@@ -46,6 +46,104 @@ partner, sponsor or Startup/VC to be visited. We‘re looking forward to meeting
 // $StartupsToVisit = ;
 // $NumberOfStartups = ;
 
+$VisitedStartups[] = array(
+    'name' => 'Portfolio.io',
+    'description' => '',
+    'img' => 'portfolio.io.png',
+    'url' => 'http://portfolio.io'
+);
+$VisitedStartups[] = array(
+    'name' => 'it consultis',
+    'description' => '',
+    'img' => 'it consultis.jpg',
+    'url' => 'https://www.it-consultis.com'
+);
+$VisitedStartups[] = array(
+    'name' => 'GloCoach',
+    'description' => '',
+    'img' => 'glocoach.png',
+    'url' => 'https://www.glocoach.com'
+);
+$VisitedStartups[] = array(
+    'name' => 'XNode',
+    'description' => '',
+    'img' => 'xnode.jpeg',
+    'url' => 'http://www.thexnode.com'
+);
+$VisitedStartups[] = array(
+    'name' => 'Property Passbook',
+    'description' => '',
+    'img' => 'property passbook.jpg',
+    'url' => 'https://propertypassbook.com'
+);
+$VisitedStartups[] = array(
+    'name' => 'Shanghai Electrics Innovation Center',
+    'description' => '',
+    'img' => 'shanghai electric.png',
+    'url' => 'http://shanghaielectric-smec.com'
+);
+$VisitedStartups[] = array(
+    'name' => 'nihub',
+    'description' => '',
+    'img' => 'nihub.png',
+    'url' => 'https://www.nihub.com'
+);
+$VisitedStartups[] = array(
+    'name' => 'BW International',
+    'description' => '',
+    'img' => 'bw-i.png',
+    'url' => ''
+);
+$VisitedStartups[] = array(
+    'name' => 'Lifesmart',
+    'description' => '',
+    'img' => 'lifesmart.png',
+    'url' => 'http://global.ilifesmart.com/index.html'
+);
+$VisitedStartups[] = array(
+    'name' => 'Tuya',
+    'description' => '',
+    'img' => 'tuya.jpg',
+    'url' => 'https://www.tuya.com'
+);
+$VisitedStartups[] = array(
+    'name' => 'Bitmain',
+    'description' => '',
+    'img' => 'bitmain.png',
+    'url' => 'https://www.bitmain.com/contact'
+);
+$VisitedStartups[] = array(
+    'name' => 'GEI',
+    'description' => '',
+    'img' => 'gei.png',
+    'url' => 'http://global.gei.com.cn'
+);
+$VisitedStartups[] = array(
+    'name' => 'LingoChamp',
+    'description' => '',
+    'img' => 'lingochamp liulishuo.png',
+    'url' => 'https://www.lingochamp.com'
+);
+$VisitedStartups[] = array(
+    'name' => 'Mech Mind',
+    'description' => '',
+    'img' => 'mechmind.jpg',
+    'url' => 'http://www.mech-mind.net'
+);
+$VisitedStartups[] = array(
+    'name' => 'QFEELTECH',
+    'description' => '',
+    'img' => 'qfeeltech.jpg',
+    'url' => 'http://www.qfeeltech.com'
+);
+$VisitedStartups[] = array(
+    'name' => 'startup grind',
+    'description' => '',
+    'img' => 'startupgrind.jpeg',
+    'url' => 'https://www.startupgrind.com'
+);
+
+
 
 //Our TeamText - sumerize 30 Words
 $TeamText = "We are a team of young founders and entrepreneurial students.";
