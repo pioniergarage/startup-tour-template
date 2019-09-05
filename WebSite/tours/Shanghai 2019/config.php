@@ -14,12 +14,10 @@ $DepartureDate='2019-09-10';
 // $ContactEmail = "info@pioniergarage.de";
 
 //Text which sumerizes the Tour in about 200-300 Words suggested
-$AboutTourText = 'China. As the Country with the bigest population on earth, it has to tackel a lot of social, 
- economic and ecological issues. Nevertheless, as one of the most triving economies in the world,
- China is growing fast and innovative. Very competetive as they are, there is a lot of space for 
- young startups, to start there business and develope there ideas. The growth, of the economy of China for the past years
- is stunning! If you‘re in contact with any Startups, you may think are essantial for our Startuptour, feel free
- to get in touch with us!
+$AboutTourText = 'China. As the country with the biggest population on earth, it has to tackle a lot of social, 
+economic and ecological issues. Nevertheless, as one of the most thriving economies in the world,
+China is growing fast and innovative. Very competitive as they are, there is a lot of space for young startups, to start their business and develop their ideas. The growth, of the economy of China for the past years is stunning! If you‘re in contact with any Startups, you may think are essential for our Startup tour, feel free
+to get in touch with us!
                     <h4>Timeline</h4>
                     <ul class="pg-timeline">
                         <li>
@@ -124,10 +122,10 @@ $TeamMember[] = array(
 );
 $TeamMember[] = array(
     'Name' => "Marcus Maddock",
-    'ImgName' => "",
+    'ImgName' => "Marcus_Maddock.jpg",
     'Studies' => "Marketing Member, Industrial Engineering student at KIT",
-    'Text'   => "",
-    'Linkedin' => ''
+    'Text'   => "Excited to learn from this entirely different ecosystem and eager to capture some of the chinese spirit, not only with my camera.",
+    'Linkedin' => 'https://www.linkedin.com/in/marcus-maddock-462628189/'
 );
 
 //Sponsors - Images in /img/Sponsors/ImgName.png, 300x200px images                                       'Link'   => "https://www.karlsruhe.de/");
