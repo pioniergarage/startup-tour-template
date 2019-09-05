@@ -2,7 +2,7 @@
 
 //Visited Location/Area -> Title
 $Location = "Shanghai<br>2019";
-$KilometersTraveled = 18348 ;
+$KilometersToTravel = 18348 ;
 $DaysAbroad = 18;
 
 // departure date for countdown
@@ -29,14 +29,16 @@ to get in touch with us!
                             <p>18 September 2019 – 22 September 2019</p>
                         </li>
                         <li>
-                            <h5>Bejing</h5>
-                            <p>22 September April 2019 – 29 September 2019</p>
+                            <h5>Beijing</h5>
+                            <p>22 September 2019 – 29 September 2019</p>
                         </li>
                     </ul>';
 
 //Text next to the PG Logo
-$AboutThePGText = "10 members of PionierGarage, Germany‘ largest university club focused on entrepreneurship, located at the Karlsruhe Institute of Technology (KIT) in Germany, are going to visit three of the world‘s bigest and innovative cities: Shanghai, Hangzouh and Bejing.
-To find out more about our entrepreneurship club at Germany‘s leading technical university, head over to our homepage or contact us on <a href='mailto:info@pioniergarage.de'>info@pioniergarage.de</a>  to become part of the tour as a supporter, partner, sponsor or Startup/VC to be visited. We‘re looking forward to meeting inspiring people!";
+$AboutThePGText = "10 members of PionierGarage, Germany‘s largest university club focused on entrepreneurship, located at the Karlsruhe Institute of Technology (KIT), 
+are going to visit three of the world‘s biggest and innovative cities: Shanghai, Hangzhou and Beijing. To find out more about our entrepreneurship club at Germany‘s leading
+ technical university, head over to our homepage or contact us on info@pioniergarage.de to become part of the tour as a supporter,
+partner, sponsor or Startup/VC to be visited. We‘re looking forward to meeting inspiring people!";
 
 //List of Visited Startups, Names Used to find the logo"s in /img/StartupLogos/StartupName.pioniergarage
 //Store Startup Logos int the Form "StartupName.png" like in the example here

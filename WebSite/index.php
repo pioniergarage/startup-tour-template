@@ -128,19 +128,19 @@
 						<div id='clockdiv'>
 							<div class='clock-digit'>
 								<span class='days'></span>
-								<div class='smalltext'>Days</div>
+								<div class='smalltext'>DAYS</div>
 							</div>
 							<div class='clock-digit'>
 								<span class='hours'></span>
-								<div class='smalltext'>Hours</div>
+								<div class='smalltext'>HOURS</div>
 							</div>
 							<div class='clock-digit'>
 								<span class='minutes'></span>
-								<div class='smalltext'>Minutes</div>
+								<div class='smalltext'>MINS</div>
 							</div>
 							<div class='clock-digit'>
 								<span class='seconds'></span>
-								<div class='smalltext'>Seconds</div>
+								<div class='smalltext'>SECS</div>
 							</div>
 						</div>						
 						";
