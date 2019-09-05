@@ -91,14 +91,14 @@ $TeamMember[] = array(
     'Name' => "Jörg Remer",
     'ImgName' => "Joerg_Remer.jpg",
     'Studies' => "External Relations Member, Industrial Engineering student at KIT",
-    'Text'   => "",
+    'Text'   => "I am excited to explore the entrepreneurial spirit on the other side of the globe and learn more about the Chinese Startup-scene and connect to new people who share the same mindset. #PG_China2019",
     'Linkedin' => 'https://www.linkedin.com/in/jörg-remer-9a752b15b/'
 );
  $TeamMember[] = array(
     'Name' => "Jasmin Riedel",
     'ImgName' => "Jasmin_Riedel.jpg",
     'Studies' => "Head of Human Ressources, studying Electornical Engineering ",
-    'Text'   => "",
+    'Text'   => "I’m totally curious about the startup environment, the Chinese culture and the country. Exploring this fast growing country will be a great experience. I’m looking forward  to China!",
     'Linkedin' => 'https://www.linkedin.com/in/jasmin-riedel-697073181/'
 );    
 $TeamMember[] = array(
@@ -106,21 +106,21 @@ $TeamMember[] = array(
     'ImgName' => "Jan_Bode.jpg",
     'Studies' => "External Relations, Industrial Engineering student at KIT",
     'Text'   => "China! Huge, dynamic, fascinating, different! Who wouldn’t want to go?",
-    'Linkedin' => ''
+    'Linkedin' => 'https://www.linkedin.com/in/jan-bode-485406189/'
 );
 $TeamMember[] = array(
     'Name' => "Han Völker",
     'ImgName' => "Han_Voelker.jpg",
     'Studies' => "External Relations, Industrial Engineering student at KIT",
     'Text'   => "I'm very much looking forward to learn more about the Chinese business mentality, their rich culture and everyday lifes. I am glad that I could join our group from University for this unique opportunity.",
-    'Linkedin' => ''
+    'Linkedin' => 'https://www.linkedin.com/in/han-völker-8b6137189/'
 );
 $TeamMember[] = array(
     'Name' => "Jan Effenberger",
     'ImgName' => "Jan_Effenberger.jpg",
     'Studies' => "External Relations, Industrial Engineering student at KIT",
     'Text'   => "Beeing one of the biggest and fastest growing economies worldwide, I am really excited to see how young chinese entrepeneurs take advantage of this huge market. With more than 7.500 govermental funded startup incubators I hope to see many interesting young companies.",
-    'Linkedin' => ''
+    'Linkedin' => 'https://www.linkedin.com/in/jan-effenberger-42037218b/'
 );
 $TeamMember[] = array(
     'Name' => "Marcus Maddock",
