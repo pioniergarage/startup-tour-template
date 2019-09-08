@@ -2,14 +2,13 @@
 /*  Menu Styles
 /* =================================== */
 
-
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 
-.main-menu{
-  padding-bottom:20px ;
-  padding-top:20px ;
+.main-menu {
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 #header {
@@ -19,34 +18,36 @@
   right: 0;
   transition: all 0.5s;
   z-index: 997;
-  background:$primary-color;
+  background: $primary-color;
 }
 
 #header.header-scrolled {
   transition: all 0.5s;
   box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
-  .main-menu{
-    border-color:transparent;
+  .main-menu {
+    border-color: transparent;
   }
 }
 
-@media(max-width:673px){
-  #logo{
-      margin-left:20px;
+@media (max-width: 673px) {
+  #logo {
+    margin-left: 20px;
   }
 }
 
-.nav-menu li:hover > a, .menu-active,  .parent-active > .sf-with-ul{
-  color: $black !important;
+.nav-menu li:hover > a,
+.menu-active,
+.parent-active > .sf-with-ul {
+  // color: $black !important;
+  color: $black;
 }
-
-
 
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Nav Menu Essentials */
-.nav-menu, .nav-menu * {
+.nav-menu,
+.nav-menu * {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -115,13 +116,13 @@
   text-decoration: none;
   display: inline-block;
   color: $white;
-  font-weight:500;  
+  font-weight: 500;
   font-size: 12px;
   text-transform: uppercase;
   outline: none;
 }
 
-.nav-menu li:hover > a{
+.nav-menu > li:hover > a {
   color: $black;
 }
 
@@ -136,8 +137,6 @@
   background: #fff;
 }
 
-
-
 .nav-menu ul li {
   transition: 0.3s;
 }
@@ -151,13 +150,13 @@
   text-transform: none;
 }
 
-.nav-menu ul li:hover > a {
+ul.nav-menu > li:hover > a {
   color: $black;
 }
 
 .nav-menu ul ul {
   margin-right: 10px;
-  margin-top:0;
+  margin-top: 0;
 }
 
 /* Mobile Nav Toggle */
@@ -177,15 +176,15 @@
 
 #mobile-nav-toggle i {
   color: $black;
-  font-weight: 900;  
+  font-weight: 900;
 }
 
 @media (max-width: 991px) {
   #mobile-nav-toggle {
     display: inline;
   }
-  #nav-menu-container{
-    display:none;
+  #nav-menu-container {
+    display: none;
   }
 }
 
@@ -279,5 +278,3 @@ body.mobile-nav-active #mobile-nav {
 body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
-
-

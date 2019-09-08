@@ -31,3 +31,8 @@
 
 // PG Countdown
 @import "_pg-countdown.scss";
+
+// Custom Sub Menu Behavior
+.pg-sub-menu > li:hover > a {
+  color: $primary-color;
+}

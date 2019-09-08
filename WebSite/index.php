@@ -84,20 +84,28 @@
 
 				<!-- Generate Menu from Folders-->
 				<?php
-					foreach ($tours as $Tour) {
-						$TourUrl = urlencode($Tour);
-						echo "<li><a href='/index.php?conf=$TourUrl'>$Tour</a></li>";
+					if ($tours && $tours[0]) {
+						$TourUrl = urlencode($tours[0]);
+						echo "<li><a href='/index.php?conf=$TourUrl'>$tours[0]</a></li>";
 					}
 				?>
 
-				<!--
-				<li><a href="/index.php?conf=shanghai">Shanghai 2017</a></li>
-				<li><a href="/index.php?conf=peking">Peking 2017</a></li>
-				<li><a href="/index.php?conf=silicon">Silicon Valley 2016</a></li>
-				<li><a href="/index.php?conf=newYork">NewYork 2014</a></li> -->
+				<li class="menu-has-children"><a href="">Previous Tours</a>
+			            <ul class="pg-sub-menu">
+			              <!-- <li><a href="blog-home.html">Blog Home</a></li>
+						  <li><a href="blog-single.html">Blog Single</a></li> -->
+						  
+						  <?php
+							foreach (array_slice($tours, 1) as $Tour) {							
+								$TourUrl = urlencode($Tour);
+								echo "<li><a href='/index.php?conf=$TourUrl'>$Tour</a></li>";
+							}
+							?>
+				
+			            </ul>
+			          </li>	
 
-
-				 <li><a href="https://pioniergarage.de">Pioniergarage Homepage</a></li>
+				 <li><a href="https://pioniergarage.de" target="_blank">Pioniergarage Homepage</a></li>
 				<?php
 					if ($ContactEmail != "" ) {
 						echo "<li><a href='mailto:$ContactEmail'>Contact</a></li>";
