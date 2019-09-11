@@ -68,6 +68,12 @@ $VisitedStartups[] = array(
     'url' => 'https://www.glocoach.com'
 );
 $VisitedStartups[] = array(
+    'name' => 'DC-HUB',
+    'description' => '',
+    'img' => 'dc-hub.png',
+    'url' => 'https://dc-hub.de/'
+);
+$VisitedStartups[] = array(
     'name' => 'XNode',
     'description' => '',
     'img' => 'xnode.jpeg',
