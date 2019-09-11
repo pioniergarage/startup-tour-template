@@ -5,8 +5,11 @@ $Location = "Shanghai<br>2019";
 $KilometersToTravel = 18348 ;
 $DaysAbroad = 18;
 
-// departure date for countdown
-$DepartureDate='2019-09-10';
+// travel period for countdown and different headers
+$TravelPeriod = array(
+    'start' => '2019-09-10',
+    'end' => '2019-09-27'
+);
 
 //Change the Background trough replace /img/Background
 
@@ -43,7 +46,7 @@ partner, sponsor or Startup/VC to be visited. We‘re looking forward to meeting
 //List of Visited Startups, Names Used to find the logo"s in /img/StartupLogos/StartupName.pioniergarage
 //Store Startup Logos int the Form "StartupName.png" like in the example here
 // Images should have the Size 300x200 Pixel
-// $StartupsToVisit = ;
+$StartupsToVisit = 16;
 // $NumberOfStartups = ;
 
 $VisitedStartups[] = array(

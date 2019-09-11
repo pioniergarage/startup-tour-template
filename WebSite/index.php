@@ -107,7 +107,7 @@
 
 				 <li><a href="https://pioniergarage.de" target="_blank">Pioniergarage Homepage</a></li>
 				<?php
-					if ($ContactEmail != "" ) {
+					if (isset($ContactEmail)) {
 						echo "<li><a href='mailto:$ContactEmail'>Contact</a></li>";
 					}
 				?>
@@ -130,7 +130,7 @@
 					</h2> -->
 					<!-- <a href="blog-single.html" class="primary-btn">View More</a> -->
 
-					<?php if (isset($DepartureDate)) {
+					<?php if (isset($TravelPeriod) && isset($TravelPeriod['start']) && (strtotime($TravelPeriod['start']) > strtotime(date('Y-m-d')))) {
 						// counter
 						echo "
 						<div id='clockdiv'>
@@ -156,11 +156,26 @@
 						echo "	
 						<script src='js/pg-countdown.min.js'></script>					
 						<script>
-							var deadline = new Date('" . $DepartureDate. "');
+							var deadline = new Date('" . $TravelPeriod['start']. "');				
 							initializeClock('clockdiv', deadline);
 						</script> 												
 						";
-					} ?>					
+					} ?>
+
+					<?php if (
+						isset($TravelPeriod) && 
+						isset($TravelPeriod['start']) && 
+						isset($TravelPeriod['end']) && 
+						(strtotime($TravelPeriod['start']) < strtotime(date('Y-m-d'))) &&
+						(strtotime($TravelPeriod['end']) > strtotime(date('Y-m-d')))
+						) {					
+						// currently on the tour header
+
+						echo "
+						<h2 class='text-white'>
+							... currently exploring new ecosystems
+						</h2>";
+					} ?>
 	  			</div>
 	  		</div>
 	  	</div>
