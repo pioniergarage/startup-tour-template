@@ -244,6 +244,6 @@ $Sponsors[] = array('ImgName' => "Logo_KIT.svg",
                                         'Link'   => "https://www.kit.edu/");
 
 //Youtube Link - if empty -> nothing is shown
-$YoutubeLink = "";
+$YoutubeLink = "https://www.youtube.com/watch?v=Flpq_SjICOE&t=5s";
 
 //echo "debug";

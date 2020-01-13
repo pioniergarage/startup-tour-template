@@ -263,6 +263,21 @@
 	</section>
 	<!-- End home-about Area -->
 
+	<!-- Start Youtube Area -->
+	<?php if ($YoutubeLink != "") {
+		// Edit Link for video embedding
+		$YoutubeLink = str_replace("watch?v=", "embed/", $YoutubeLink);
+		echo "<section class='services-area section-gap'>
+			<div class='container' style='text-align: center;'>
+				<h3 class='text-heading'>Aftermovie</h3>
+				<div class='video-container'><iframe width='100%' height='100%' src='$YoutubeLink' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div>
+			</div>
+		</section>";
+	}
+	?>
+	<!-- End Youtube Area -->					
+
+
 	<!-- Start timeline Area -->
 	<?php if ($VisitedStartups != "" && $VisitedStartups != []) {
 		echo "<section class='timeline pb-120' id='Startups'>
@@ -297,22 +312,6 @@
 	}
 	?>
 	<!-- End timeline Area -->
-
-
-	<!-- Start Youtube Area -->
-	<?php
-	if ($YoutubeLink != "") {
-		// Edit Link for video embedding
-		$YoutubeLink = str_replace("watch?v=", "embed/", $YoutubeLink);
-		echo "<section class='services-area section-gap'>
-			<div class='container' style='text-align: center;'>
-				<h3 class='text-heading'>Aftermovie</h3>
-				<div class='video-container'><iframe width='100%' height='100%' src='$YoutubeLink' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div>
-			</div>
-		</section>";
-	}
-	?>
-	<!-- End Youtube Area -->
 
 
 	<!-- Team Area -->
