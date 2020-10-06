@@ -2,7 +2,7 @@
 
 This template is for Startup Tours. This Template needs a php enabelt Webspace to work. It is based on the Personal template from Colorlib, which stands under CC LICENSE. It was developed by [colorlib](https://colorlib.com/wp/template/personal/). You can find it's Documentation in the Folder "/ColorlibT Template/Personal - Doc". In the Folder "/Colorlib Template/OldParts" you find rests of the template, before I changed it.
 
-# How to use this Template for a new Startup Tour?
+## How to use this Template for a new Startup Tour?
 
 1. Clone this Repo to your PC
 2. Edit the `Website/tours/.../config.php` File, with Text, Links & Infos (should be self explaining)
@@ -10,11 +10,15 @@ This template is for Startup Tours. This Template needs a php enabelt Webspace t
 4. Edit `$PageToView` in `Website/index.php` to change the default page
 5. Upload `/Website` via FTP to the desired Webspace
 
-# ToDos:
+## Development Server
+
+`php -S 127.0.0.1:8000 -t ./WebSite/`
+
+## ToDos
 
 - Bildergalerie Feature
 
-# Done
+## Done
 
 - Footer Finalisieren mit Links
 - HideStartupList if no infos given
@@ -29,15 +33,15 @@ This template is for Startup Tours. This Template needs a php enabelt Webspace t
 - Menü Sprünge
 - Fluent Design
 
-# Notes
+## Notes
 
 - PG CI- Farbe: #B31918
 
-# Built With
+## Built With
 
 - [Colorlib Personal](https://colorlib.com/wp/template/personal/) - html template
 
-# Authors
+## Authors
 
 - **[Dominik Kogel](https://github.com/domiko96)** - _Initial work_
 - **[Dominic Seitz](https://github.com/dome4)** - _Further adjustments_
