@@ -26,7 +26,7 @@
 		}
 	}else {
 		//Change here for the Standard Page
-		$PageToView = "Shanghai 2019";
+		$PageToView = "Israel 2023";
 		include("./tours/$PageToView/config.php");
 	}
 
