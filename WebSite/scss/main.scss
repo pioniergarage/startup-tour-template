@@ -36,3 +36,11 @@
 .pg-sub-menu > li:hover > a {
   color: $primary-color;
 }
+
+// show links in ci color
+section.home-about-area {
+  a,
+  a:hover {
+    color: #b31918;
+  }
+}
