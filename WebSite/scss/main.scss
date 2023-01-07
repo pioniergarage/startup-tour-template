@@ -1,36 +1,39 @@
-@import "bootstrap/functions";
-@import "bootstrap/variables";
+@import 'bootstrap/functions';
+@import 'bootstrap/variables';
 
 //
 // Grid mixins
 //
 
-@import "bootstrap/mixins/breakpoints";
+@import 'bootstrap/mixins/breakpoints';
 
 // including variables and mixins
-@import "theme/variables";
-@import "theme/mixins";
-@import "theme/flexbox";
-@import "theme/reset";
+@import 'theme/variables';
+@import 'theme/mixins';
+@import 'theme/flexbox';
+@import 'theme/reset';
+
+// include fonts
+@import 'fonts';
 
 // Custom Scss
-@import "theme/elements";
-@import "theme/header";
-@import "theme/home";
-@import "theme/about";
-@import "theme/price";
-@import "theme/blog";
-@import "theme/contact";
-@import "theme/footer";
+@import 'theme/elements';
+@import 'theme/header';
+@import 'theme/home';
+@import 'theme/about';
+@import 'theme/price';
+@import 'theme/blog';
+@import 'theme/contact';
+@import 'theme/footer';
 
 // Youtube iFrame
-@import "youtube_iframe";
+@import 'youtube_iframe';
 
 // PG-Timeline
-@import "pg-timeline";
+@import 'pg-timeline';
 
 // PG Countdown
-@import "_pg-countdown.scss";
+@import '_pg-countdown.scss';
 
 // Custom Sub Menu Behavior
 .pg-sub-menu > li:hover > a {
