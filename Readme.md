@@ -8,7 +8,7 @@ This template is for Startup Tours. This Template needs a php enabelt Webspace t
 2. Edit the `Website/tours/.../config.php` File, with Text, Links & Infos (should be self explaining)
 3. Add Images of the Tour (->`Website/tours/.../img`) - see `Website/tours/.../config.php`
 4. Edit `$PageToView` in `Website/index.php` to change the default page
-5. Upload `/Website` via FTP to the desired Webspace
+5. Upload `/WebSite` via FTP to the desired Webspace
 
 ## Development Server
 

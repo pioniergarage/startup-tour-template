@@ -1,0 +1,22 @@
+name: Deploy Admin site to Firebase Hosting on merge
+'on':
+  push:
+    branches:
+      - master
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v3
+
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@4.3.3
+      with:
+        server: http://ssh.strato.de/
+        username: ftp_startup_touren@pioniergarage.de
+        password: ${{ secrets.password }}
+        local-dir: ./WebSite/
+        server-dir: /
+        dry-run: true
