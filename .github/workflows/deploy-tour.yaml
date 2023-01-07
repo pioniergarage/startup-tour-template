@@ -14,7 +14,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
-        server: http://ssh.strato.de
+        server: https://ssh.strato.de
         username: ftp_startup_touren@pioniergarage.de
         password: ${{ secrets.FTP_KEY }}
         local-dir: ./WebSite/
