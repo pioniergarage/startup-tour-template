@@ -16,7 +16,7 @@ jobs:
       with:
         server: http://ssh.strato.de/
         username: ftp_startup_touren@pioniergarage.de
-        password: ${{ secrets.password }}
+        password: ${{ secrets.FTP_KEY }}
         local-dir: ./WebSite/
         server-dir: /
         dry-run: true
