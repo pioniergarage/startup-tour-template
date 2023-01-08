@@ -119,6 +119,14 @@ $TeamMember[] = array(
     'Linkedin' => 'https://www.linkedin.com/in/jboening/'
 );
 
+$TeamMember[] = array(
+    'Name' => "Annalena Hees",
+    'ImgName' => "Annalena_Hees.jpg",
+    'Studies' => "Executive Chairwoman of PionierGarage",
+    'Text'   => "The PionierGarage Startup Tour is one of the annual highlights for each and every PionierGarage member. That's why I'm delighted that, after Covid, we're finally back to exploring the world's startup ecosystems again, with Israel being a particularly interesting and outstanding destination.",
+    'Linkedin' => 'https://www.linkedin.com/in/alhees/'
+);
+
 //Sponsors - Images in /img/Sponsors/ImgName.png, 300x200px images                                       'Link'   => "https://www.karlsruhe.de/");
 $Sponsors[] = array('ImgName' => "Logo_Karlsruhe.png",
                                         'Link'   => "https://www.karlsruhe.de/");
