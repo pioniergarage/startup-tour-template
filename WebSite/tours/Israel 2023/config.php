@@ -127,6 +127,14 @@ $TeamMember[] = array(
     'Linkedin' => 'https://www.linkedin.com/in/alhees/'
 );
 
+$TeamMember[] = array(
+    'Name' => "Anny Jo Köhler",
+    'ImgName' => "Anny_Köhler.jpeg",
+    'Studies' => "Member of PionierGarage",
+    'Text'   => "I'm passionate about startups, new ideas and other cultures. So I'm super excited to find out what makes Tel Aviv the new Silicon Valley and how the startup ecosystem works there. I am looking forward to the exchange on site and would like to take new impulses for business ideas back to Germany.",
+    'Linkedin' => 'https://www.linkedin.com/in/annyjo-koehler/'
+);
+
 //Sponsors - Images in /img/Sponsors/ImgName.png, 300x200px images                                       'Link'   => "https://www.karlsruhe.de/");
 $Sponsors[] = array('ImgName' => "Logo_Karlsruhe.png",
                                         'Link'   => "https://www.karlsruhe.de/");
