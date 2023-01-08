@@ -17,6 +17,7 @@ jobs:
         server: https://ssh.strato.de
         username: ftp_startup_touren@pioniergarage.de
         password: ${{ secrets.FTP_KEY }}
+        git-ftp-args: --insecure
         port: 22
         local_dir: ./WebSite/
         server_dir: ./
