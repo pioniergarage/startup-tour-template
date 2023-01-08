@@ -19,3 +19,4 @@ jobs:
         forceUpload: true                          # Optional, Force uploading all files, Default to false(upload only newer files).
         localDir: './WebSite/'                              # Required, Absolute or relative to cwd.
         remoteDir: '/WebSite'                             # Required, Absolute path only.
+        dryRun: false
