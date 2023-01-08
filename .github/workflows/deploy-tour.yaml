@@ -16,7 +16,7 @@ jobs:
         host: ssh.strato.de                 # Recommended to put the credentials in github secrets.
         username: ftp_startup_touren@pioniergarage.de
         password: ${{ secrets.FTP_PASSWORD }}
-        forceUpload: true                          # Optional, Force uploading all files, Default to false(upload only newer files).
+        forceUpload: false                          # Optional, Force uploading all files, Default to false(upload only newer files).
         localDir: './WebSite/'                              # Required, Absolute or relative to cwd.
         remoteDir: '/WebSite'                             # Required, Absolute path only.
         dryRun: false
