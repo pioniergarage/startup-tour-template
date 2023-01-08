@@ -14,10 +14,9 @@ jobs:
     - name: 📂 Sync files
       uses: dennisameling/ftp-upload-action@v1
       with:
-        server: http://ssh.strato.de
+        server: ssh.strato.de
         username: ftp_startup_touren@pioniergarage.de
         password: ${{ secrets.FTP_KEY }}
-        port: 22
         local_dir: ./WebSite/
         server_dir: ./
         secure: true
