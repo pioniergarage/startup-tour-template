@@ -10,15 +10,12 @@ jobs:
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v3
-
-    - name: 📂 Sync files
-      uses: dennisameling/ftp-upload-action@v1
+    - name: 📂 SFTP uploader                       # Upload to SFTP 
+      uses: wangyucode/sftp-upload-action@v1.4.8
       with:
-        server: http://ssh.strato.de
+        host: ssh.strato.de                 # Recommended to put the credentials in github secrets.
         username: ftp_startup_touren@pioniergarage.de
-        password: ${{ secrets.FTP_KEY }}
-        git-ftp-args: --insecure
-        port: 22
-        local_dir: ./WebSite/
-        server_dir: ./
-        secure: true
+        password: ${{ secrets.FTP_PASSWORD }}
+        forceUpload: false                          # Optional, Force uploading all files, Default to false(upload only newer files).
+        localDir: './WebSite/'                              # Required, Absolute or relative to cwd.
+        remoteDir: '/'                             # Required, Absolute path only.
