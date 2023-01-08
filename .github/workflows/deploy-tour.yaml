@@ -10,12 +10,15 @@ jobs:
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v3
-    - name: debug
-      run: echo ${{ secrets.FTP_KEY }}
+
     - name: 📂 Sync files
-      uses: sebastianpopp/ftp-action@releases/v2
+      uses: dennisameling/ftp-upload-action@v1
       with:
-        host: https://ssh.strato.de
-        user: ftp_startup_touren@pioniergarage.de
+        server: http://ssh.strato.de
+        username: ftp_startup_touren@pioniergarage.de
         password: ${{ secrets.FTP_KEY }}
-        localDir: ./WebSite/
+        git-ftp-args: --insecure
+        port: 22
+        local_dir: ./WebSite/
+        server_dir: ./
+        secure: true
