@@ -135,6 +135,14 @@ $TeamMember[] = array(
     'Linkedin' => 'https://www.linkedin.com/in/annyjo-koehler/'
 );
 
+$TeamMember[] = array(
+    'Name' => "Hamza Lakhdar",
+    'ImgName' => "Hamza_Lakhdar.png",
+    'Studies' => "Member of PionierGarage",
+    'Text'   => "I'm exited to figure out about the Israeli startup economy, it's specialities and strengths and what our startup economy in Germany can learn from it. I'm also exited about how young entrepreneurs from another country think and act, what we have in common and how we can improve each other.",
+    'Linkedin' => 'https://www.linkedin.com/in/hamza-l-5b9986212/'
+);
+
 //Sponsors - Images in /img/Sponsors/ImgName.png, 300x200px images                                       'Link'   => "https://www.karlsruhe.de/");
 $Sponsors[] = array('ImgName' => "Logo_Karlsruhe.png",
                                         'Link'   => "https://www.karlsruhe.de/");
