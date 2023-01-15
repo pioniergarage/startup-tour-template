@@ -2,8 +2,9 @@
 
 //Visited Location/Area -> Title
 $Location = "Israel <br>2023";
-$KilometersToTravel = 0 ;
-$DaysAbroad = 0;
+$KilometersToTravel = 3941 ;
+$DaysAbroad = 7;
+$MotivatedPGlers = 12;
 
 // travel period for countdown and different headers
 $TravelPeriod = array(
