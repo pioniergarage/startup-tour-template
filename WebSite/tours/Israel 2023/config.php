@@ -4,7 +4,7 @@
 $Location = "Israel <br>2023";
 $KilometersToTravel = 3941 ;
 $DaysAbroad = 7;
-$MotivatedPGlers = 12;
+$MotivatedPGlers = 15;
 
 // travel period for countdown and different headers
 $TravelPeriod = array(
@@ -45,7 +45,7 @@ Finally, we\'ll get to experience the vibrant culture and history of this fascin
                     </ul>';
 
 //Text next to the PG Logo
-$AboutThePGText = '12 members of PionierGarage, Germany\'s largest university club focused on entrepreneurship, located at the Karlsruhe Institute of Technology (KIT), 
+$AboutThePGText = '15 members of PionierGarage, Germany\'s largest university club focused on entrepreneurship, located at the Karlsruhe Institute of Technology (KIT), 
 are going to visit one of the world\'s most innovative countries: Israel.<br><br>
 To find out more about our entrepreneurship club at Germany\'s leading
  technical university, head over to <a href="https://pioniergarage.de" target="_blank">our homepage</a> or contact us via <a href= "mailto:info@pioniergarage.de" target="_blank">info@pioniergarage.de</a> to become part of the tour as a supporter,
