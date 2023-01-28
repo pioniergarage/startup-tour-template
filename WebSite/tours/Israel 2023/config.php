@@ -164,7 +164,7 @@ $TeamMember[] = array(
     'Name' => "Ergin Cataltepe",
     'ImgName' => "Ergin_Cataltepe.jpg",
     'Studies' => "Member of PionierGarage",
-    'Text'   => "I am looking forward to meeting inspiring entrepneurs and learning more about the startup nation Israel.",
+    'Text'   => "I am enthralled by the possibilities that new technologies and innovative ideas bring. With a rich cultural heritage and a strong entrepreneurial spirit, I am eagerly anticipating my visit to Israel.",
     'Linkedin' => 'https://www.linkedin.com/in/ergin-cataltepe-967263211/'
 );
 
