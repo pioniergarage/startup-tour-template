@@ -107,7 +107,7 @@ $TeamMember[] = array(
 $TeamMember[] = array(
     'Name' => "Julian Faber",
     'ImgName' => "Julian_Faber.jpg",
-    'Studies' => "Member of PionierGarage",
+    'Studies' => "Member of PionierGarage and VC expert",
     'Text'   => "Israel has always been a dream destination for me. It is rich in historical and cultural sights and combines that with world-leading entrepreneurial achievements. I am thrilled to meet Israeli founders and investors to learn more about the advanced ecosystem.",
     'Linkedin' => 'https://www.linkedin.com/in/julian-faber/'
 );
@@ -166,6 +166,22 @@ $TeamMember[] = array(
     'Studies' => "Member of PionierGarage",
     'Text'   => "I am looking forward to meeting inspiring entrepneurs and learning more about the startup nation Israel.",
     'Linkedin' => 'https://www.linkedin.com/in/ergin-cataltepe-967263211/'
+);
+
+$TeamMember[] = array(
+    'Name' => "Vincent Fiedler",
+    'ImgName' => "Vincent_Fiedler.jpg",
+    'Studies' => "Board member of PionierGarage for operations",
+    'Text'   => "I am looking forward to meeting inspiring entrepneurs and learning more about the startup nation Israel.",
+    'Linkedin' => 'https://www.linkedin.com/in/vincentfiedler/'
+);
+
+$TeamMember[] = array(
+    'Name' => "Elisabeth Goebel",
+    'ImgName' => "Elisa_Goebel.jpg",
+    'Studies' => "Member of PionierGarage",
+    'Text'   => "It's not about ideas. It's about making ideas happen. Europe often tends to doubt, while startup nations like Israel are already acting. I hope to be able to take a leaf out of this mindset back to Germany.",
+    'Linkedin' => 'https://www.linkedin.com/in/elisabeth-goebel/'
 );
 
 //Sponsors - Images in /img/Sponsors/ImgName.png, 300x200px images                                       'Link'   => "https://www.karlsruhe.de/");
