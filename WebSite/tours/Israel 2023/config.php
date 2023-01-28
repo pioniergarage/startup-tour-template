@@ -137,11 +137,35 @@ $TeamMember[] = array(
 );
 
 $TeamMember[] = array(
-    'Name' => "Hamza Lakhdar",
-    'ImgName' => "Hamza_Lakhdar.png",
+    'Name' => "Elias Bürkle",
+    'ImgName' => "Elias_Bürkle.jpg",
     'Studies' => "Member of PionierGarage",
-    'Text'   => "I'm exited to figure out about the Israeli startup economy, it's specialities and strengths and what our startup economy in Germany can learn from it. I'm also exited about how young entrepreneurs from another country think and act, what we have in common and how we can improve each other.",
-    'Linkedin' => 'https://www.linkedin.com/in/hamza-l-5b9986212/'
+    'Text'   => "I am very interested in all kinds of technological contexts and entrepreneurial issues. That's why I'm really looking forward to the technology stronghold Israel, especially Tel Aviv. I am also looking forward to the cultural background that Israel offers in combination with new technological achievements.",
+    'Linkedin' => ''
+);
+
+$TeamMember[] = array(
+    'Name' => "Jonas Höfflin",
+    'ImgName' => "Jonas_Höfflin.jpg",
+    'Studies' => "Member of PionierGarage",
+    'Text'   => "I am looking forward to meeting inspiring entrepneurs and learning more about the startup nation Israel.",
+    'Linkedin' => 'https://www.linkedin.com/in/jonas-hoefflin-267285182/'
+);
+
+$TeamMember[] = array(
+    'Name' => "Friedrich Hasenbein",
+    'ImgName' => "Friedrich_Hasenbein.jpg",
+    'Studies' => "Member of PionierGarage",
+    'Text'   => "I am very excited to be a part of the startup tour. Besides its intense history and diversity of religions, cultures and lifestyles, Israel is also known for a fertile startup ecosystem. During the trip, I would like to learn how Israel has managed to build a startup-friendly infrastructure that allows it to respond to changes in the world with innovation.",
+    'Linkedin' => 'https://www.linkedin.com/in/friedrich-hasenbein-10308221b/'
+);
+
+$TeamMember[] = array(
+    'Name' => "Ergin Cataltepe",
+    'ImgName' => "Ergin_Cataltepe.jpg",
+    'Studies' => "Member of PionierGarage",
+    'Text'   => "I am looking forward to meeting inspiring entrepneurs and learning more about the startup nation Israel.",
+    'Linkedin' => 'https://www.linkedin.com/in/ergin-cataltepe-967263211/'
 );
 
 //Sponsors - Images in /img/Sponsors/ImgName.png, 300x200px images                                       'Link'   => "https://www.karlsruhe.de/");
