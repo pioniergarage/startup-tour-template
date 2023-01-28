@@ -148,7 +148,7 @@ $TeamMember[] = array(
     'Name' => "Jonas Höfflin",
     'ImgName' => "Jonas_Höfflin.jpg",
     'Studies' => "Member of PionierGarage",
-    'Text'   => "I am looking forward to meeting inspiring entrepneurs and learning more about the startup nation Israel.",
+    'Text'   => "I am very interested in startups and how they work. I'm especially interested in how early-stage founders overcome challenges and manage their time.",
     'Linkedin' => 'https://www.linkedin.com/in/jonas-hoefflin-267285182/'
 );
 
@@ -172,7 +172,7 @@ $TeamMember[] = array(
     'Name' => "Vincent Fiedler",
     'ImgName' => "Vincent_Fiedler.jpg",
     'Studies' => "Board member of PionierGarage for operations",
-    'Text'   => "I am looking forward to meeting inspiring entrepneurs and learning more about the startup nation Israel.",
+    'Text'   => "I'm always on the lookout for new experiences and ideas. For this, the startup tour of the PionierGarage is perfect, because you get to know so many new people and ecosystems! I'm excited to see who we will meet in Israel!",
     'Linkedin' => 'https://www.linkedin.com/in/vincentfiedler/'
 );
 
