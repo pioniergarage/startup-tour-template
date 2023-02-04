@@ -184,6 +184,14 @@ $TeamMember[] = array(
     'Linkedin' => 'https://www.linkedin.com/in/elisabeth-goebel/'
 );
 
+$TeamMember[] = array(
+    'Name' => "Bien Tran",
+    'ImgName' => "Bien_Tran.jpg",
+    'Studies' => "Member of PionierGarage",
+    'Text'   => "The more you learn, the more you grow and the more you grow, the more you can offer others. Israel has a unique start up culture. Having the priviledge to be part of this journey and be able to get insights, inspirations, impulses helps me to offer others as much value as I possibly can.",
+    'Linkedin' => 'https://www.linkedin.com/in/bien-tran/'
+);
+
 //Sponsors - Images in /img/Sponsors/ImgName.png, 300x200px images                                       'Link'   => "https://www.karlsruhe.de/");
 $Sponsors[] = array('ImgName' => "Logo_Karlsruhe.png",
                                         'Link'   => "https://www.karlsruhe.de/");
