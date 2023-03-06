@@ -32,15 +32,15 @@ Finally, we\'ll get to experience the vibrant culture and history of this fascin
                     <ul class="pg-timeline">
                         <li>
                             <h5>Tel Aviv</h5>
-                            <p>29 May 2023 – 02 June 2023</p>
-                        </li>
-                        <li>
-                            <h5>Jerusalem</h5>
-                            <p>03 June 2023</p>
+                            <p>29 May 2023 – 05 June 2023</p>
                         </li>
                         <li>
                             <h5>Haifa</h5>
-                            <p>04 June 2023 - 05 June 2023</p>
+                            <p>31 May 2023</p>
+                        </li>
+                        <li>
+                            <h5>Jerusalem</h5>
+                            <p>02 June 2023</p>
                         </li>
                     </ul>';
 
