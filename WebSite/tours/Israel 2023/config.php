@@ -107,7 +107,7 @@ $TeamMember[] = array(
 $TeamMember[] = array(
     'Name' => "Julian Faber",
     'ImgName' => "Julian_Faber.jpg",
-    'Studies' => "Member of PionierGarage and VC expert",
+    'Studies' => "Member of PionierGarage",
     'Text'   => "Israel has always been a dream destination for me. It is rich in historical and cultural sights and combines that with world-leading entrepreneurial achievements. I am thrilled to meet Israeli founders and investors to learn more about the advanced ecosystem.",
     'Linkedin' => 'https://www.linkedin.com/in/julian-faber/'
 );
