@@ -58,12 +58,25 @@ $StartupsToVisit = 11;
 // $NumberOfStartups = ;
 
 $VisitedStartups[] = array(
-    'name' => 'Coming soon',
-    'description' => 'We are currently planning this Startup Tour to Israel and will be announcing shortly which companies we will be visiting on our tour.',
-    'img' => 'coming-soon.jpg',
-    'url' => 'https://pioniergarage.de'
+    'name' => 'The Helmholtz-Office Tel Aviv',
+    'description' => 'Research for grand challenges. The Helmholtz Association in Israel services as a point of contact for existing and future partners in research, innovation, business and politics.',
+    'img' => 'logo_helmholtz.png',
+    'url' => 'https://www.helmholtz.de/international/buero-tel-aviv/'
 );
 
+$VisitedStartups[] = array(
+    'name' => 'German Embassy Tel Aviv',
+    'description' => '',
+    'img' => 'logo_embassy.png',
+    'url' => 'https://tel-aviv.diplo.de/il-de'
+);
+
+$VisitedStartups[] = array(
+    'name' => 'Hasoub',
+    'description' => 'A grassroots movement paving the way for the coming generation of Arab tech-entrepreneurs.',
+    'img' => 'logo_hasoub.png',
+    'url' => 'https://www.hasoub.org/'
+);
 
 
 //Our TeamText - sumerize 30 Words
