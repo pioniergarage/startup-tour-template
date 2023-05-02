@@ -58,8 +58,8 @@ $StartupsToVisit = 11;
 // $NumberOfStartups = ;
 
 $VisitedStartups[] = array(
-    'name' => 'The Helmholtz-Office Tel Aviv',
-    'description' => 'Research for grand challenges. The Helmholtz Association in Israel services as a point of contact for existing and future partners in research, innovation, business and politics.',
+    'name' => 'Helmholtz Association',
+    'description' => 'Research for grand challenges. The Helmholtz Association in Tel Aviv services as a point of contact for existing and future partners in research, innovation, business and politics.',
     'img' => 'logo_helmholtz.png',
     'url' => 'https://www.helmholtz.de/international/buero-tel-aviv/'
 );
