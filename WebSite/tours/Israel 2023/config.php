@@ -78,6 +78,13 @@ $VisitedStartups[] = array(
     'url' => 'https://www.hasoub.org/'
 );
 
+$VisitedStartups[] = array(
+    'name' => 'SigmaLabs',
+    'description' => 'SigmaLabs accelerators provide the environment for build-up and innovation, supported by personal, deep mentorship from serial founders and top CEOs of successful startups.',
+    'img' => 'logo_sigmalabs.png',
+    'url' => 'https://sigmalabs.co/'
+);
+
 
 //Our TeamText - sumerize 30 Words
 $TeamText = "We are a team of young founders and entrepreneurial students.";
