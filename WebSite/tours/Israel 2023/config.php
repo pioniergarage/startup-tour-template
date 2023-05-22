@@ -36,11 +36,11 @@ Finally, we\'ll get to experience the vibrant culture and history of this fascin
                         </li>
                         <li>
                             <h5>Haifa</h5>
-                            <p>31 May 2023</p>
+                            <p>30 May 2023</p>
                         </li>
                         <li>
                             <h5>Jerusalem</h5>
-                            <p>02 June 2023</p>
+                            <p>04 June 2023</p>
                         </li>
                     </ul>';
 
