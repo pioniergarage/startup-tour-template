@@ -85,6 +85,20 @@ $VisitedStartups[] = array(
     'url' => 'https://sigmalabs.co/'
 );
 
+$VisitedStartups[] = array(
+    'name' => 'Electreon',
+    'description' => 'Electreon is the leading provider of wireless charging solutions for electric vehicles (EVs). We deliver cost-effective, end-to-end charging infrastructure and services, including dynamic charging wireless Electric Roads.',
+    'img' => 'logo_electreon.png',
+    'url' => 'https://electreon.com/'
+);
+
+$VisitedStartups[] = array(
+    'name' => 'Daika Wood',
+    'description' => 'Daikawood is a new all-natural material composed of wood waste, giving industry a sustainable digital adaptation to current wood fabrication processes.',
+    'img' => 'logo_daikawood.png',
+    'url' => 'https://daikawood.com/'
+);
+
 
 //Our TeamText - sumerize 30 Words
 $TeamText = "We are a team of young founders and entrepreneurial students.";
