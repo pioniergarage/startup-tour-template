@@ -99,6 +99,13 @@ $VisitedStartups[] = array(
     'url' => 'https://daikawood.com/'
 );
 
+$VisitedStartups[] = array(
+    'name' => 'itrek',
+    'description' => 'itrek introduces tomorrow’s leaders in business, law, policy and STEM to Israel, helping them experience Israel firsthand through peer-led, week-long Israel Treks.',
+    'img' => 'logo_itrek.png',
+    'url' => 'https://itrek.org/'
+);
+
 
 //Our TeamText - sumerize 30 Words
 $TeamText = "We are a team of young founders and entrepreneurial students.";
