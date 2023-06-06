@@ -86,10 +86,10 @@ $VisitedStartups[] = array(
 );
 
 $VisitedStartups[] = array(
-    'name' => 'Electreon',
-    'description' => 'Electreon is the leading provider of wireless charging solutions for electric vehicles (EVs). We deliver cost-effective, end-to-end charging infrastructure and services, including dynamic charging wireless Electric Roads.',
-    'img' => 'logo_electreon.png',
-    'url' => 'https://electreon.com/'
+    'name' => 'Addionics',
+    'description' => 'The next generation of rechargeable batteries: Addionics provides specialized improved rechargeable batteries by redesigning their architecture.',
+    'img' => 'logo_addionics.png',
+    'url' => 'https://www.addionics.com/'
 );
 
 $VisitedStartups[] = array(
@@ -104,6 +104,20 @@ $VisitedStartups[] = array(
     'description' => 'itrek introduces tomorrow’s leaders in business, law, policy and STEM to Israel, helping them experience Israel firsthand through peer-led, week-long Israel Treks.',
     'img' => 'logo_itrek.png',
     'url' => 'https://itrek.org/'
+);
+
+$VisitedStartups[] = array(
+    'name' => 'PayEm',
+    'description' => 'PayEm helps finance and procurement teams drive business growth with one platform that brings compliance & control to your finance processes, boosting efficiency, savings, and accountability.',
+    'img' => 'logo_payem.png',
+    'url' => 'https://www.payem.co/'
+);
+
+$VisitedStartups[] = array(
+    'name' => 'Peres Center',
+    'description' => 'The Peres Center for Peace and Innovation is a leading non-profit and non-government organization focused on presenting the incredible story of Israel, the Innovation nation.',
+    'img' => 'logo_peres.png',
+    'url' => 'https://www.peres-center.org/en/'
 );
 
 
