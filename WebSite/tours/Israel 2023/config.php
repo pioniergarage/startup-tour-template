@@ -54,8 +54,8 @@ partner, sponsor or Startup/VC to be visited. We\'re looking forward to meeting 
 //List of Visited Startups, Names Used to find the logo"s in /img/StartupLogos/StartupName.pioniergarage
 //Store Startup Logos int the Form "StartupName.png" like in the example here
 // Images should have the Size 300x200 Pixel
-$StartupsToVisit = 11;
-// $NumberOfStartups = ;
+// $StartupsToVisit = 9;
+$NumberOfStartups = 9;
 
 $VisitedStartups[] = array(
     'name' => 'Helmholtz Association',
