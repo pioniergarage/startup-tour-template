@@ -120,6 +120,13 @@ $VisitedStartups[] = array(
     'url' => 'https://www.peres-center.org/en/'
 );
 
+$VisitedStartups[] = array(
+    'name' => 'Ownboard',
+    'description' => 'Single, centralized platform to streamline the employee onboarding process.',
+    'img' => 'logo_ownboard.png',
+    'url' => 'https://ownboard.ai/'
+);
+
 
 //Our TeamText - sumerize 30 Words
 $TeamText = "We are a team of young founders and entrepreneurial students.";
