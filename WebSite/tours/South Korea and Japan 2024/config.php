@@ -75,7 +75,7 @@ $TeamMember[] = array(
     'Name' => "Bien Tran",
     'ImgName' => "Bien_Tran.jpg",
     'Studies' => "Member of PionierGarage",
-    'Text'   => "-",
+    'Text'   => "Balancing tradition and modernity with innovation and redefining industries through technology: This is what South Korea and Japan stand for. This journey is an exploration of inspiration from pioneers who are shaping the future where globalisation and technology are driving boundless progress.",
     'Linkedin' => 'https://www.linkedin.com/in/bien-tran/'
 );
 
