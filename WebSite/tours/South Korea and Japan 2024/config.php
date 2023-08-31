@@ -154,7 +154,7 @@ $TeamMember[] = array(
 $TeamMember[] = array(
     'Name' => "Tobias Carlé",
     'ImgName' => "Tobias_Carle.jpg",
-    'Studies' => "Member of PionierGarage",
+    'Studies' => "Former board member of PionierGarage",
     'Text'   => "South Korea and Japan are innovative powerhouses with rich histories. I am eager to learn how large corporations in South Korea and Japan develop startup ecosystems and advance innovation and automation despite an aging population, in order to draw valuable conclusions for Germany.",
     'Linkedin' => 'https://www.linkedin.com/in/tobias-carl%C3%A9-6205ab194/'
 );
