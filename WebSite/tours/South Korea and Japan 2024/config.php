@@ -18,15 +18,15 @@ $TravelPeriod = array(
 $ContactEmail = "info@pioniergarage.de";
 
 //Text which sumerizes the Tour in about 200-300 Words suggested
-$AboutTourText = '<br><b>World-renowned hub of innovation</b><br>
-Israel, also known as the "Startup Nation," is home to a thriving and dynamic startup culture. With a population of just 9 million people, Israel has produced more startups per capita than any other country in the world. These startups have made a significant impact on the global market, with many of them being acquired by major tech companies for billions of dollars.
+$AboutTourText = '<br><b>Tech titans yield to thriving startups: South Korea and Japan forge entrepreneurial landscapes</b><br>
+Renowned for its tech powerhouses like Samsung and LG, South Korea is proactively nurturing its developing startup ecosystem. With a burgeoning assemblage of over 30,000 startups now thriving within its borders, South Korea's innovation landscape spans diverse technological domains. This surge in startup activity marks a noticeable shift from the previous dominance of major tech conglomerates. Meanwhile, Japan's economic paradigm is mirroring this trend as it transitions away from its historical dependence on corporate giants. The entrepreneurial landscape is gaining momentum, propelled by a notable decline in risk aversion among investors. 
 <br><br>
 <b>From Karlsruhe to Seoul and Tokyo</b><br>
 During our Startup Tour to South Korea and Japan, we will visit some of the most innovative and successful startups of both countries. We\'ll get a behind-the-scenes look at how these companies operate and how they have disrupted their respective industries.
 
 In addition to visiting startups, we\'ll also meet with investors, authorities and industry leaders. This is a great opportunity to network and learn from some of the most successful professionals in the startup world. 
 
-Finally, we\'ll get to experience the vibrant culture and history of these fascinating countries, from the biggest city of the world (Tokyo) to natural heritages in South Korea, to make the Startup Tour a one-of-a-kind experience that combines culture, innovation, and networking.
+Finally, we\'ll get to experience the vibrant culture and history of these fascinating countries, from huge cities to natural heritages in Japan and South Korea, to make the Startup Tour a one-of-a-kind experience that combines culture, innovation, and networking.
 <br><br>                    
 					<h4>Timeline</h4>
                     <ul class="pg-timeline">
@@ -123,7 +123,7 @@ $TeamMember[] = array(
     'Name' => "Jannik Nefferdorf",
     'ImgName' => "Jannik_Nefferdorf.jpg",
     'Studies' => "Former board member of PionierGarage",
-    'Text'   => "-",
+    'Text'   => "I'm interested in learning about South Korea's and Japan's startup culture and meeting with successful entrepreneurs and investors. I hope to gain insight into the inner workings of successful startups and to make valuable connections in the industry.",
     'Linkedin' => 'https://www.linkedin.com/in/neffi97/'
 );
 
