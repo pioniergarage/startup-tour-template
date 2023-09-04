@@ -147,7 +147,7 @@ $TeamMember[] = array(
     'Name' => "Linus Schilpp",
     'ImgName' => "Linus_Schilpp.jpg",
     'Studies' => "Member of PionierGarage",
-    'Text'   => "-",
+    'Text'   => "Japan's rich culture and unique work ethic have always been a source of fascination, and when it comes to South Korea, it's equally intriguing to see how these relatively small nations can produce such innovative companies. I'm hopeful for cross-cultural exchanges and valuable insights into exciting startups to deepen my passion for creative ideas.",
     'Linkedin' => 'https://www.linkedin.com/in/linus-schilpp-92b351281/'
 );
 
