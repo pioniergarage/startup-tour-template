@@ -115,7 +115,7 @@ $TeamMember[] = array(
     'Name' => "Gregory Schenk",
     'ImgName' => "Gregory_Schenk.jpg",
     'Studies' => "Board member of PionierGarage",
-    'Text'   => "-",
+    'Text'   => "As a business informatics student and organiser of our student start-up competition, I am particularly looking forward to the Startup Tour. It gives me the opportunity to combine my passion for Japanese culture with my curiosity for innovative startup landscapes. Tanoshimi desu",
     'Linkedin' => 'https://www.linkedin.com/in/gregory-schenk-134362117/'
 );
 
@@ -139,7 +139,7 @@ $TeamMember[] = array(
     'Name' => "Leon Kunz",
     'ImgName' => "Leon_Kunz.jpg",
     'Studies' => "Board member of PionierGarage",
-    'Text'   => "-",
+    'Text'   => "Japan and South Korea stand out as some of the most innovative countries in terms of entrepreneurship and startups. I am thrilled to have the opportunity to immerse myself in the world's most advanced technologies. Additionally, I firmly believe that this experience will enrich my studies in Mechanical Engineering at KIT.",
     'Linkedin' => 'https://www.linkedin.com/in/leon-kunz-4a354621b/'
 );
 
@@ -163,7 +163,7 @@ $TeamMember[] = array(
     'Name' => "Vincent Fiedler",
     'ImgName' => "Vincent_Fiedler.jpg",
     'Studies' => "Former board member of PionierGarage",
-    'Text'   => "-",
+    'Text'   => "A few months ago, I was already able to meet some innovative startups from South Korea and Japan at VivaTech in Paris, which is why I am very much looking forward to learning even more about the respective scenes and the rich cultures of these countries.",
     'Linkedin' => 'https://www.linkedin.com/in/vincentfiedler/'
 );
 
