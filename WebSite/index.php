@@ -26,7 +26,7 @@
 		}
 	}else {
 		//Change here for the Standard Page
-		$PageToView = "Israel 2023";
+		$PageToView = "South Korea and Japan 2024";
 		include("./tours/$PageToView/config.php");
 	}
 
