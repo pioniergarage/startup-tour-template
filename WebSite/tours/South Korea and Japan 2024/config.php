@@ -96,14 +96,6 @@ $TeamMember[] = array(
 );
 
 $TeamMember[] = array(
-    'Name' => "Christian Simon",
-    'ImgName' => "Christian_Simon.jpg",
-    'Studies' => "Executive chairman of PionierGarage",
-    'Text'   => "Given my unique bi-cultural background, I'm genuinely enthusiastic about immersing myself in the intricacies of Asian leadership. My goal is to assimilate these insights, leveraging them to elevate and cultivate my personal leadership methodology.",
-    'Linkedin' => 'https://www.linkedin.com/in/christian-simon-76559b103/'
-);
-
-$TeamMember[] = array(
     'Name' => "Friedrich Hasenbein",
     'ImgName' => "Friedrich_Hasenbein.jpg",
     'Studies' => "Board member of PionierGarage",
@@ -113,7 +105,7 @@ $TeamMember[] = array(
 
 $TeamMember[] = array(
     'Name' => "Gregory Schenk",
-    'ImgName' => "Gregory_Schenk.jpg",
+    'ImgName' => "silhouette.jpg",
     'Studies' => "Board member of PionierGarage",
     'Text'   => "As a business informatics student and organiser of our student start-up competition, I am particularly looking forward to the Startup Tour. It gives me the opportunity to combine my passion for Japanese culture with my curiosity for innovative startup landscapes. Tanoshimi desu",
     'Linkedin' => 'https://www.linkedin.com/in/gregory-schenk-134362117/'
@@ -149,6 +141,14 @@ $TeamMember[] = array(
     'Studies' => "Member of PionierGarage",
     'Text'   => "Japan's rich culture and unique work ethic have always been a source of fascination, and when it comes to South Korea, it's equally intriguing to see how these relatively small nations can produce such innovative companies. I'm hopeful for cross-cultural exchanges and valuable insights into exciting startups to deepen my passion for creative ideas.",
     'Linkedin' => 'https://www.linkedin.com/in/linus-schilpp-92b351281/'
+);
+
+$TeamMember[] = array(
+    'Name' => "Sven Bronner",
+    'ImgName' => "silhouette.jpg",
+    'Studies' => "Board member of PionierGarage",
+    'Text'   => "-",
+    'Linkedin' => ''
 );
 
 $TeamMember[] = array(
