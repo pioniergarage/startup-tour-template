@@ -147,7 +147,7 @@ $TeamMember[] = array(
     'Name' => "Sven Bronner",
     'ImgName' => "silhouette.jpg",
     'Studies' => "Board member of PionierGarage",
-    'Text'   => "-",
+    'Text'   => "Korea, a tech-powerhouse with Pangyo Techno Valley and Songdo smart city, ranks third in Asian unicorn hubs. I'm interested in seeing how Japanese and Korean startups are competing. Comparing and learning about those ecosystems and their approaches may help us understand their successes but also the current downwards trend in the German startup-ecosystem.",
     'Linkedin' => ''
 );
 
