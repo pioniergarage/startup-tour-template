@@ -168,9 +168,9 @@ $TeamMember[] = array(
 );
 
 //Sponsors - Images in /img/Sponsors/ImgName.png, 300x200px images                                       'Link'   => "https://www.karlsruhe.de/");
-$Sponsors[] = array('ImgName' => "Logo_Karlsruhe.png",
+$Sponsors[] = array('ImgName' => "sponsor_stadt_karlsruhe.jpg",
                                         'Link'   => "https://www.karlsruhe.de/");
-$Sponsors[] = array('ImgName' => "Logo_KIT.svg",
+$Sponsors[] = array('ImgName' => "sponsor_kit.jpg",
                                         'Link'   => "https://www.kit.edu/");
 
 //Youtube Link - if empty -> nothing is shown
