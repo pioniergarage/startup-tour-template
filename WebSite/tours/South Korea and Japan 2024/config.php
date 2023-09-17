@@ -1,7 +1,7 @@
 <?php
 
 //Visited Location/Area -> Title
-$Location = "South Korea & Japan <br>2024";
+$Location = "South Korea & Japan 2024";
 $KilometersToTravel = 20341;
 $DaysAbroad = 19;
 $MotivatedPGlers = 12;
