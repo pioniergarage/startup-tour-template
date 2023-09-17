@@ -31,16 +31,12 @@ Finally, we\'ll get to experience the vibrant culture and history of these fasci
 					<h4>Timeline</h4>
                     <ul class="pg-timeline">
                         <li>
-                            <h5>Seoul</h5>
-                            <p>26 March 2024 – 01 April 2024</p>
+                            <h5>South Korea</h5>
+                            <p>end of March 2024</p>
                         </li>
                         <li>
-                            <h5>Busan</h5>
-                            <p>02 April 2024 - 03 April 2024</p>
-                        </li>
-                        <li>
-                            <h5>Tokyo</h5>
-                            <p>04 April - 14 April 2024</p>
+                            <h5>Japan</h5>
+                            <p>beginning of April 2024</p>
                         </li>
                     </ul>';
 
