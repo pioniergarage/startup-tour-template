@@ -2,14 +2,14 @@
 
 //Visited Location/Area -> Title
 $Location = "South Korea & Japan <br>2024";
-$KilometersToTravel = 3941 ;
+$KilometersToTravel = 20341;
 $DaysAbroad = 19;
 $MotivatedPGlers = 12;
 
 // travel period for countdown and different headers
 $TravelPeriod = array(
-    'start' => '2023-03-26',
-    'end' => '2023-04-14'
+    'start' => '2024-03-23',
+    'end' => '2024-04-13'
 );
 
 //Change the Background trough replace /img/Background
@@ -59,7 +59,7 @@ $StartupsToVisit = 22;
 
 $VisitedStartups[] = array(
     'name' => 'Coming soon',
-    'description' => 'This startup tour is still being planned. You will find our startup stations here soon.',
+    'description' => 'This startup tour is still being planned. You will find our agenda here soon.',
     'img' => 'coming-soon.jpg',
     'url' => ''
 );
