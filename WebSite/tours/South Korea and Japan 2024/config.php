@@ -3,13 +3,13 @@
 //Visited Location/Area -> Title
 $Location = "South Korea & Japan 2024";
 $KilometersToTravel = 20341;
-$DaysAbroad = 19;
+$DaysAbroad = 23;
 $MotivatedPGlers = 12;
 
 // travel period for countdown and different headers
 $TravelPeriod = array(
-    'start' => '2024-03-23',
-    'end' => '2024-04-13'
+    'start' => '2024-03-25',
+    'end' => '2024-04-18'
 );
 
 //Change the Background trough replace /img/Background
@@ -31,12 +31,24 @@ Finally, we\'ll get to experience the vibrant culture and history of these fasci
 					<h4>Timeline</h4>
                     <ul class="pg-timeline">
                         <li>
-                            <h5>South Korea</h5>
-                            <p>end of March 2024</p>
+                            <h5>Seoul, South Korea</h5>
+                            <p>March 26th - April 1st 2024</p>
+                        </li>
+			<li>
+                            <h5>Busan, South Korea</h5>
+                            <p>April 2nd - April 3rd 2024</p>
+                        </li>
+			<li>
+                            <h5>Fukuoka, Japan</h5>
+                            <p>April 4th - April 5th 2024</p>
+                        </li>
+			<li>
+                            <h5>Osaka / Kyoto, Japan</h5>
+                            <p>April 6th - April 8th 2024</p>
                         </li>
                         <li>
-                            <h5>Japan</h5>
-                            <p>beginning of April 2024</p>
+                            <h5>Tokyo, Japan</h5>
+                            <p>April 9th - April 17th 2024</p>
                         </li>
                     </ul>';
 
