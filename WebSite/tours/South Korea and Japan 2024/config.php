@@ -43,7 +43,7 @@ Finally, we\'ll get to experience the vibrant culture and history of these fasci
                             <p>April 4th - April 5th 2024</p>
                         </li>
 			<li>
-                            <h5>Osaka / Kyoto, Japan</h5>
+                            <h5>Osaka & Kyoto, Japan</h5>
                             <p>April 6th - April 8th 2024</p>
                         </li>
                         <li>
