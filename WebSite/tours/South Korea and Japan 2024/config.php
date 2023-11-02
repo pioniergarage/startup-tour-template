@@ -32,23 +32,27 @@ Finally, we\'ll get to experience the vibrant culture and history of these fasci
                     <ul class="pg-timeline">
                         <li>
                             <h5>Seoul, South Korea</h5>
-                            <p>March 26th - April 1st 2024</p>
+                            <p>March 26th - April 2nd 2024</p>
+                        </li>
+			<li>
+                            <h5>Daejeon, South Korea</h5>
+                            <p>April 3rd 2024</p>
                         </li>
 			<li>
                             <h5>Busan, South Korea</h5>
-                            <p>April 2nd - April 3rd 2024</p>
+                            <p>April 4rd - April 5th 2024</p>
                         </li>
 			<li>
                             <h5>Fukuoka, Japan</h5>
-                            <p>April 4th - April 5th 2024</p>
+                            <p>April 6th 2024</p>
                         </li>
 			<li>
                             <h5>Osaka & Kyoto, Japan</h5>
-                            <p>April 6th - April 8th 2024</p>
+                            <p>April 7th - April 10th 2024</p>
                         </li>
                         <li>
                             <h5>Tokyo, Japan</h5>
-                            <p>April 9th - April 17th 2024</p>
+                            <p>April 11th - April 17th 2024</p>
                         </li>
                     </ul>';
 
