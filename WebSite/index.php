@@ -181,7 +181,7 @@
 	<!-- End banner Area -->
 
 	<!-- Start home-about Area -->
-	<section class="home-about-area section-gap t-120">
+	<section class="home-about-area section-gap t-40">
 		<div class="container">
 			<div class="row align-items-center justify-content-between">
 				<div class="col-lg-12 col-md-12">
@@ -242,7 +242,7 @@
 	<!-- end fact Area -->
 
 	<!-- Start home-about Area -->
-	<section class="home-about-area section-gap t-120">
+	<section class="home-about-area section-gap t-40">
 		<div class="container">
 			<div class="row align-items-center justify-content-between">
 				<div class="col-lg-<br>6 col-md-6 home-about-left">
