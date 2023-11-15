@@ -309,7 +309,7 @@
 
 	<!-- Start timeline Area -->
 	<?php if ($VisitedStartups != "" && $VisitedStartups != []) {
-		echo "<section class='timeline pb-120' id='Startups'>
+		echo "<section class='timeline section-gap' id='Startups'>
 			<div class='text-center'>
 				<div class='menu-content pb-70'>
 					<div class='title text-center'>
