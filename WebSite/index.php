@@ -51,6 +51,15 @@
 		<meta name="keywords" content="">
 		<!-- meta character set -->
 		<meta charset="UTF-8">
+
+		<!-- Meta Tags -->
+		<meta property="og:url" content="https://tour.pioniergarage.de" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="PionierGarage Startup Tour" />
+		<meta property="og:description" content="What is our Tour About" />
+		<!-- <meta property="og:image" content="http://yourwebsite.com/image.jpg" /> --> <!-- You can add a preview image here -->
+
+
 		<!-- Site Title -->
 		<title>Startup Tour</title>
 		<!--
