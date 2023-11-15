@@ -132,6 +132,14 @@ $TeamMember[] = array(
 );
 
 $TeamMember[] = array(
+    'Name' => "Julian Faber",
+    'ImgName' => "silhouette.jpg",
+    'Studies' => "Former board member of PionierGarage",
+    'Text'   => "South Korea and Japan are leading nations in various fields of technology and are known for their high level of innovation and progress. At the same time, they offer a unique culture and history. I look forward to learning more about this blend of tradition and innovation through networking with local start-ups, institutions and investors.",
+    'Linkedin' => 'https://www.linkedin.com/in/julian-faber/'
+);
+
+$TeamMember[] = array(
     'Name' => "Mustafa Kemal Kula",
     'ImgName' => "Mustafa_Kemal_Kula.jpg",
     'Studies' => "Board member of PionierGarage",
@@ -153,14 +161,6 @@ $TeamMember[] = array(
     'Studies' => "Member of PionierGarage",
     'Text'   => "Japan's rich culture and unique work ethic have always been a source of fascination, and when it comes to South Korea, it's equally intriguing to see how these relatively small nations can produce such innovative companies. I'm hopeful for cross-cultural exchanges and valuable insights into exciting startups to deepen my passion for creative ideas.",
     'Linkedin' => 'https://www.linkedin.com/in/linus-schilpp-92b351281/'
-);
-
-$TeamMember[] = array(
-    'Name' => "Sven Bronner",
-    'ImgName' => "silhouette.jpg",
-    'Studies' => "Board member of PionierGarage",
-    'Text'   => "Korea, a tech-powerhouse with Pangyo Techno Valley and Songdo smart city, ranks third in Asian unicorn hubs. I'm interested in seeing how Japanese and Korean startups are competing. Comparing and learning about those ecosystems and their approaches may help us understand their successes but also the current downwards trend in the German startup-ecosystem.",
-    'Linkedin' => ''
 );
 
 $TeamMember[] = array(
