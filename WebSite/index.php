@@ -55,8 +55,8 @@
 		<!-- Meta Tags -->
 		<meta property="og:url" content="https://tour.pioniergarage.de" />
 		<meta property="og:type" content="website" />
-		<meta property="og:title" content="PionierGarage Startup Tour" />
-		<meta property="og:description" content="What is our Tour About" />
+		<meta property="og:title" content="PionierGarage Startup Tours" />
+		<meta property="og:description" content="Discover PionierGarage's journey through past startup tours. Get insights into upcoming trips and explore the world of entrepreneurship with us." />
 		<!-- <meta property="og:image" content="http://yourwebsite.com/image.jpg" /> --> <!-- You can add a preview image here -->
 
 
