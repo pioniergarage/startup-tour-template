@@ -116,14 +116,6 @@ $TeamMember[] = array(
 );
 
 $TeamMember[] = array(
-    'Name' => "Gregory Schenk",
-    'ImgName' => "silhouette.jpg",
-    'Studies' => "Board member of PionierGarage",
-    'Text'   => "As a business informatics student and organiser of our student start-up competition, I am particularly looking forward to the Startup Tour. It gives me the opportunity to combine my passion for Japanese culture with my curiosity for innovative startup landscapes. Tanoshimi desu",
-    'Linkedin' => 'https://www.linkedin.com/in/gregory-schenk-134362117/'
-);
-
-$TeamMember[] = array(
     'Name' => "Jannik Nefferdorf",
     'ImgName' => "Jannik_Nefferdorf.jpg",
     'Studies' => "Former board member of PionierGarage",
