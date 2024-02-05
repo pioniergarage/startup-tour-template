@@ -73,7 +73,7 @@ $VisitedStartups[] = array(
     'name' => 'Kyoto Institute of Technology',
     'description' => 'The technical university of Kyoto is known for its long history and excellent teaching. We will meet there with design thinking professor and Kyoto Startup Summer School founder Sushi Suzuki.',
     'img' => 'Logo001.jpg',
-    'url' => ''
+    'url' => 'https://www.kit.ac.jp/en/'
 );
 
 $VisitedStartups[] = array(
