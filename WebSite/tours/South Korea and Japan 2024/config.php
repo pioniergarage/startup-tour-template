@@ -70,6 +70,13 @@ $StartupsToVisit = 22;
 // $NumberOfStartups = 22;
 
 $VisitedStartups[] = array(
+    'name' => 'AHK Korea - Korean-German Chamber of Commerce and Industry',
+    'description' => 'The AHKs support German companies that want to build or expand their foreign business. We will visit them to get an in-depth overview of the Korean market and startup ecosystem.',
+    'img' => 'Logo003.jpg',
+    'url' => 'https://korea.ahk.de/en/'
+);
+
+$VisitedStartups[] = array(
     'name' => 'Konrad-Adenauer-Stiftung - Foundation Office Korea',
     'description' => 'The Konrad Adenauer Foundation is a political foundation of the Federal Republic of Germany. With its programs and projects, it makes an active and effective contribution to international cooperation and understanding.',
     'img' => 'Logo002.jpg',
