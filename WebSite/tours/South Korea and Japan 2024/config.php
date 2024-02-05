@@ -40,7 +40,7 @@ Finally, we\'ll get to experience the vibrant culture and history of these fasci
                         </li>
 			<li>
                             <h5>Busan, South Korea</h5>
-                            <p>April 4rd - April 5th 2024</p>
+                            <p>April 4th - April 5th 2024</p>
                         </li>
 			<li>
                             <h5>Fukuoka, Japan</h5>
@@ -170,6 +170,15 @@ $TeamMember[] = array(
     'Text'   => "A few months ago, I was already able to meet some innovative startups from South Korea and Japan at VivaTech in Paris, which is why I am very much looking forward to learning even more about the respective scenes and the rich cultures of these countries.",
     'Linkedin' => 'https://www.linkedin.com/in/vincentfiedler/'
 );
+
+$TeamMember[] = array(
+    'Name' => "Jonas Iser",
+    'ImgName' => "silhouette.jpg",
+    'Studies' => "Former board member of PionierGarage",
+    'Text'   => "I have not yet taken part in a cross-border startup tour by the PionierGarage, so I am very excited to finally embark on this journey and experience the entrepreneurial spirit of East Asia. I am looking forward to getting to know many innovative startups and the culture of both countries.",
+    'Linkedin' => 'https://www.linkedin.com/in/jonas-iser/'
+);
+
 
 //Sponsors - Images in /img/Sponsors/ImgName.png, 300x200px images                                       'Link'   => "https://www.karlsruhe.de/");
 $Sponsors[] = array('ImgName' => "sponsor_stadt_karlsruhe.jpg",
