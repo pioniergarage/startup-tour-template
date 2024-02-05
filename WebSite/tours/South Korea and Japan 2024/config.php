@@ -70,8 +70,15 @@ $StartupsToVisit = 22;
 // $NumberOfStartups = 22;
 
 $VisitedStartups[] = array(
-    'name' => 'Coming soon',
-    'description' => 'This startup tour is still being planned. You will find our agenda here soon.',
+    'name' => 'Kyoto Institute of Technology',
+    'description' => 'The technical university of Kyoto is known for its long history and excellent teaching. We will meet there with design thinking professor and Kyoto Startup Summer School founder Sushi Suzuki.',
+    'img' => 'Logo001.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'More coming soon',
+    'description' => 'This startup tour is still being planned. You will find our full agenda here soon.',
     'img' => 'coming-soon.jpg',
     'url' => ''
 );
