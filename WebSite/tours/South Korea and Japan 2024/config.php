@@ -71,7 +71,7 @@ $StartupsToVisit = 22;
 
 $VisitedStartups[] = array(
     'name' => 'AHK Korea - Korean-German Chamber of Commerce and Industry',
-    'description' => 'The AHKs support German companies that want to build or expand their foreign business. We will visit them to get an in-depth overview of the Korean market and startup ecosystem.',
+    'description' => 'The AHKs support German companies that want to build or expand their foreign business. We will visit their office in Seoul to get an in-depth overview of the Korean market and startup ecosystem.',
     'img' => 'Logo003.jpg',
     'url' => 'https://korea.ahk.de/en/'
 );
