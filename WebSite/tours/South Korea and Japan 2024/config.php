@@ -70,6 +70,13 @@ $StartupsToVisit = 22;
 // $NumberOfStartups = 22;
 
 $VisitedStartups[] = array(
+    'name' => 'Konrad-Adenauer-Stiftung - Foundation Office Korea',
+    'description' => 'The Konrad Adenauer Foundation is a political foundation of the Federal Republic of Germany. With its programs and projects, it makes an active and effective contribution to international cooperation and understanding.',
+    'img' => 'Logo002.jpg',
+    'url' => 'https://www.kas.de/en/web/korea/'
+);
+
+$VisitedStartups[] = array(
     'name' => 'Kyoto Institute of Technology',
     'description' => 'The technical university of Kyoto is known for its long history and excellent teaching. We will meet there with design thinking professor and Kyoto Startup Summer School founder Sushi Suzuki.',
     'img' => 'Logo001.jpg',
