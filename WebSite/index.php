@@ -322,8 +322,8 @@
 			<div class='text-center'>
 				<div class='menu-content pb-70'>
 					<div class='title text-center'>
-						<h1 class='mb-10'>Visited startups</h1>
-						<p>During Our Tour</p>
+						<h1 class='mb-10'>Our Agenda</h1>
+						<p>Visited startups, companies, investors and organizations during the tour</p>
 					</div>
 				</div>
 			</div>
