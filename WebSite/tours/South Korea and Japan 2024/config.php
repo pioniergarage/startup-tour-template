@@ -8,7 +8,7 @@ $MotivatedPGlers = 12;
 
 // travel period for countdown and different headers
 $TravelPeriod = array(
-    'start' => '2024-03-25',
+    'start' => '2024-03-26',
     'end' => '2024-04-18'
 );
 
@@ -39,8 +39,12 @@ Finally, we\'ll get to experience the vibrant culture and history of these fasci
                             <p>April 3rd 2024</p>
                         </li>
 			<li>
+                            <h5>Daegu, South Korea</h5>
+                            <p>April 4th 2024</p>
+                        </li>
+			<li>
                             <h5>Busan, South Korea</h5>
-                            <p>April 4th - April 5th 2024</p>
+                            <p>April 5th 2024</p>
                         </li>
 			<li>
                             <h5>Fukuoka, Japan</h5>
@@ -66,15 +70,15 @@ partner, sponsor or Startup/VC to be visited. We\'re looking forward to meeting 
 //List of Visited Startups, Names Used to find the logo"s in /img/StartupLogos/StartupName.pioniergarage
 //Store Startup Logos int the Form "StartupName.png" like in the example here
 // Images should have the Size 300x200 Pixel
-$StartupsToVisit = 22;
+$StartupsToVisit = 24;
 // $NumberOfStartups = 22;
 
-$VisitedStartups[] = array(
-    'name' => 'Konrad-Adenauer-Stiftung - Foundation Office Korea',
-    'description' => 'The Konrad Adenauer Foundation is a political foundation of the Federal Republic of Germany. With its programs and projects, it makes an active and effective contribution to international cooperation and understanding.',
-    'img' => 'Logo002.jpg',
-    'url' => 'https://www.kas.de/en/web/korea/'
-);
+//$VisitedStartups[] = array(
+//    'name' => 'Konrad-Adenauer-Stiftung - Foundation Office Korea',
+//    'description' => 'The Konrad Adenauer Foundation is a political foundation of the Federal Republic of Germany. With its programs and projects, it makes an active and effective contribution to international cooperation and understanding.',
+//    'img' => 'Logo002.jpg',
+//    'url' => 'https://www.kas.de/en/web/korea/'
+//);
 
 $VisitedStartups[] = array(
     'name' => 'AHK Korea - Korean-German Chamber of Commerce and Industry',
