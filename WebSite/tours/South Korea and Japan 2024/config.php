@@ -213,8 +213,8 @@ $Sponsors[] = array('ImgName' => "sponsor_stadt_karlsruhe.jpg",
                                         'Link'   => "https://www.karlsruhe.de/");
 $Sponsors[] = array('ImgName' => "sponsor_kit.jpg",
                                         'Link'   => "https://www.kit.edu/");
-$Sponsors[] = array('ImgName' => "sponsor_kas.jpg",
-                                        'Link'   => "https://www.kas.de/en/home");
+$Sponsors[] = array('ImgName' => "sponsor_aok.jpg",
+                                        'Link'   => "https://www.aok.de/pk/bw/");
 
 //Youtube Link - if empty -> nothing is shown
 $YoutubeLink = "";
