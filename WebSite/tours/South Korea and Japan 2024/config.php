@@ -95,10 +95,73 @@ $VisitedStartups[] = array(
 );
 
 $VisitedStartups[] = array(
+    'name' => 'The Garrison',
+    'description' => 'Global startup community and co-working space in Seoul offering consulting, networking events, a startup-focused job board, and a collaborative coworking space. We will meet CEO Riso Dongok Ahn.',
+    'img' => 'Logo005.jpg',
+    'url' => 'https://www.thegarrison.company/'
+);
+
+$VisitedStartups[] = array(
+    'name' => 'Seoul Robotics',
+    'description' => 'Powering the future of mobility currently building deep learning based lidar perception module for self-driving cars and robots.',
+    'img' => 'Logo007.jpg',
+    'url' => 'https://seoulrobotics.org/'
+);
+
+$VisitedStartups[] = array(
+    'name' => 'Deardot',
+    'description' => 'Deardot is a sustainable, vegan cosmetic brand given to you by nature. We write stories that care about the environment and people.',
+    'img' => 'Logo008.jpg',
+    'url' => 'https://deardotcosmetic.com/'
+);
+
+$VisitedStartups[] = array(
+    'name' => 'Incheon Global Campus',
+    'description' => 'Incheon Global Campus, the best global educational hub in the world, provides students infinite potential and possibilities to become global elites.',
+    'img' => 'Logo009.jpg',
+    'url' => 'https://igc.or.kr/en/index.do'
+);
+
+$VisitedStartups[] = array(
+    'name' => 'KAIST - Korea Advanced Institute of Science & Technology',
+    'description' => 'KAIST is the first and top science and technology university in Korea.',
+    'img' => 'Logo010.jpg',
+    'url' => 'https://www.kaist.ac.kr/en/'
+);
+
+$VisitedStartups[] = array(
+    'name' => 'Start2 Group',
+    'description' => 'Start2 Group is a global innovation leader taking startup journeys to the next level. As a premier startup ecosystem platform, they serve as the ultimate destination for growth-oriented startups.',
+    'img' => 'Logo006.jpg',
+    'url' => 'https://start2.group/'
+);
+
+$VisitedStartups[] = array(
     'name' => 'Kyoto Institute of Technology',
     'description' => 'The technical university of Kyoto is known for its long history and excellent teaching. We will meet there with design thinking professor and Kyoto Startup Summer School founder Sushi Suzuki.',
     'img' => 'Logo001.jpg',
     'url' => 'https://www.kit.ac.jp/en/'
+);
+
+$VisitedStartups[] = array(
+    'name' => 'MIRAI Innovation',
+    'description' => 'Mirai Innovation Lab delivers solutions for business through development and research of innovative technologies.',
+    'img' => 'Logo011.jpg',
+    'url' => 'https://www.mirai-innovation-lab.com/'
+);
+
+$VisitedStartups[] = array(
+    'name' => 'DWIH Tokyo - German Centre for Research and Innovation',
+    'description' => 'The German Centre for Research and Innovation Tokyo (DWIH Tokyo) is a platform for German universities, research institutions and researchbased companies in Japan.',
+    'img' => 'Logo014.jpg',
+    'url' => 'https://www.dwih-tokyo.org/en/'
+);
+
+$VisitedStartups[] = array(
+    'name' => 'SoftBank',
+    'description' => 'SoftBank is a multinational conglomerate known for its investments in technology, telecommunications, and finance sectors.',
+    'img' => 'Logo013.jpg',
+    'url' => 'https://www.softbank.jp/en//'
 );
 
 $VisitedStartups[] = array(
