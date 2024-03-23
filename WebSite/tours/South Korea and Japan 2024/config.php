@@ -158,10 +158,136 @@ $VisitedStartups[] = array(
 );
 
 $VisitedStartups[] = array(
-    'name' => 'SoftBank',
-    'description' => 'SoftBank is a multinational conglomerate known for its investments in technology, telecommunications, and finance sectors.',
-    'img' => 'Logo013.jpg',
-    'url' => 'https://www.softbank.jp/en//'
+    'name' => 'Deutsche Botschaft Seoul',
+    'description' => '',
+    'img' => 'Logo015.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'BMW Startup Garage',
+    'description' => '',
+    'img' => 'Logo016.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'Seoul Startups',
+    'description' => '',
+    'img' => 'Logo017.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'Seoul Digital Foundation',
+    'description' => '',
+    'img' => 'Logo018.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'Umoh (Splab)',
+    'description' => '',
+    'img' => 'Logo019.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'Seoul AI Hub',
+    'description' => '',
+    'img' => 'Logo020.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'Incheon Startup Park',
+    'description' => '',
+    'img' => 'Logo021.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'CREWW',
+    'description' => '',
+    'img' => 'Logo022.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'Institute for Aerospace Industry-Academia Collaboration',
+    'description' => '',
+    'img' => 'Logo023.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'SIDPartners',
+    'description' => '',
+    'img' => 'Logo024.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'Incheon Technopark',
+    'description' => '',
+    'img' => 'Logo025.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'CCEI Incheon & Daejeon',
+    'description' => '',
+    'img' => 'Logo026.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'Suseong-gu',
+    'description' => '',
+    'img' => 'Logo027.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'SEA.D',
+    'description' => '',
+    'img' => 'Logo028.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'GramEye',
+    'description' => '',
+    'img' => 'Logo029.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'Takeoff Tokyo',
+    'description' => '',
+    'img' => 'Logo030.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'WAY Equity Partners',
+    'description' => '',
+    'img' => 'Logo031.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'Shibuya Startup Support',
+    'description' => '',
+    'img' => 'Logo032.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'KERNEL',
+    'description' => '',
+    'img' => 'Logo033.jpg',
+    'url' => ''
 );
 
 $VisitedStartups[] = array(
