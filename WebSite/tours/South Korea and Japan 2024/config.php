@@ -110,7 +110,7 @@ $VisitedStartups[] = array(
 
 $VisitedStartups[] = array(
     'name' => 'Deardot',
-    'description' => 'Deardot is a sustainable, vegan cosmetic brand given to you by nature. We write stories that care about the environment and people.',
+    'description' => 'Deardot is a sustainable, vegan cosmetic brand given to you by nature. They write stories that care about the environment and people.',
     'img' => 'Logo008.jpg',
     'url' => 'https://deardotcosmetic.com/'
 );
@@ -124,7 +124,7 @@ $VisitedStartups[] = array(
 
 $VisitedStartups[] = array(
     'name' => 'KAIST - Korea Advanced Institute of Science & Technology',
-    'description' => 'KAIST is the first and top science and technology university in Korea.',
+    'description' => 'KAIST is the first and top science and technology university in Korea. We will meet with Young-Tae Kim, chief of science-based entrepreneurship at KAIST.',
     'img' => 'Logo010.jpg',
     'url' => 'https://www.kaist.ac.kr/en/'
 );
