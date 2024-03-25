@@ -173,14 +173,14 @@ $VisitedStartups[] = array(
 
 $VisitedStartups[] = array(
     'name' => 'Seoul Startups',
-    'description' => '',
+    'description' => 'Seoul Startups is a community fostering exchanges on ideas, work culture, language, insights into the market and life in Korea, while also organizing regular events to nurture a strong startup ecosystem.',
     'img' => 'Logo017.jpg',
     'url' => ''
 );
 
 $VisitedStartups[] = array(
     'name' => 'Seoul Digital Foundation',
-    'description' => '',
+    'description' => 'The Seoul Digital Foundation is striving to transform Seoul into a globally attractive city while addressing social neglect through policies supporting digital transformation, the development of big data and AI-driven public services.',
     'img' => 'Logo018.jpg',
     'url' => ''
 );
@@ -194,7 +194,7 @@ $VisitedStartups[] = array(
 
 $VisitedStartups[] = array(
     'name' => 'Seoul AI Hub',
-    'description' => '',
+    'description' => 'Seoul AI Hub, established in 2017, hosts 110 companies and supports 163 membership firms. It offers extensive aid for AI startups. It’s a crucial launchpad for AI startups. Our meeting will introduce top experts from Seoul National University’s AI Institute and entrepreneurship field.',
     'img' => 'Logo020.jpg',
     'url' => ''
 );
@@ -243,7 +243,7 @@ $VisitedStartups[] = array(
 
 $VisitedStartups[] = array(
     'name' => 'Suseong-gu',
-    'description' => '',
+    'description' => 'Suseong-gu is an independent district within the metropolis of Daegu. Since the first contacts in 2006, there has been a lively exchange between the sister cities, particularly on a cultural level. We aim to deepen these ties on an economic innovation level and further acquaint ourselves with our allies in Korea, with the accompaniment of Karlsruhe’s Mayor, Dr. Käuflein.',
     'img' => 'Logo027.jpg',
     'url' => ''
 );
@@ -257,35 +257,35 @@ $VisitedStartups[] = array(
 
 $VisitedStartups[] = array(
     'name' => 'GramEye',
-    'description' => '',
+    'description' => 'Antimicrobial Resistance is a natural phenomenon resulting from the use of antimicrobial drugs. GramEye advocates for appropriate prescription of antimicrobial drugs globally to combat drug-resistant bacteria, which have evolved to resist previously effective treatments due to antibiotic use.',
     'img' => 'Logo029.jpg',
     'url' => ''
 );
 
 $VisitedStartups[] = array(
     'name' => 'Takeoff Tokyo',
-    'description' => '',
+    'description' => 'Takeoff Tokyo is a two-day event for world-conquering founders, visionary investors, influential media and ecosystem players from around the world. Startups will go head to head in a pitch contest, entrepreneurs and investors will share their experiences on panel discussions.',
     'img' => 'Logo030.jpg',
     'url' => ''
 );
 
 $VisitedStartups[] = array(
     'name' => 'WAY Equity Partners',
-    'description' => '',
+    'description' => 'WAY is a company builder dedicated to partnering with exceptional founders and experts to establish top-tier software companies tackling significant customer challenges. Together, they strive to shape the future, one step at a time.',
     'img' => 'Logo031.jpg',
     'url' => ''
 );
 
 $VisitedStartups[] = array(
     'name' => 'Shibuya Startup Support',
-    'description' => '',
+    'description' => 'Shibuya Startup Support aids international founders on their startup journey. They serve as a concierge, assisting in establishing and expanding businesses by providing resources, personalized advice and connections to local opportunities.',
     'img' => 'Logo032.jpg',
     'url' => ''
 );
 
 $VisitedStartups[] = array(
     'name' => 'KERNEL',
-    'description' => '',
+    'description' => 'KERNEL is an AI-focused incubation community for individuals aspiring to revolutionize the world through technology. It offers an ideal environment for engineers and researchers passionate about cutting-edge technology, helping members uncover and harness their potential to initiate groundbreaking innovations.',
     'img' => 'Logo033.jpg',
     'url' => ''
 );
