@@ -88,10 +88,10 @@ $VisitedStartups[] = array(
 );
 
 $VisitedStartups[] = array(
-    'name' => 'Lumis Games',
-    'description' => 'Lumis Games develops and distributes computer simulation games for education. We will meet founder Steve Ahn who is also experienced in the VC industry and as professor for entrepreneurship.',
-    'img' => 'Logo004.jpg',
-    'url' => 'http://www.lumisgames.com/'
+    'name' => 'Deutsche Botschaft Seoul',
+    'description' => '',
+    'img' => 'Logo015.jpg',
+    'url' => ''
 );
 
 $VisitedStartups[] = array(
@@ -102,10 +102,80 @@ $VisitedStartups[] = array(
 );
 
 $VisitedStartups[] = array(
+    'name' => 'Lumis Games',
+    'description' => 'Lumis Games develops and distributes computer simulation games for education. We will meet founder Steve Ahn who is also experienced in the VC industry and as professor for entrepreneurship.',
+    'img' => 'Logo004.jpg',
+    'url' => 'http://www.lumisgames.com/'
+);
+
+$VisitedStartups[] = array(
+    'name' => 'D3 Jubilee Partners',
+    'description' => '',
+    'img' => 'coming-soon.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'MARU360',
+    'description' => '',
+    'img' => 'coming-soon.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'BMW Startup Garage',
+    'description' => '',
+    'img' => 'Logo016.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'Seoul Startups',
+    'description' => 'Seoul Startups is a community fostering exchanges on ideas, work culture, language, insights into the market and life in Korea, while also organizing regular events to nurture a strong startup ecosystem.',
+    'img' => 'Logo017.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'Seoul Digital Foundation',
+    'description' => 'The Seoul Digital Foundation is striving to transform Seoul into a globally attractive city while addressing social neglect through policies supporting digital transformation, the development of big data and AI-driven public services.',
+    'img' => 'Logo018.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
     'name' => 'Seoul Robotics',
     'description' => 'Powering the future of mobility currently building deep learning based lidar perception module for self-driving cars and robots.',
     'img' => 'Logo007.jpg',
     'url' => 'https://seoulrobotics.org/'
+);
+
+$VisitedStartups[] = array(
+    'name' => 'Mercedes-Benz Startup Autobahn',
+    'description' => '',
+    'img' => 'coming-soon.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'Seoul AI Hub',
+    'description' => 'Seoul AI Hub, established in 2017, hosts 110 companies and supports 163 membership firms. It offers extensive aid for AI startups. It’s a crucial launchpad for AI startups. Our meeting will introduce top experts from Seoul National University’s AI Institute and entrepreneurship field.',
+    'img' => 'Logo020.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'PetNow',
+    'description' => '',
+    'img' => 'coming-soon.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'Simsan Ventures',
+    'description' => '',
+    'img' => 'coming-soon.jpg',
+    'url' => ''
 );
 
 $VisitedStartups[] = array(
@@ -123,10 +193,94 @@ $VisitedStartups[] = array(
 );
 
 $VisitedStartups[] = array(
+    'name' => 'Incheon Startup Park',
+    'description' => '',
+    'img' => 'Logo021.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'CREWW Korea',
+    'description' => '',
+    'img' => 'Logo022.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'Institute for Aerospace Industry-Academia Collaboration',
+    'description' => '',
+    'img' => 'Logo023.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'SIDPartners',
+    'description' => '',
+    'img' => 'Logo024.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'Incheon Technopark',
+    'description' => '',
+    'img' => 'Logo025.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'CCEI Incheon',
+    'description' => '',
+    'img' => 'Logo026.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
     'name' => 'KAIST - Korea Advanced Institute of Science & Technology',
     'description' => 'KAIST is the first and top science and technology university in Korea. We will meet with Young-Tae Kim, chief of science-based entrepreneurship at KAIST.',
     'img' => 'Logo010.jpg',
     'url' => 'https://www.kaist.ac.kr/en/'
+);
+
+$VisitedStartups[] = array(
+    'name' => 'StartupKAIST',
+    'description' => '',
+    'img' => 'coming-soon.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'CCEI Daejeon',
+    'description' => '',
+    'img' => 'Logo026.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'ETRI',
+    'description' => '',
+    'img' => 'coming-soon.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'Suseong-gu',
+    'description' => 'Suseong-gu is an independent district within the metropolis of Daegu. Since the first contacts in 2006, there has been a lively exchange between the sister cities, particularly on a cultural level. We aim to deepen these ties on an economic innovation level and further acquaint ourselves with our allies in Korea, with the accompaniment of Karlsruhe’s Mayor, Dr. Käuflein.',
+    'img' => 'Logo027.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'DIP - Daegu Digital Innovation Promotion Agency',
+    'description' => '',
+    'img' => 'coming-soon.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'Daegu Scale-Up Hub',
+    'description' => '',
+    'img' => 'coming-soon.jpg',
+    'url' => ''
 );
 
 $VisitedStartups[] = array(
@@ -158,93 +312,9 @@ $VisitedStartups[] = array(
 );
 
 $VisitedStartups[] = array(
-    'name' => 'Deutsche Botschaft Seoul',
-    'description' => '',
-    'img' => 'Logo015.jpg',
-    'url' => ''
-);
-
-$VisitedStartups[] = array(
-    'name' => 'BMW Startup Garage',
-    'description' => '',
-    'img' => 'Logo016.jpg',
-    'url' => ''
-);
-
-$VisitedStartups[] = array(
-    'name' => 'Seoul Startups',
-    'description' => 'Seoul Startups is a community fostering exchanges on ideas, work culture, language, insights into the market and life in Korea, while also organizing regular events to nurture a strong startup ecosystem.',
-    'img' => 'Logo017.jpg',
-    'url' => ''
-);
-
-$VisitedStartups[] = array(
-    'name' => 'Seoul Digital Foundation',
-    'description' => 'The Seoul Digital Foundation is striving to transform Seoul into a globally attractive city while addressing social neglect through policies supporting digital transformation, the development of big data and AI-driven public services.',
-    'img' => 'Logo018.jpg',
-    'url' => ''
-);
-
-$VisitedStartups[] = array(
-    'name' => 'Umoh (Splab)',
-    'description' => '',
-    'img' => 'Logo019.jpg',
-    'url' => ''
-);
-
-$VisitedStartups[] = array(
-    'name' => 'Seoul AI Hub',
-    'description' => 'Seoul AI Hub, established in 2017, hosts 110 companies and supports 163 membership firms. It offers extensive aid for AI startups. It’s a crucial launchpad for AI startups. Our meeting will introduce top experts from Seoul National University’s AI Institute and entrepreneurship field.',
-    'img' => 'Logo020.jpg',
-    'url' => ''
-);
-
-$VisitedStartups[] = array(
-    'name' => 'Incheon Startup Park',
-    'description' => '',
-    'img' => 'Logo021.jpg',
-    'url' => ''
-);
-
-$VisitedStartups[] = array(
-    'name' => 'CREWW',
-    'description' => '',
-    'img' => 'Logo022.jpg',
-    'url' => ''
-);
-
-$VisitedStartups[] = array(
-    'name' => 'Institute for Aerospace Industry-Academia Collaboration',
-    'description' => '',
-    'img' => 'Logo023.jpg',
-    'url' => ''
-);
-
-$VisitedStartups[] = array(
-    'name' => 'SIDPartners',
-    'description' => '',
-    'img' => 'Logo024.jpg',
-    'url' => ''
-);
-
-$VisitedStartups[] = array(
-    'name' => 'Incheon Technopark',
-    'description' => '',
-    'img' => 'Logo025.jpg',
-    'url' => ''
-);
-
-$VisitedStartups[] = array(
-    'name' => 'CCEI Incheon & Daejeon',
+    'name' => 'CCEI Incheon',
     'description' => '',
     'img' => 'Logo026.jpg',
-    'url' => ''
-);
-
-$VisitedStartups[] = array(
-    'name' => 'Suseong-gu',
-    'description' => 'Suseong-gu is an independent district within the metropolis of Daegu. Since the first contacts in 2006, there has been a lively exchange between the sister cities, particularly on a cultural level. We aim to deepen these ties on an economic innovation level and further acquaint ourselves with our allies in Korea, with the accompaniment of Karlsruhe’s Mayor, Dr. Käuflein.',
-    'img' => 'Logo027.jpg',
     'url' => ''
 );
 
