@@ -71,7 +71,7 @@ partner, sponsor or Startup/VC to be visited. We\'re looking forward to meeting 
 //Store Startup Logos int the Form "StartupName.png" like in the example here
 // Images should have the Size 300x200 Pixel
 // $StartupsToVisit = 24;
-$NumberOfStartups = 47;
+$NumberOfStartups = 46;
 
 $VisitedStartups[] = array(
     'name' => 'AHK Korea - Korean-German Chamber of Commerce and Industry',
@@ -320,16 +320,16 @@ $VisitedStartups[] = array(
 
 $VisitedStartups[] = array(
     'name' => 'ATR - Advanced Telecommunications Research Institute',
-    'description' => '',
-    'img' => 'coming-soon.jpg',
-    'url' => ''
+    'description' => 'The ATR is a research institution with the aim to drive an innovation ecosystem, tackle social challenges through technology and be a leading player in Keihanna Science City.',
+    'img' => 'Logo047.jpg',
+    'url' => 'https://www.atr.jp/index_e.html'
 );
 
 $VisitedStartups[] = array(
     'name' => 'PEEL Lab',
-    'description' => '',
-    'img' => 'coming-soon.jpg',
-    'url' => ''
+    'description' => 'PEEL Lab is a one-stop material sourcing, product design, and manufacturing solution for corporates and brands looking for eco-friendly alternatives to animal leather. The PEEl leather is made from pineapple leaves, upcycling food loss.',
+    'img' => 'Logo048.jpg',
+    'url' => 'https://www.peel-lab.com/'
 );
 
 $VisitedStartups[] = array(
@@ -343,35 +343,35 @@ $VisitedStartups[] = array(
     'name' => 'GramEye',
     'description' => 'Antimicrobial Resistance is a natural phenomenon resulting from the use of antimicrobial drugs. GramEye advocates for appropriate prescription of antimicrobial drugs globally to combat drug-resistant bacteria, which have evolved to resist previously effective treatments due to antibiotic use.',
     'img' => 'Logo029.jpg',
-    'url' => ''
+    'url' => 'https://grameye.com/'
 );
 
 $VisitedStartups[] = array(
     'name' => 'Takeoff Tokyo',
     'description' => 'Takeoff Tokyo is a two-day event for world-conquering founders, visionary investors, influential media and ecosystem players from around the world. Startups will go head to head in a pitch contest, entrepreneurs and investors will share their experiences on panel discussions.',
     'img' => 'Logo030.jpg',
-    'url' => ''
+    'url' => 'https://www.takeoff-tokyo.com/'
 );
 
 $VisitedStartups[] = array(
     'name' => 'WAY Equity Partners',
     'description' => 'WAY is a company builder dedicated to partnering with exceptional founders and experts to establish top-tier software companies tackling significant customer challenges. Together, they strive to shape the future, one step at a time.',
     'img' => 'Logo031.jpg',
-    'url' => ''
+    'url' => 'https://www.wayequity.co/'
 );
 
 $VisitedStartups[] = array(
     'name' => 'Shibuya Startup Support',
     'description' => 'Shibuya Startup Support aids international founders on their startup journey. They serve as a concierge, assisting in establishing and expanding businesses by providing resources, personalized advice and connections to local opportunities.',
     'img' => 'Logo032.jpg',
-    'url' => ''
+    'url' => 'https://shibuya-startup-support.jp/'
 );
 
 $VisitedStartups[] = array(
     'name' => 'Creww',
-    'description' => '',
-    'img' => 'coming-soon.jpg',
-    'url' => ''
+    'description' => 'Creww was founded in 2012 with the goal to become the first entity in Japan dedicated to creating an ecosystem for startups. Today it provides an open innovation platform and startup community in Japan, Korea and Taiwan.',
+    'img' => 'Logo022.jpg',
+    'url' => 'https://creww.in/global/en'
 );
 
 $VisitedStartups[] = array(
@@ -385,21 +385,14 @@ $VisitedStartups[] = array(
     'name' => 'KERNEL by DeepCore',
     'description' => 'KERNEL is an AI-focused incubation community for individuals aspiring to revolutionize the world through technology. It offers an ideal environment for engineers and researchers passionate about cutting-edge technology, helping members uncover and harness their potential to initiate groundbreaking innovations.',
     'img' => 'Logo033.jpg',
-    'url' => ''
-);
-
-$VisitedStartups[] = array(
-    'name' => 'Hamano Products',
-    'description' => '',
-    'img' => 'coming-soon.jpg',
-    'url' => ''
+    'url' => 'https://kernel.deepcore.jp/en/'
 );
 
 $VisitedStartups[] = array(
     'name' => 'Garage Sumida',
-    'description' => '',
-    'img' => 'coming-soon.jpg',
-    'url' => ''
+    'description' => 'Garage Sumida is an innovative hardware incubation facility, which is located inside an advanced metal processing factory. It was founded by the manager of Hamano Products.',
+    'img' => 'Logo049.jpg',
+    'url' => 'https://garage-sumida.jp/english/'
 );
 
 
