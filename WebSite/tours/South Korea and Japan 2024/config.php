@@ -436,7 +436,7 @@ $TeamMember[] = array(
 
 $TeamMember[] = array(
     'Name' => "Julian Faber",
-    'ImgName' => "Julian_Faber.jpeg",
+    'ImgName' => "Julian_Faber2.jpg",
     'Studies' => "Former board member of PionierGarage",
     'Text'   => "South Korea and Japan are leading nations in various fields of technology and are known for their high level of innovation and progress. At the same time, they offer a unique culture and history. I look forward to learning more about this blend of tradition and innovation through networking with local start-ups, institutions and investors.",
     'Linkedin' => 'https://www.linkedin.com/in/julian-faber/'
