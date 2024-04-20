@@ -71,7 +71,7 @@ partner, sponsor or Startup/VC to be visited. We\'re looking forward to meeting 
 //Store Startup Logos int the Form "StartupName.png" like in the example here
 // Images should have the Size 300x200 Pixel
 // $StartupsToVisit = 24;
-$NumberOfStartups = 24;
+$NumberOfStartups = 47;
 
 $VisitedStartups[] = array(
     'name' => 'AHK Korea - Korean-German Chamber of Commerce and Industry',
@@ -81,10 +81,10 @@ $VisitedStartups[] = array(
 );
 
 $VisitedStartups[] = array(
-    'name' => 'Deutsche Botschaft Seoul',
-    'description' => '',
+    'name' => 'German Embassy Seoul',
+    'description' => 'The German Embassy will give us an overview of the political and economic situation in Korea. We will meet the German ambassador Georg Wilfried Schmidt there.',
     'img' => 'Logo015.jpg',
-    'url' => ''
+    'url' => 'https://seoul.diplo.de/kr-de'
 );
 
 $VisitedStartups[] = array(
@@ -103,79 +103,72 @@ $VisitedStartups[] = array(
 
 $VisitedStartups[] = array(
     'name' => 'D3 Jubilee Partners',
-    'description' => '',
-    'img' => 'coming-soon.jpg',
-    'url' => ''
-);
-
-$VisitedStartups[] = array(
-    'name' => 'MARU360',
-    'description' => '',
-    'img' => 'coming-soon.jpg',
-    'url' => ''
+    'description' => 'D3Jubilee, a Seoul and San Francisco-based global impact venture capital, is uniquely positioned to redefine the role of capital by investing in tech-based companies with entrepreneurial innovation.',
+    'img' => 'Logo034.jpg',
+    'url' => 'https://d3jubilee.com/'
 );
 
 $VisitedStartups[] = array(
     'name' => 'BMW Startup Garage',
-    'description' => '',
+    'description' => 'The BMW Startup Garage is the Venture Client unit of the BMW Group. Their goal is to foster innovation speed and quality - through the help from startups - at all BMW Group Divisions. We will visit their office in Seoul.',
     'img' => 'Logo016.jpg',
-    'url' => ''
+    'url' => 'https://www.bmwstartupgarage.com/'
 );
 
 $VisitedStartups[] = array(
     'name' => 'Seoul Startups',
     'description' => 'Seoul Startups is a community fostering exchanges on ideas, work culture, language, insights into the market and life in Korea, while also organizing regular events to nurture a strong startup ecosystem.',
     'img' => 'Logo017.jpg',
-    'url' => ''
+    'url' => 'https://www.seoulstartups.com/'
 );
 
 $VisitedStartups[] = array(
     'name' => 'Seoul Digital Foundation',
     'description' => 'The Seoul Digital Foundation is striving to transform Seoul into a globally attractive city while addressing social neglect through policies supporting digital transformation, the development of big data and AI-driven public services.',
     'img' => 'Logo018.jpg',
-    'url' => ''
+    'url' => 'https://sdf.seoul.kr/index'
 );
 
 $VisitedStartups[] = array(
     'name' => 'Seoul Robotics',
-    'description' => 'Powering the future of mobility currently building deep learning based lidar perception module for self-driving cars and robots.',
+    'description' => 'Powering the future of mobility currently building deep learning based lidar perception module for self-driving cars and robots. We will meet founder and CEO Hanbin Lee.',
     'img' => 'Logo007.jpg',
     'url' => 'https://seoulrobotics.org/'
 );
 
 $VisitedStartups[] = array(
     'name' => 'Mercedes-Benz Startup Autobahn',
-    'description' => '',
-    'img' => 'coming-soon.jpg',
-    'url' => ''
+    'description' => 'STARTUP AUTOBAHN is an innovation platform that opens its doors to entrepreneurs from the high-tech sector. The aim is to find out within a short period of time whether Mercedes-Benz and start-ups can join forces to form collaborations and partnerships.',
+    'img' => 'Logo035.jpg',
+    'url' => 'https://group.mercedes-benz.com/innovation/venture/startup-autobahn/'
 );
 
 $VisitedStartups[] = array(
     'name' => 'Seoul AI Hub',
-    'description' => 'Seoul AI Hub, established in 2017, hosts 110 companies and supports 163 membership firms. It offers extensive aid for AI startups. It’s a crucial launchpad for AI startups. Our meeting will introduce top experts from Seoul National University’s AI Institute and entrepreneurship field.',
+    'description' => 'Seoul AI Hub, established in 2017, hosts 110 companies and supports 163 membership firms. It offers extensive aid for AI startups. It’s a crucial launchpad for AI startups.',
     'img' => 'Logo020.jpg',
-    'url' => ''
+    'url' => 'https://www.seoulaihub.kr/eng1/index2.asp'
 );
 
 $VisitedStartups[] = array(
     'name' => 'Seoul National University AI Institute',
-    'description' => '',
-    'img' => 'coming-soon.jpg',
-    'url' => ''
+    'description' => 'AIIS (Artificial Intelligence Institute of Seoul National University) is an intercollegiate research institute established in 2019, committed to integrating and supporting AI-related research.',
+    'img' => 'Logo036.jpg',
+    'url' => 'https://aiis.snu.ac.kr/eng/'
 );
 
 $VisitedStartups[] = array(
     'name' => 'PetNow',
-    'description' => '',
-    'img' => 'coming-soon.jpg',
-    'url' => ''
+    'description' => 'Petnow introduces a revolutionary solution to identify dogs and cats by biometrics. The AI-driven biometric pet ID of PetNow offers a means to identify beloved pets via smartphone cameras.',
+    'img' => 'Logo037.jpg',
+    'url' => 'https://petnow.io/en/'
 );
 
 $VisitedStartups[] = array(
     'name' => 'Simsan Ventures',
-    'description' => '',
-    'img' => 'coming-soon.jpg',
-    'url' => ''
+    'description' => 'Simsan is a venture capital firm that invests in diverse-led startups developing frontier technologies with scaled impact. We will meet Simsan APAC Partner Rancho Lee.',
+    'img' => 'Logo038.jpg',
+    'url' => 'https://simsan.vc/'
 );
 
 $VisitedStartups[] = array(
@@ -194,16 +187,16 @@ $VisitedStartups[] = array(
 
 $VisitedStartups[] = array(
     'name' => 'Incheon Startup Park',
-    'description' => '',
+    'description' => 'The first startup park in Korea to support startups through public-private cooperation - Silicon Valley in Korea.',
     'img' => 'Logo021.jpg',
-    'url' => ''
+    'url' => 'https://www.startuppark.kr/eng/main.do'
 );
 
 $VisitedStartups[] = array(
     'name' => 'Institute for Aerospace Industry-Academia Collaboration',
-    'description' => '',
+    'description' => 'The IAIAC is a non-profit organization in Incheon. IAIAC’s mission is to foster new domestic aviation convergence and complex industries.',
     'img' => 'Logo023.jpg',
-    'url' => ''
+    'url' => 'https://www.iiaci.or.kr/eng/index.htm'
 );
 
 $VisitedStartups[] = array(
@@ -405,13 +398,6 @@ $VisitedStartups[] = array(
 $VisitedStartups[] = array(
     'name' => 'Garage Sumida',
     'description' => '',
-    'img' => 'coming-soon.jpg',
-    'url' => ''
-);
-
-$VisitedStartups[] = array(
-    'name' => 'More coming soon',
-    'description' => 'This startup tour is still being planned. You will find our full agenda here soon.',
     'img' => 'coming-soon.jpg',
     'url' => ''
 );
