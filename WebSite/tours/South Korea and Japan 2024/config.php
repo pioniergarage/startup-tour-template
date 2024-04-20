@@ -4,7 +4,7 @@
 $Location = "South Korea & Japan 2024";
 $KilometersToTravel = 20341;
 $DaysAbroad = 23;
-$MotivatedPGlers = 12;
+$MotivatedPGlers = 11;
 
 // travel period for countdown and different headers
 $TravelPeriod = array(
@@ -61,7 +61,7 @@ Finally, we\'ll get to experience the vibrant culture and history of these fasci
                     </ul>';
 
 //Text next to the PG Logo
-$AboutThePGText = '12 members of PionierGarage, Germany\'s largest university club focused on entrepreneurship, located at the Karlsruhe Institute of Technology (KIT), 
+$AboutThePGText = '11 members of PionierGarage, Germany\'s largest university club focused on entrepreneurship, located at the Karlsruhe Institute of Technology (KIT), 
 are going to visit two of the world\'s most fascinating and unique countries: South Korea and Japan.<br><br>
 To find out more about our entrepreneurship club at Germany\'s leading
  technical university, head over to <a href="https://pioniergarage.de" target="_blank">our homepage</a> or contact us via <a href= "mailto:info@pioniergarage.de" target="_blank">info@pioniergarage.de</a> to become part of the tour as a supporter,
@@ -70,15 +70,8 @@ partner, sponsor or Startup/VC to be visited. We\'re looking forward to meeting 
 //List of Visited Startups, Names Used to find the logo"s in /img/StartupLogos/StartupName.pioniergarage
 //Store Startup Logos int the Form "StartupName.png" like in the example here
 // Images should have the Size 300x200 Pixel
-$StartupsToVisit = 24;
-// $NumberOfStartups = 22;
-
-//$VisitedStartups[] = array(
-//    'name' => 'Konrad-Adenauer-Stiftung - Foundation Office Korea',
-//    'description' => 'The Konrad Adenauer Foundation is a political foundation of the Federal Republic of Germany. With its programs and projects, it makes an active and effective contribution to international cooperation and understanding.',
-//    'img' => 'Logo002.jpg',
-//    'url' => 'https://www.kas.de/en/web/korea/'
-//);
+// $StartupsToVisit = 24;
+$NumberOfStartups = 24;
 
 $VisitedStartups[] = array(
     'name' => 'AHK Korea - Korean-German Chamber of Commerce and Industry',
@@ -165,6 +158,13 @@ $VisitedStartups[] = array(
 );
 
 $VisitedStartups[] = array(
+    'name' => 'Seoul National University AI Institute',
+    'description' => '',
+    'img' => 'coming-soon.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
     'name' => 'PetNow',
     'description' => '',
     'img' => 'coming-soon.jpg',
@@ -196,13 +196,6 @@ $VisitedStartups[] = array(
     'name' => 'Incheon Startup Park',
     'description' => '',
     'img' => 'Logo021.jpg',
-    'url' => ''
-);
-
-$VisitedStartups[] = array(
-    'name' => 'CREWW Korea',
-    'description' => '',
-    'img' => 'Logo022.jpg',
     'url' => ''
 );
 
@@ -256,14 +249,14 @@ $VisitedStartups[] = array(
 );
 
 $VisitedStartups[] = array(
-    'name' => 'ETRI',
+    'name' => 'ETRI - Electronics and Telecommunications Research Institute',
     'description' => '',
     'img' => 'coming-soon.jpg',
     'url' => ''
 );
 
 $VisitedStartups[] = array(
-    'name' => 'Suseong-gu',
+    'name' => 'Suseong-gu (partner city of Karlsruhe)',
     'description' => 'Suseong-gu is an independent district within the metropolis of Daegu. Since the first contacts in 2006, there has been a lively exchange between the sister cities, particularly on a cultural level. We aim to deepen these ties on an economic innovation level and further acquaint ourselves with our allies in Korea, with the accompaniment of Karlsruhe’s Mayor, Dr. Käuflein.',
     'img' => 'Logo027.jpg',
     'url' => ''
@@ -291,6 +284,41 @@ $VisitedStartups[] = array(
 );
 
 $VisitedStartups[] = array(
+    'name' => 'SEA.D',
+    'description' => '',
+    'img' => 'Logo028.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'Gijang-gun Seaweed Research Institute',
+    'description' => '',
+    'img' => 'coming-soon.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'Cubefarm',
+    'description' => '',
+    'img' => 'coming-soon.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'Space Power Technologies',
+    'description' => '',
+    'img' => 'coming-soon.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'SKB.vc',
+    'description' => '',
+    'img' => 'coming-soon.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
     'name' => 'Kyoto Institute of Technology',
     'description' => 'The technical university of Kyoto is known for its long history and excellent teaching. We will meet there with design thinking professor and Kyoto Startup Summer School founder Sushi Suzuki.',
     'img' => 'Logo001.jpg',
@@ -298,31 +326,24 @@ $VisitedStartups[] = array(
 );
 
 $VisitedStartups[] = array(
-    'name' => 'MIRAI Innovation',
+    'name' => 'ATR - Advanced Telecommunications Research Institute',
+    'description' => '',
+    'img' => 'coming-soon.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'PEEL Lab',
+    'description' => '',
+    'img' => 'coming-soon.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'MIRAI Innovation Research Institute',
     'description' => 'Mirai Innovation Lab delivers solutions for business through development and research of innovative technologies.',
     'img' => 'Logo011.jpg',
     'url' => 'https://www.mirai-innovation-lab.com/'
-);
-
-$VisitedStartups[] = array(
-    'name' => 'DWIH Tokyo - German Centre for Research and Innovation',
-    'description' => 'The German Centre for Research and Innovation Tokyo (DWIH Tokyo) is a platform for German universities, research institutions and researchbased companies in Japan.',
-    'img' => 'Logo014.jpg',
-    'url' => 'https://www.dwih-tokyo.org/en/'
-);
-
-$VisitedStartups[] = array(
-    'name' => 'CCEI Incheon',
-    'description' => '',
-    'img' => 'Logo026.jpg',
-    'url' => ''
-);
-
-$VisitedStartups[] = array(
-    'name' => 'SEA.D',
-    'description' => '',
-    'img' => 'Logo028.jpg',
-    'url' => ''
 );
 
 $VisitedStartups[] = array(
@@ -354,9 +375,37 @@ $VisitedStartups[] = array(
 );
 
 $VisitedStartups[] = array(
-    'name' => 'KERNEL',
+    'name' => 'Creww',
+    'description' => '',
+    'img' => 'coming-soon.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'DWIH Tokyo - German Centre for Research and Innovation',
+    'description' => 'The German Centre for Research and Innovation Tokyo (DWIH Tokyo) is a platform for German universities, research institutions and researchbased companies in Japan.',
+    'img' => 'Logo014.jpg',
+    'url' => 'https://www.dwih-tokyo.org/en/'
+);
+
+$VisitedStartups[] = array(
+    'name' => 'KERNEL by DeepCore',
     'description' => 'KERNEL is an AI-focused incubation community for individuals aspiring to revolutionize the world through technology. It offers an ideal environment for engineers and researchers passionate about cutting-edge technology, helping members uncover and harness their potential to initiate groundbreaking innovations.',
     'img' => 'Logo033.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'Hamano Products',
+    'description' => '',
+    'img' => 'coming-soon.jpg',
+    'url' => ''
+);
+
+$VisitedStartups[] = array(
+    'name' => 'Garage Sumida',
+    'description' => '',
+    'img' => 'coming-soon.jpg',
     'url' => ''
 );
 
@@ -373,14 +422,6 @@ $TeamText = "We are a team of young founders and entrepreneurial students.";
 
 //Team - Images in /img/team/ImgName.png (120x120px images, as png), Text about 20-40 Words
 //CopyElements for more People
-
-$TeamMember[] = array(
-    'Name' => "Bien Tran",
-    'ImgName' => "Bien_Tran.jpg",
-    'Studies' => "Member of PionierGarage",
-    'Text'   => "Balancing tradition and modernity with innovation and redefining industries through technology: This is what South Korea and Japan stand for. This journey is an exploration of inspiration from pioneers who are shaping the future where globalisation and technology are driving boundless progress.",
-    'Linkedin' => 'https://www.linkedin.com/in/bien-tran/'
-);
 
 $TeamMember[] = array(
     'Name' => "Céline Brunner",
