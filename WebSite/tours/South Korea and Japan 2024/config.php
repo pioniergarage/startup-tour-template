@@ -390,7 +390,7 @@ $VisitedStartups[] = array(
 
 $VisitedStartups[] = array(
     'name' => 'Garage Sumida',
-    'description' => 'Garage Sumida is an innovative hardware incubation facility, which is located inside an advanced metal processing factory. It was founded by the manager of Hamano Products.',
+    'description' => 'Garage Sumida is an innovative hardware incubation facility, which is located inside an advanced metal processing factory. It was founded by the manager of Hamano Products to support startups.',
     'img' => 'Logo049.jpg',
     'url' => 'https://garage-sumida.jp/english/'
 );
