@@ -201,23 +201,23 @@ $VisitedStartups[] = array(
 
 $VisitedStartups[] = array(
     'name' => 'SIDPartners',
-    'description' => '',
+    'description' => 'Professional startup accelerator based on technology and intellectual property. We will meet CEO Jungwook Byun who will give us an overview of the activites of SIDPartners.',
     'img' => 'Logo024.jpg',
     'url' => ''
 );
 
 $VisitedStartups[] = array(
     'name' => 'Incheon Technopark',
-    'description' => '',
+    'description' => 'Incheon Technopark is a corporate support organization that provides business support and technology development support services.',
     'img' => 'Logo025.jpg',
-    'url' => ''
+    'url' => 'https://www.itp.or.kr/'
 );
 
 $VisitedStartups[] = array(
     'name' => 'CCEI Incheon',
-    'description' => '',
+    'description' => 'Incheon Center for Creative Economy & Innovation will promote the creation and fostering of a new start-up ecosystem and is financed by the Korean government.',
     'img' => 'Logo026.jpg',
-    'url' => ''
+    'url' => 'https://ccei.creativekorea.or.kr/incheon/'
 );
 
 $VisitedStartups[] = array(
@@ -228,45 +228,45 @@ $VisitedStartups[] = array(
 );
 
 $VisitedStartups[] = array(
-    'name' => 'StartupKAIST',
-    'description' => '',
-    'img' => 'coming-soon.jpg',
-    'url' => ''
+    'name' => 'Startup KAIST',
+    'description' => 'Startup KAIST provides a variety of startup programs to support entrepreneurship initiatives and student startup teams.',
+    'img' => 'Logo039.jpg',
+    'url' => 'https://startup.kaist.ac.kr/'
 );
 
 $VisitedStartups[] = array(
     'name' => 'CCEI Daejeon',
-    'description' => '',
+    'description' => 'Daejeon Center for Creative Economy & Innovation will promote the creation and fostering of a new start-up ecosystem and is financed by the Korean government.',
     'img' => 'Logo026.jpg',
-    'url' => ''
+    'url' => 'https://ccei.creativekorea.or.kr/daejeon/'
 );
 
 $VisitedStartups[] = array(
     'name' => 'ETRI - Electronics and Telecommunications Research Institute',
-    'description' => '',
-    'img' => 'coming-soon.jpg',
-    'url' => ''
+    'description' => 'The ETRI is a Korean government-funded research institution that contributes to the economic and social development through research, development and distribution of industrial core technologies in the field of Information, Communications, Electronics, Broadcasting and Convergence technologies.',
+    'img' => 'Logo040.jpg',
+    'url' => 'https://www.etri.re.kr/eng/main/main.etri'
 );
 
 $VisitedStartups[] = array(
     'name' => 'Suseong-gu (partner city of Karlsruhe)',
-    'description' => 'Suseong-gu is an independent district within the metropolis of Daegu. Since the first contacts in 2006, there has been a lively exchange between the sister cities, particularly on a cultural level. We aim to deepen these ties on an economic innovation level and further acquaint ourselves with our allies in Korea, with the accompaniment of Karlsruhe’s Mayor, Dr. Käuflein.',
+    'description' => 'Suseong-gu is an independent district within the metropolis of Daegu. Since the first contacts in 2006, there has been a lively exchange between the sister cities, particularly on a cultural level. We aim to deepen these ties on an economic innovation level and further acquaint ourselves with our allies in Korea.',
     'img' => 'Logo027.jpg',
-    'url' => ''
+    'url' => 'https://www.suseong.kr/eng/index.do'
 );
 
 $VisitedStartups[] = array(
     'name' => 'DIP - Daegu Digital Innovation Promotion Agency',
-    'description' => '',
-    'img' => 'coming-soon.jpg',
-    'url' => ''
+    'description' => 'The DIP is a government-funded organization in Daegu that supports local IT and technology companies',
+    'img' => 'Logo041.jpg',
+    'url' => 'https://www.dip.or.kr/'
 );
 
 $VisitedStartups[] = array(
     'name' => 'Daegu Scale-Up Hub',
-    'description' => '',
-    'img' => 'coming-soon.jpg',
-    'url' => ''
+    'description' => 'Daegu Scale Up Hub is a business incubation center that supports the nurturing and growth of startups, and seeks to create a new ecosystem where startups can successfully grow and become unicorns.',
+    'img' => 'Logo042.jpg',
+    'url' => 'https://startup.daegu.go.kr/index.do?menu_id=00003213'
 );
 
 $VisitedStartups[] = array(
@@ -278,37 +278,37 @@ $VisitedStartups[] = array(
 
 $VisitedStartups[] = array(
     'name' => 'SEA.D',
-    'description' => '',
+    'description' => 'SEA.D wants to market seaweed products from Ginjang-gun in a modern way. They want to deliver high-quality marine products and authentic dried food to customers.',
     'img' => 'Logo028.jpg',
-    'url' => ''
+    'url' => 'https://welovesead.modoo.at/'
 );
 
 $VisitedStartups[] = array(
     'name' => 'Gijang-gun Seaweed Research Institute',
-    'description' => '',
-    'img' => 'coming-soon.jpg',
-    'url' => ''
+    'description' => 'Research on seaweed conservation and management technology development, new seaweed varieties and aquaculture technology with the mission to foster the Korean seaweed industry.',
+    'img' => 'Logo043.jpg',
+    'url' => 'https://www.nifs.go.kr/eng/contents/actionContentsCons0140.do'
 );
 
 $VisitedStartups[] = array(
-    'name' => 'Cubefarm',
-    'description' => '',
-    'img' => 'coming-soon.jpg',
-    'url' => ''
+    'name' => 'Cube Farm',
+    'description' => 'Vertical farming startup in Busan that uses second-hand ISO-refrigerated containers from maritime transportation for urban farming solutions with a focus on Shiitake mushroom production.',
+    'img' => 'Logo044.jpg',
+    'url' => 'http://cubefarm.kr/index.html'
 );
 
 $VisitedStartups[] = array(
     'name' => 'Space Power Technologies',
-    'description' => '',
-    'img' => 'coming-soon.jpg',
-    'url' => ''
+    'description' => 'Research institute at the Kyoto university working on wireless power technology.',
+    'img' => 'Logo045.jpg',
+    'url' => 'https://spacepowertech.com/en/'
 );
 
 $VisitedStartups[] = array(
     'name' => 'SKB.vc',
-    'description' => '',
-    'img' => 'coming-soon.jpg',
-    'url' => ''
+    'description' => 'Japanese craftsmanship + global vision = world-class ventures. Venture capital for firm focusing on the early-stage tech ecosystem in Japan.',
+    'img' => 'Logo046.jpg',
+    'url' => 'https://www.skb.vc/'
 );
 
 $VisitedStartups[] = array(
